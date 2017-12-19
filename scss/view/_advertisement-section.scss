@@ -1,0 +1,68 @@
+.main-purpose-section {
+  background: url($bgDir + 'main-purpose-bg.png') no-repeat 0 0;
+  background-size: cover;
+  color: $whiteColor;
+
+  .section-cont {
+    padding: 33px 10px;
+    box-sizing: border-box;
+    min-height: 200px;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    max-width: 1000px;
+  }
+
+  .main-purpose {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    border-left: 1px solid #fff;
+    padding: 5px 0 16px 28px;
+    max-width: 600px;
+  }
+
+  .btn-custom {
+    font-size: $baseFontSize + 1.2;
+    font-weight: 600;
+    padding: 11px 19px;
+  }
+
+  @media(max-width: 991px) {
+    .section-cont {
+      padding: 32px 15px 55px;
+    }
+
+    p {
+      max-width: 60%;
+    }
+  }
+
+  @media(max-width: 767px) {
+    .section-cont {
+      padding: 32px 14px 55px;
+      display: block;
+    }
+
+    .main-purpose {
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    p {
+      margin-bottom: 32px;
+      padding: 5px 15px 16px 18px;
+      max-width: none;
+    }
+
+    .btn-custom {
+      margin: 0 auto;
+    }
+  }
+}

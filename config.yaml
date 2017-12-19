@@ -1,0 +1,34 @@
+# Minimum hugo version required: 0.18
+
+BaseUrl: https://www.vibrobox.com/
+# TODO: ru is for quick development only, change to en for production.
+#LanguageCode: en
+# TODO: Change to en for production.
+DefaultContentLanguage: en
+ContentDir: content
+# docs page in the master branch is used by Github Pages.
+PublishDir: docs
+
+BuildDrafts: true
+BuildExpired: true
+BuildFuture: true
+DefaultContentLanguageInSubdir: false
+EnableMissingTranslationPlaceholders: true
+MetadataFormat: yaml
+SectionPagesMenu: main
+DisableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
+
+Languages:
+  en:
+    Weight: 1
+    LanguageName: "English"
+    LanguageCode: "en"
+    GoogleAnalytics: UA-79782596-1
+  ru:
+    BaseUrl: https://www.vibrobox.ru/
+    Weight: 2
+    LanguageName: "Русский"
+    LanguageCode: "ru"
+    googleAnalytics: UA-79782596-2
+    blackfriday:
+      angledQuotes: true

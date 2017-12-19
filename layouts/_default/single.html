@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>CRITICAL ERROR</title>
+</head>
+<body>
+<h1>Error: page layout file is missing.</h1>
+<p>To correctly render this page, please do the following:
+<ol>
+  <li>Add line "layout: {{ .File.TranslationBaseName }}" to content/{{ .File.Path }} (and other language versions of the same page, if necessary).</li>
+  <li>Create html layout file layouts/page/{{ .File.TranslationBaseName }}.html (see similar files in the same directory for example)</li>
+</ol>
+</p>
+</body>
+</html>

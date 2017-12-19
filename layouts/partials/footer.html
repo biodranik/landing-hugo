@@ -1,0 +1,10 @@
+<footer>
+  <div>
+    <p>&copy; 2017 VibroBox OÜ.</p>
+  </div>
+</footer>
+<!-- Custom scripts files from pages (if any). -->
+{{- range $.Params.scripts }}<script src="{{ . }}"></script>{{ end }}
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <title>
+    {{- if .IsHome }}
+      {{ T "homePageTitle" }}
+    {{ else }}
+      {{ T .Title }}
+    {{ end -}}
+  </title>
+  <base href="{{ .Site.BaseURL }}">
+
+{{ partial "meta.html" . }}
+{{ partial "link.html" . }}
+
+    <!-- Generate hreflang links for every language in the config file. -->
+<!--    {{ range .Site.Languages -}}
+    <link href="{{ if eq .Lang "en" | not }}{{ .Lang }}{{ end }}" rel="alternate" hreflang="{{ .Lang }}">
+    {{ end }} -->
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <a href=""></a>
+    </div>
+    <ul>
+      <li>
+        <a href="" title="{{ T "homePageTitle" }}">{{ T "homeMenu" }}</a>
+      </li>
+      {{- $currentNode := . -}}
+      {{ range .Site.Menus.main }}
+      <li{{ if $currentNode.IsMenuCurrent "main" . }} class="active"{{ end }}>
+        <a href="{{ .URL }}">{{ T .Name }}</a>
+      </li>{{ end }}
+    </ul>
+  </nav>
+  {{ partial "i18nlist.html" . }}
+</header>

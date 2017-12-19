@@ -1,0 +1,103 @@
+.fa {
+  &.fa-sign-in {
+    font-size: 15px;
+    margin-right: 11px;
+  }
+}
+
+.work-item {
+  .icon {
+    @include retina($icoDir + 'system-sprite.png', 2, 562px 83px, top left no-repeat);
+    display: block;
+    height: 83px;
+    margin: 0 auto 5px;
+    width: 84px;
+
+    &.equipment-icon {
+      background-position: 0 0;
+    }
+
+    &.data-transfer-icon {
+      background-position: -121px 5px;
+    }
+
+    &.data-processing-icon {
+      background-position: -222px 6px;
+      width: 95px;
+    }
+
+    &.generate-report-icon {
+      background-position:  -356px 6px;
+    }
+
+    &.using-report-icon {
+      background-position: -477px 0;
+      width: 89px;
+    }
+  }
+}
+
+.plus-item {
+  .icon {
+    @include retina($icoDir + 'plus-sprite.png', 2, 505px 65px, top left no-repeat);
+    display: block;
+    height: 65px;
+    margin: 0 auto 31px;
+    width: 64px;
+
+    &.automatic-icon {
+      background-position: 1px 3px;
+    }
+
+    &.saving-icon {
+      background-position: -148px 0;
+      width: 65px;
+    }
+
+    &.available-icon {
+      background-position: -304px 0;
+      width: 54px;
+    }
+
+    &.integration-icon {
+      background-position: -452px 0;
+      width: 53px;
+    }
+  }
+
+  @media (max-width: 543px) {
+    .icon {
+      background-size: 320px auto;
+      height: 35px;
+      left: 19px;
+      position: absolute;
+      top: 0;
+      width: 43px;
+
+      &.automatic-icon {
+        background-position: 0px -1px;
+      }
+
+      &.saving-icon {
+        background-position: -93px 0;
+        height: 40px;
+        width: 43px;
+      }
+
+      &.available-icon {
+        background-position: -211px -4px;
+        background-size: 352px auto;
+        height: 36px;
+        left: 15px;
+        width: 45px;
+      }
+
+      &.integration-icon {
+        background-position: -324px 0;
+        background-size: 363px auto;
+        height: 43px;
+        width: 43px;
+      }
+    }
+  }
+}

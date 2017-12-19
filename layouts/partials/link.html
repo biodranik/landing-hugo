@@ -1,0 +1,8 @@
+{{ if .Site.IsMultiLingual }}
+<link href="{{ (index $.Site.Home.AllTranslations 0).Permalink }}" hreflang="x-default" rel="alternate">
+{{ range $.Site.Home.AllTranslations }}<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate">
+{{ end }}{{ end }}<!-- if .Site.IsMultiLingual -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Custom css files from pages (if any). -->
+{{- range $.Params.css }}<link rel="stylesheet" type="text/css" href="{{ . }}" />{{ end -}}

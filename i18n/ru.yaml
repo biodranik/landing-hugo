@@ -1,0 +1,20 @@
+- id: homePageTitle
+  translation: "VibroBox — вибродиагностика оборудования в реальном времени."
+- id: homeMenu
+  translation: "Главная"
+- id: teamPageTitle
+  translation: "Наша команда"
+- id: contactPageTitle
+  translation: "Связаться с нами"
+- id: technologyPageTitle
+  translation: "Подробнее о технологии VibroBox"
+- id: headquarters
+  translation: "Главный офис"
+- id: developmentOffice
+  translation: "Офис разработки"
+- id: "404 Page not found"
+  translation: "404 Страница не найдена"
+- id: error404details
+  translation: "Это не та страница, которую вы ищете."
+- id: goToHomePage
+  translation: "Перейти на {{ .Site.BaseURL }}"

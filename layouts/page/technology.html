@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+<section id="content">
+  <h1>{{ T .Title }}</h1>
+
+  {{ partial (printf "includes/technology.%s.html" .Lang) }}
+</section> <!-- content -->
+
+{{ partial "footer.html" . }}
