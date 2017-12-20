@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Builds css files by sassc and whole static html site by hugo.
+# Builds css files by sassc and generates static html site.
 #
 # by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 #
@@ -11,21 +11,22 @@
 # -o pipefail aborts if on any failed pipe operation.
 set -euo pipefail
 
+# Project root directory without slash at the end.
+ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+
 # sassc input.
-SASSC_INPUT_SCSS="scss/style.scss"
+SASSC_INPUT_SCSS="$ROOT/scss/style.scss"
 # sassc output
-SASSC_OUTPUT_CSS="static/css/style.css"
+SASSC_OUTPUT_CSS="$ROOT/static/css/style.css"
 # One of: nested, expanded, compact, compressed.
 OUTPUT_CSS_FORMAT="nested"
 
-# TODO: Automatically choose the best binary for current system.
-SASSC_BINARY="bin/sassc"
-HUGO_BINARY="bin/hugo"
+SASSC_BINARY="$ROOT/bin/sassc"
+HUGO_BINARY="$ROOT/bin/hugo"
 
 # Build css.
 "$SASSC_BINARY" --style "$OUTPUT_CSS_FORMAT" "$SASSC_INPUT_SCSS" "$SASSC_OUTPUT_CSS" && \
     echo "Successfully compiled $SASSC_OUTPUT_CSS"
 
 # Build whole site.
-# TODO: Should we pass any params?
 "$HUGO_BINARY"

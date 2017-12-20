@@ -11,46 +11,54 @@
 # -o pipefail aborts if on any failed pipe operation.
 set -euo pipefail
 
-# hugo publish folder where static html content is generated.
-OUT_DIR=docs
+# This script directory.
+MYDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# Project root directory without slash at the end.
+ROOT="$MYDIR/.."
 
-# Check if it's a root folder.
-[ -f ./config.yaml ] || { echo "ERROR: It is not the root repo folder."; exit 1; }
+# Publish directory where static html content is generated.
+# TODO: Share it between scripts, or use one script with different commands.
+OUT_DIR="$ROOT/docs"
 
-[ -d ./.git ] || { echo "ERROR It is not a git repository."; exit 1; }
+# Pre-requisites check.
+[ -f ./deploy.sh ] || { echo "ERROR: It is not the root repo directory."; exit 1; }
+[ -d ./.git ] || { echo "ERROR: It is not a git repository."; exit 1; }
+git check-ignore -q $OUT_DIR || { echo "ERROR: Please git rm $OUT_DIR; git commit -a; and add $OUT_DIR to .gitignore."; exit 1; }
+# Sanity check.
+[[ "$OUT_DIR" != "/" ]] || { echo "Invalid OUT_DIR? $OUT_DIR"; exit 1; }
 
-# Repo should be up-to-date.
-git remote update
-
-# Setup cloned git repo in the generated folder.
+# Setup cloned git repo in the generated directory.
 if [ ! -d "$OUT_DIR/.git" ]; then
-  echo "Initializing $OUT_DIR folder and binding it to gh-pages branch of the same repository."
-  # Sanity check.
-  [[ "${OUT_DIR:0:1}" != "/" ]] || { echo "Invalid OUT_DIR? $OUT_DIR"; exit 1; }
-  rm -rf "$OUT_DIR"
-  mkdir "$OUT_DIR"
-  cp -r .git "$OUT_DIR/.git"
+echo "Initializing $OUT_DIR directory and binding it to gh-pages branch of the same repository."
+if [ ! -d "$OUT_DIR"  ]; then
+mkdir "$OUT_DIR"
+else
+rm -rf "$OUT_DIR/*"
+fi
+# Repo should be up-to-date before copying it.
+git remote update
+cp -r .git "$OUT_DIR/.git"
 fi
 
-# Initialize and switch to gh-pages branch in the docs/.git repo.
+# Initialize and switch to gh-pages branch in the $OUT_DIR/.git repo.
 pushd "$OUT_DIR"
-git checkout gh-pages > /dev/null 2>&1 || { \
-  git checkout --orphan gh-pages;
-  git rm -rf .
-}
-# Clean all untracked files.
-git clean -f
+# Clear all local changes to avoid pull merge conflicts.
+git reset --hard HEAD
+git checkout gh-pages > /dev/null 2>&1 && git clean -f && git pull || { git checkout --orphan gh-pages; git rm -rf .; }
 popd
 
 # Rebuild everything before deployment.
-source build.sh
+# Need to save and restore $OUT_DIR/.git directory because generator can delete everything in $OUT_DIR.
+mv "$OUT_DIR/.git" .git.backup
+source "$MYDIR/build.sh"
+mv .git.backup "$OUT_DIR/.git"
 
 # Check if there are any changes to publish.
 pushd "$OUT_DIR"
 if [[ $(git status --porcelain | wc -l) -eq 0 ]]; then
-  echo "There is nothing to publish. Have you made any changes?"
-  popd
-  exit 0
+echo "There is nothing to publish. Have you made any changes?"
+popd
+exit 0
 fi
 
 # Publish web site to Github Pages.

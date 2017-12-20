@@ -1,12 +1,12 @@
 @ECHO OFF
-REM Builds css files by sassc and whole static html site by hugo.
+REM Builds css files by sassc and generates static html site.
 REM
 REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 
 SETLOCAL
 
-SET hugo=bin\hugo_%PROCESSOR_ARCHITECTURE%.exe
-SET sassc=bin\sassc_%PROCESSOR_ARCHITECTURE%.exe
+for %%f in (bin\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
+for %%f in (bin\sassc*%PROCESSOR_ARCHITECTURE%.exe) do SET sassc=%%f
 
 SET sassc_input=scss/style.scss
 SET sassc_output=static/css/style.css
