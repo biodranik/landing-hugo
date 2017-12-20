@@ -1,0 +1,24 @@
+.content__technology {
+  td p {
+    text-indent: 0;
+    text-align: left;
+  }
+
+  table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid $tableRowColor;
+    border-collapse: collapse;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: $tableRowColor;
+  }
+}
+
+.publicationDate {
+  font-style: italic;
+  display: block;
+  text-align: right;
+  margin: 1rem 0 1rem 0;
+}

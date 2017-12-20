@@ -1,0 +1,55 @@
+$mediumDevicesWidth:    992px;
+$phabletWidth:          768px;
+$smartphoneWidth:       425px;
+
+@mixin phablet {
+  @media (max-width: #{$phabletWidth}) {
+    @content;
+  }
+}
+
+@mixin smartphone {
+  @media (max-width: #{$smartphoneWidth}) {
+    @content;
+  }
+}
+
+@mixin mediumDevices {
+  @media (max-width: #{$mediumDevicesWidth}) {
+    @content;
+  }
+}
+
+@mixin notSmartphone {
+  @media (min-width: #{$smartphoneWidth + 1}) {
+    @content;
+  }
+}
+
+@mixin largerThanPhablet {
+  @media (min-width: #{$phabletWidth + 1}) {
+    @content;
+  }
+}
+
+@mixin largerThanMediumDevices {
+  @media (min-width: #{$mediumDevicesWidth + 1}) {
+    @content;
+  }
+}
+
+@mixin hyphens-justify {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+}
+
+@mixin separatorOnTheTop {
+  box-shadow: 0 -4px 6px -6px $logoColor;
+}
+
+@mixin separatorOnTheBottom {
+  box-shadow: 0 4px 6px -6px $logoColor;
+}

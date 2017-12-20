@@ -1,0 +1,15 @@
+.news__section {
+  margin-top: 1em;
+  border-bottom: 1px solid $baseColor;
+  ul {
+    list-style: none;
+    a {
+      font-style: italic;
+    }
+  }
+}
+
+.newsDate {
+  margin-right: 1em;
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+// This file holds "global" page rules, not related to any specific block.
+
+.title-index {
+  &__main {
+    margin-top: 2rem;
+    text-transform: uppercase;
+
+    @include phablet {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+  }
+
+  &__second {
+    font-size: 2.5 * $baseFontSize;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 1rem;
+
+    @include phablet {
+      font-size: 1.5 * $baseFontSize;
+    }
+  }
+}
+
+.separator {
+  @include separatorOnTheBottom;
+}
+
+.preface--home {
+  @include largerThanMediumDevices {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  @include smartphone {
+    text-align: left;
+  }
+  em {
+    color: lightgray;
+  }
+  p {
+    margin-top: 0.5em;
+  }
+}

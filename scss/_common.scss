@@ -1,0 +1,108 @@
+
+// Apply a natural box layout model to all elements, but allowing components to change.
+html {
+  box-sizing: border-box;
+  height: 100%;
+  min-width: $minWidth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // Fixes disables automatic portrait -> landscape font zoom.
+  -webkit-text-size-adjust: 100%;
+
+  // Customize your perfect background here.
+  //background: url(../img/full_screen_background.jpg) no-repeat center center fixed;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+// Special exception to images to avoid unnecessary resizing when they have a border.
+img { box-sizing: content-box; }
+
+body {
+  color: $baseColor;
+  font-family: "San Francisco", -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+  letter-spacing: -0.02em;
+  font-size: $baseFontSize;
+  font-weight: normal;
+  line-height: 1.2;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2 * $baseFontSize;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem;
+
+   @include phablet {
+      font-size: 1.8 * $baseFontSize;
+  }
+}
+
+p,
+ul,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: $hoverLinkColor;
+  }
+}
+
+.section {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+
+  @media (max-width: 992px) {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.preface {
+  font-size: 1.25 * $baseFontSize;
+  text-align: center;
+
+  @include phablet {
+      font-size: 1.125 * $baseFontSize;
+  }
+}
+
+// Should be used by @extend %roundButton;
+%roundButton {
+  border-radius: 0.5em;
+  padding: 0.7em 1em;
+}
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+}
