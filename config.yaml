@@ -1,12 +1,8 @@
-# Minimum hugo version required: 0.18
+# Minimum hugo version required: 0.31
 
 BaseUrl: https://www.vibrobox.com/
-# TODO: ru is for quick development only, change to en for production.
-#LanguageCode: en
-# TODO: Change to en for production.
 DefaultContentLanguage: en
 ContentDir: content
-# docs page in the master branch is used by Github Pages.
 PublishDir: docs
 
 BuildDrafts: true
@@ -38,3 +34,4 @@ Languages:
     Copyright: "© 2017 VibroBox"
     Description: "Описание страницы на русском по-умолчанию, для всего сайта"
     Keywords: ["ключевые", "слова", "по-умолчанию"]
+    StaticDir2: "static-ru"
