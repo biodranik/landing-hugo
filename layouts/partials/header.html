@@ -10,8 +10,8 @@
   </title>
   <base href="{{ .Site.BaseURL }}">
 
-{{ partial "meta.html" . }}
-{{ partial "link.html" . }}
+{{ partial "html_head_meta" . }}
+{{ partial "html_head_link" . }}
 
     <!-- Generate hreflang links for every language in the config file. -->
 <!--    {{ range .Site.Languages -}}
