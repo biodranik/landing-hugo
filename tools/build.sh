@@ -29,4 +29,4 @@ HUGO_BINARY="$ROOT/bin/hugo"
     echo "Successfully compiled $SASSC_OUTPUT_CSS"
 
 # Build whole site.
-"$HUGO_BINARY"
+"$HUGO_BINARY" -s "$ROOT"

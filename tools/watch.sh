@@ -35,7 +35,7 @@ FSWATCH_BINARY="$BIN/fswatch"
 trap 'kill 0' EXIT
 
 # Run hugo in the background. It automatically rebuilds the site on any css changes.
-"$HUGO_BINARY" server &
+"$HUGO_BINARY" server -s "$ROOT" &
 
 # Simple sound in case of sassc compilation error.
 SASSC_FAILED_COMMAND="echo -ne \a\a"  # 2 beeps/bells in case of error.

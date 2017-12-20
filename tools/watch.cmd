@@ -5,19 +5,24 @@ REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 
 SETLOCAL
 
-for %%f in (bin\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
-for %%f in (bin\sassc*%PROCESSOR_ARCHITECTURE%.exe) do SET sassc=%%f
-for %%f in (bin\*fswatch*%PROCESSOR_ARCHITECTURE%.exe) do SET fswatch=%%f
+SET tools_dir=%~dp0
+REM Project root directory without slash at the end.
+SET root=%tools_dir%..
+SET bin=%root%\bin
 
-SET sassc_input=scss/style.scss
-SET sassc_output=static/css/style.css
+for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
+for %%f in (%bin%\sassc*%PROCESSOR_ARCHITECTURE%.exe) do SET sassc=%%f
+for %%f in (%bin%\*fswatch*%PROCESSOR_ARCHITECTURE%.exe) do SET fswatch=%%f
+
+SET sassc_input=scss\style.scss
+SET sassc_output=static\css\style.css
 REM One of: nested, expanded, compact, compressed
 SET sassc_style=nested
 
 SET watch_directory=scss
 
 REM Launch hugo web server in background.
-START "" /B %hugo% server || ECHO ERROR while launching %hugo% server. && EXIT /B 1
+START "" /B %hugo% server -s %root% || ECHO ERROR while launching %hugo% server. && EXIT /B 1
 
 REM Rebuild scss on the launch once and watch for any scss directory changes indefinitely.
 :loop
