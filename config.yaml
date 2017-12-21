@@ -4,6 +4,7 @@ BaseUrl: https://www.vibrobox.com/
 DefaultContentLanguage: en
 ContentDir: content
 PublishDir: docs
+StaticDir: static/common
 
 BuildDrafts: true
 BuildExpired: true
@@ -17,21 +18,22 @@ DisableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
 Languages:
   en:
     Weight: 1
-    LanguageName: "English"
-    LanguageCode: "en"
+    LanguageName: English
+    LanguageCode: en
     GoogleAnalytics: UA-79782596-1
     Copyright: "© 2017 VibroBox OÜ"
     Description: "Default English description"
     Keywords: ["default", "keywords"]
+    StaticDir2: static/en
   ru:
     BaseUrl: https://www.vibrobox.ru/
     Weight: 2
-    LanguageName: "Русский"
-    LanguageCode: "ru"
+    LanguageName: Русский
+    LanguageCode: ru
     googleAnalytics: UA-79782596-2
     blackfriday:
       angledQuotes: true
     Copyright: "© 2017 VibroBox"
     Description: "Описание страницы на русском по-умолчанию, для всего сайта"
     Keywords: ["ключевые", "слова", "по-умолчанию"]
-    StaticDir2: "static-ru"
+    StaticDir2: static/ru
