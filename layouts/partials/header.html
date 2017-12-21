@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ .Lang }}">
-<head>
-  <title>
-    {{- if .IsHome }}
-      {{ T "homePageTitle" }}
-    {{ else }}
-      {{ T .Title }}
-    {{ end -}}
-  </title>
-  <base href="{{ .Site.BaseURL }}">
-
-{{ partial "html_head_meta" . }}
-{{ partial "html_head_link" . }}
-
-    <!-- Generate hreflang links for every language in the config file. -->
-<!--    {{ range .Site.Languages -}}
-    <link href="{{ if eq .Lang "en" | not }}{{ .Lang }}{{ end }}" rel="alternate" hreflang="{{ .Lang }}">
-    {{ end }} -->
-</head>
-<body>
-
 <header>
   <nav>
     <div class="logo">

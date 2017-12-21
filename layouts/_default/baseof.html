@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <base href="{{ .Site.BaseURL }}">
+  {{ partial "html_head_meta" . }}
+  <title>{{ .Title }}</title>
+  {{ partial "html_head_link" . }}
+</head>
+
+<body>
+  {{ partial "header" . }}
+  <main role="main"></main>
+  <!-- Code that all your templates share, like a header -->
+  {{ block "main" . }}
+  </main>
+  <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+  {{ partial "footer" . }}
+  {{ block "scripts" . }}
+  {{ end }}
+</body>
+
+</html>
