@@ -14,6 +14,8 @@ EnableMissingTranslationPlaceholders: true
 MetadataFormat: yaml
 SectionPagesMenu: main
 DisableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
+I18nDir: translations
+Logi18nwarnings: true
 
 Languages:
   en:
