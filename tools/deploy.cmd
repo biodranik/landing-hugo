@@ -6,7 +6,7 @@ REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 SETLOCAL
 
 REM Publish directory where static html content is generated.
-SET out_dir=docs
+SET out_dir=public
 
 REM Is git present in PATH?
 WHERE /Q git || ECHO ERROR Please install git for Windows or GitHub Desktop. && EXIT /B 1
@@ -44,7 +44,9 @@ EXIT /B 1
 )
 )
 
-REM Initialize and switch to gh-pages branch in the docs/.git repo.
+REM TODO!!!!!!!!!! This code is not actual any more for multiple languages.
+REM TODO!!!!!!!!!! Separate repo is required
+REM Initialize and switch to gh-pages branch in the public/.git repo.
 PUSHD %out_dir% || ECHO ERROR with PUSHD %out_dir% && EXIT /B 1
 REM Clear all local changes to avoid pull merge conflicts.
 git reset --hard HEAD || ECHO ERROR with git reset && EXIT /B 1

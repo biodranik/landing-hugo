@@ -11,22 +11,12 @@
 # -o pipefail aborts if on any failed pipe operation.
 set -euo pipefail
 
-# Project root directory without slash at the end.
-ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# sassc input.
-SASSC_INPUT_SCSS="$ROOT/scss/style.scss"
-# sassc output
-SASSC_OUTPUT_CSS="$ROOT/static/css/style.css"
-# One of: nested, expanded, compact, compressed.
-OUTPUT_CSS_FORMAT="nested"
-
-SASSC_BINARY="$ROOT/bin/sassc"
-HUGO_BINARY="$ROOT/bin/hugo"
+HUGO_BINARY="$SCRIPT_DIR/../bin/hugo"
 
 # Build css.
-"$SASSC_BINARY" --style "$OUTPUT_CSS_FORMAT" "$SASSC_INPUT_SCSS" "$SASSC_OUTPUT_CSS" && \
-    echo "Successfully compiled $SASSC_OUTPUT_CSS"
+source "$SCRIPT_DIR/sassc.sh"
 
 # Build whole site.
-"$HUGO_BINARY" -s "$ROOT"
+"$HUGO_BINARY" -s "$ROOT" --cleanDestinationDir=true
