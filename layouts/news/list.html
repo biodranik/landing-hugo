@@ -1,0 +1,16 @@
+{{ define "main"}}
+<section class="section">
+  <!-- Renders content/news/_index.md -->
+  {{ .Content }}
+</section>
+<section class="section">
+  <ul class="newslist">
+    <!-- Ranges through content/news/*.md -->
+    {{ range .Data.Pages -}}
+    <li>
+      <a href="{{ .Permalink }}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{ end }}
