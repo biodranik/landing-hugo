@@ -12,30 +12,41 @@ BuildFuture: true
 DefaultContentLanguageInSubdir: false
 EnableMissingTranslationPlaceholders: true
 MetadataFormat: yaml
-SectionPagesMenu: main
 DisableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
 I18nDir: translations
 Logi18nwarnings: true
+
+# Urls with year and month for the news section.
+# Title or file name will be used if slug is not defined in the post frontmatter.
+permalinks:
+  news: /news/:year/:month/:slug/
 
 Languages:
   en:
     Weight: 1
     LanguageName: English
     LanguageCode: en
+    Title: "In English"
     GoogleAnalytics: UA-79782596-1
     Copyright: "© 2017 VibroBox OÜ"
     Description: "Default English description"
     Keywords: ["default", "keywords"]
     StaticDir2: static/en
+    demourl: https://demo.vibrobox.com/demo?locale=en
   ru:
     BaseUrl: https://www.vibrobox.ru/
     Weight: 2
     LanguageName: Русский
     LanguageCode: ru
-    googleAnalytics: UA-79782596-2
-    blackfriday:
-      angledQuotes: true
+    Title: "На русском"
+    GoogleAnalytics: UA-79782596-2
+    BlackFriday:
+      AngledQuotes: true
     Copyright: "© 2017 VibroBox"
     Description: "Описание страницы на русском по-умолчанию, для всего сайта"
     Keywords: ["ключевые", "слова", "по-умолчанию"]
     StaticDir2: static/ru
+    demourl: https://demo.vibrobox.com/demo?locale=ru
+    # TODO: Uncommend when section localization bug will be fixed (see news/_index.ru.md for details).
+    #permalinks:
+    #  news: /новости/:year/:month/:slug/
