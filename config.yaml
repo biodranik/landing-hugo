@@ -12,7 +12,7 @@ BuildFuture: true
 DefaultContentLanguageInSubdir: false
 EnableMissingTranslationPlaceholders: true
 MetadataFormat: yaml
-DisableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
+DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
 
@@ -26,11 +26,11 @@ Languages:
     Weight: 1
     LanguageName: English
     LanguageCode: en
-    Title: "In English"
+    Title: In English
     GoogleAnalytics: UA-79782596-1
-    Copyright: "© 2017 VibroBox OÜ"
-    Description: "Default English description"
-    Keywords: ["default", "keywords"]
+    Copyright: © 2017 VibroBox OÜ
+    Description: TODO Default English description
+    Keywords: [TODO, default, keywords]
     StaticDir2: static/en
     demourl: https://demo.vibrobox.com/demo?locale=en
   ru:
@@ -38,13 +38,13 @@ Languages:
     Weight: 2
     LanguageName: Русский
     LanguageCode: ru
-    Title: "На русском"
+    Title: На русском
     GoogleAnalytics: UA-79782596-2
     BlackFriday:
       AngledQuotes: true
-    Copyright: "© 2017 VibroBox"
-    Description: "Описание страницы на русском по-умолчанию, для всего сайта"
-    Keywords: ["ключевые", "слова", "по-умолчанию"]
+    Copyright: © 2017 VibroBox
+    Description: TODO Описание страницы на русском по-умолчанию, для всего сайта
+    Keywords: [TODO, ключевые, слова, по-умолчанию]
     StaticDir2: static/ru
     demourl: https://demo.vibrobox.com/demo?locale=ru
     # TODO: Uncommend when section localization bug will be fixed (see news/_index.ru.md for details).
