@@ -18,3 +18,227 @@
   translation: "This is not a web page you are looking for."
 - id: goToHomePage
   translation: "Go to {{ .Site.BaseURL }}"
+- id: metaDescriptionIndexPage
+  translation: "Automatic vibration diagnostics service as a part of proactive (or prescriptive in contrast to predictive) maintenance. Our scientists are focused on wavelets, neural networks, fuzzy logic and other digital signal processing algorithms."
+- id: metaKeywordsIndexPage
+  translation: "VibroBox, prescriptive, proactive, predictive, estimation, condition, monitoring, equipment, vibro, diagnostics, vibrodiagnostics, vibration, prediction, maintenance, neural networks, wavelets, fuzzy logic, IIoT, industry"
+- id: Menu
+  translation: "Menu"
+- id: menuIndexPage
+  translation: "Home"
+- id: titleIndexPage
+  translation: "VibroBox: Automatic vibration diagnostics and proactive maintenance service for industrial equipment. Predictive maintenance which is upgraded into a prescriptive one."
+- id: 404pageTitle
+  translation: "VibroBox: Error 404 Page Not Found."
+- id: 404pageH1
+  translation: "Error 404:"
+- id: 404pageText
+  translation: "The page you are looking for is not here."
+- id: moreAboutTechnology
+  translation: "Technology Details"
+- id: loginButton
+  translation: "View Demo"
+- id: viewDemo
+  translation: "View Demo"
+- id: indexMainTitle
+  translation: "Vibration diagnostics service for Proactive Maintenance"
+- id: plusTitle
+  translation: "The age of automatic high-tech diagnostics has arrived"
+- id: plusAutomaticSystemTitle
+  translation: "Unmanned and automated"
+- id: plusAutomaticSystemDescription
+  translation: "VibroBox requires no specialized personnel or diagnostics professionals at the enterprise."
+- id: plusEconomyTitle
+  translation: "Save on equipment"
+- id: plusEconomyDescription
+  translation: "Use your own vibration measuring equipment or get our specialized VibroBox smart sensors."
+- id: plusAvailabilityTitle
+  translation: "Convenient and accessible"
+- id: plusAvailabilityDescription
+  translation: "Diagnostic reports on your equipment condition are always at your fingertips accessible from anywhere by the Web, Smartphone, SMS, and E-mail."
+- id: plusSimplicityTitle
+  translation: "Easy integration"
+- id: plusSimplicityDescription
+  translation: "VibroBox service is easily integrated with enterprise ERP, MES, CMMS, and SCADA."
+- id: systemItem
+  translation: "How it works"
+- id: systemPreface
+  translation: "Ready to operate, fully automatic, maintenance-free online service for proactive diagnostics."
+- id: systemEquipmentTitle
+  translation: "Equipment"
+- id: systemEquipmentDescription
+  translation: "VibroBox vibration sensors and telemetry system (or third party sensors) are installed on the monitored equipment."
+- id: systemTransferTitle
+  translation: "Data collection and transfer"
+- id: systemTransferDescription
+  translation: "Telemetry data recorded from sensors is automatically transferred via a mobile network, WiFi or cable to a reliable server or cloud storage for further analysis."
+- id: systemProcessingTitle
+  translation: "Data processing"
+- id: systemProcessingDescription
+  translation: "Our data processing is based on open standards, uses both proprietary and traditional algorithms to extract sets of informative features from telemetry. Equipment's health is quickly assessed by algorithms, no humans are involved."
+- id: systemGReportTitle
+  translation: "Equipment condition"
+- id: systemGReportDescription
+  translation: "Short and detailed reports about equipment's health are accessible from the Web or a smartphone. Detailed maintenance recommendations are also provided."
+- id: systemUReportTitle
+  translation: "Maintenance"
+- id: systemUReportDescription
+  translation: "Diagnostic results and maintenance instructions are reliable enough to take effective maintenance decisions. They are also easily imported into ERP, MES, CMMS, and SCADA systems."
+- id: bottomIndexTechButton
+  translation: "The Science behind our technology"
+- id: language
+  translation: "English"
+- id: feedback
+  translation: "Feedback"
+- id: goToTableOfContents
+  translation: "Table of Contents"
+- id: metaDescriptionTeamPage
+  translation: "Igor Davydov, Ph.D. in vibration diagnostics, is leading our scientists and hardware engineers. Alexander Borsuk helps our software engineers to scale world wide with his MAPS.ME experience."
+- id: titleTeamPage
+  translation: "VibroBox Team: Scientists and engineers from Minsk, Belarus."
+- id: menuTeamPage
+  translation: "The Team"
+- id: metaKeywordsTeamPage
+  translation: "team, VibroBox, Minsk, Belarus, scientists, engineers, vibrodiagnosts, DSP, hardware"
+- id: teamH1
+  translation: "Our Team"
+- id: teamPreface
+  translation: "VibroBox is a team of well-qualified researchers and engineers from Belarus. If you have experience in digital signal processing and machine learning algorithms or in vibration diagnostics, as well as the desire to join our team - write us an email <a href='mailto:jobs@vibrobox.com'>jobs@vibrobox.com</a>"
+- id: idavydovTitle
+  translation: "Founder, CEO, Ph.D., Associate Professor"
+- id: idavydovDescription
+  translation: "<p>Igor graduated from the Belarusian State University of Informatics and Radioelectronics (BSUIR) in 2002 with a degree in 'Radio Engineering Systems' of the Radio Engineering and Electronics Department, after which he entered post-graduate studies. His thesis titled “Ball bearing qualimetry system based on vibration signal analysis” was dedicated to promising methods of vibration signal analysis and was done in close cooperation with the testing laboratory of the Minsk Bearing Plant and the “Podshipnik” Research Institute. The defense of the thesis was held in 2006 in the Doctoral Council for Defending Dissertations D 02.05.13 at the Belarusian National Technical University.</p> <p>Later on, Igor was engaged in the research, development, and adoption of decision-making systems based on machine learning and digital signal processing, designed among other things for condition monitoring of industrial equipment.</p> <p>In 2008, his work “Software and hardware complex for evaluating of technical condition of mechanical engineering products” was presented at a number of international exhibitions and forums. The project was awarded the diploma of the 8th Moscow International Salon of Innovations and Investments, silver medals of the International Exhibition of Inventions and New Technologies “New Time” (Moscow, 2008) and 13th International Exhibition and Congress 'High Technologies. Innovation. Investments' (St. Petersburg, 2008).</p> <p>Mr. Davydov is an expert in digital signal processing, machine learning, and decision-making systems. He has extensive experience in research and development, especially in the development and implementation of vibration-based condition monitoring systems. His area of expertise is the development of decision-making systems based on machine learning, methods, and software for equipment condition monitoring via vibroacoustic signals.</p> <p>Igor is also a thesis advisor and teaching professor at the Belarusian State University of Informatics and Radioelectronics at the Department of Information Technology.</p><p>Scientific papers and publications: <a href='#automated_system_for_testing_bearings_i_g_davydov_v_n_penza_g_a_dostanko_modern'>[1]</a>, <a href='#research_vibration_parameters_of_vibration_acoustic_noises_of_bearings_to_evaluate_their_quality_and_life'>[2]</a>, <a href='#identification_of_defects_of_rotating_objects_based_on_their_vibration_i_g_davydov_l_m'>[3]</a>, <a href='#microprocessor-based_system_of_bearing_quality_diagnostics_i_g_davydov_modern_information_technology_materials_of_the'>[4]</a>, <a href='#multichannel_vibration_acoustic_field_research_system_i_g_davydov_modern_information_technology_materials_of_the'>[5]</a>, <a href='#analysis_of_polyharmonic_vibration_signals_i_g_davydov_v_i_vorobyov_bsuir_reports_2004_vol'>[6]</a>, <a href='https://docs.google.com/document/d/1hs2jgwC_-3rAPydHwwfaplFHpprmmDmOJNz46C64yH4/edit#bookmark=id.x63vjtl2z6a0' target='_blank'>[7]</a>, <a href='#overview_of_vibration_control_devices_i_g_davydov_e_a_tsinkevich_modern_information_technology_materials'>[8]</a>, <a href='#application_of_finite_element_method_for_modeling_of_stress-deformed_state_of_rolling_bearings_i_g'>[9]</a>, <a href='#early_vibration_diagnostics_of_running_security_equipment_i_g_davydov_bsuir_reports_2004_vol_1'>[10]</a>, <a href='#rapid_diagnostics_of_the_quality_of_rotating_vibration_mechanisms_i_g_davydov_problems_of_designing'>[11]</a>, <a href='#diagnostics_of_the_quality_of_rolling_bearings_using_wavelet_analysis_i_g_davydov_l_m'>[12]</a>, <a href='#simulation_of_vibration_processes_of_a_bearing_in_view_of_facedness_and_ovality_i_g'>[13]</a>, <a href='#application_of_wavelet_analysis_for_evaluation_of_the_technical_state_of_engineering_products_i_g'>[14]</a>, <a href='#hardware_and_software_complex_for_evaluation_of_the_technical_state_of_engineering_products_i_g'>[15]</a>, <a href='#requirements_for_modern_vibration_diagnostics_equipment_i_g_davydov_s_a_migalevich_modern_means_of'>[16]</a>, <a href='#modeling_of_defects_of_rolling_bearings_by_means_of_wavelet_analysis_i_g_davydov_s'>[17]</a>, <a href='#comparative_analysis_of_the_influence_of_methods_used_to_filter_the_components_of_polyharmonic_signals'>[18]</a>, <a href='#modeling_of_stress-deformed_state_of_rolling_bearings_i_g_davydov_s_a_migalevich_modern_means'>[19]</a>, <a href='#study_on_maximum_displacement_of_the_power_spectrum_of_a_wavelet_function_depending_on_the'>[20]</a>, <a href='#study_on_the_effectiveness_of_selecting_shock_pulse_signals_with_the_noise_in_the_background'>[21]</a>, <a href='#modeling_a_stress-deformed_state_of_series_305_rolling_bearings_i_g_davydov_s_v_lisovsky'>[22]</a>, <a href='#detecting_defects_of_rolling_bearings_based_on_the_vibration_signal_envelope_spectrum_i_g_davydov'>[23]</a>, <a href='#evaluation_of_the_effectiveness_of_wavelet_analysis_and_gabor_transform_when_selecting_informative_features_of'>[24]</a>, <a href='#application_of_the_finite_element_method_for_estimation_of_resonance_frequencies_of_mechanical_systems_in'>[25]</a>, <a href='#machinery_diagnostics_use_wavelet_analysis_and_the_estimations_of_differences_of_phases_between_quasi_harmonic'>[26]</a>, <a href='#annual_report_on_the_state_research_program_technical_diagnostics_5_4_19_detection_of_informative'>[27]</a>, <a href='#annual_report_on_the_state_research_program_technical_diagnostics_5_4_19_detection_of_informative'>[28]</a>, <a href='#review_of_the_methods_of_evaluation_of_technical_condition_of_technological_equipment_based_on_vibration'>[30]</a>, <a href='#description_of_the_ethernet_mac_lite_module_on_vhdl_on_xilinx_fpga_s_yu_vasyukevich'>[31]</a>, <a href='#evaluation_of_the_technical_state_of_engineering_products_based_on_the_analysis_of_vibration_signal'>[32]</a>, <a href='#application_of_hilbert-huang_transform_for_diagnosing_defects_of_industrial_equipment_i_g_davydov_s_yu'>[33]</a>, <a href='#realisation_of_the_tract_of_dvb-s_transmitter_pretreatment_based_on_fpga_s_yu_vasyukevich_a'>[34]</a>, <a href='#information_technologies_and_their_influence_on_the_future_of_humankind_i_g_davydov_a_v'>[35]</a>, <a href='#methods_of_frequency_and_time_analysis_of_a_set_of_empirical_modes_of_vibration_signals'>[36]</a>, <a href='#overview_of_adaptive_algorithms_for_defect_classification_of_engineering_products_i_g_davydov_a_v'>[37]</a>, <a href='#overview_of_adaptive_algorithms_for_vibration_fault_detection_for_rolling_bearings_i_g_davydov_a'>[38]</a>, <a href='#applicability_of_modern_mobile_phones_to_the_problems_of_vibration_diagnostics_a_v_tsurko_s'>[40]</a>, <a href='#development_of_methodological_literature_on_laboratory_work_for_students_of_technical_majors_i_g_davydov'>[41]</a>, <a href='#adaptive_algorithms_in_vibration_diagnosis_i_g_davydov_a_v_tsurko_materials_of_the_49th'>[42]</a>, <a href='#shock_pulse_repetition_frequency_estimation_algorithm_based_on_periodic_wavelet_transform_i_g_davydov_s'>[43]</a>, <a href='#laboratory_workshop_on_vsr_and_pkipptu_courses_i_g_davydov_a_v_tsurko_s_yu'>[44]</a>, <a href='#the_line_of_development_of_the_social_paradigm_with_a_systematic_approach_to_the_survival'>[45]</a>, <a href='#modification_of_wavelet_analysis_to_evaluate_the_periodicity_of_vibration_acoustic_signals_i_g_davydov'>[46]</a>, <a href='#detection_of_informative_features_to_evaluate_the_technical_condition_of_the_transmission_sites_of_mobile'>[47]</a>, <a href='#estimation_of_noise_immunity_for_the_diagnostics_method_for_rotor_units_of_machines_depending_on'>[48]</a>, <a href='#evaluation_of_applicability_of_vibro-sensors_embedded_in_the_modern_mobile_platform_for_tasks_related_to'>[49]</a>, <a href='#shock_pulse_repetition_frequency_estimation_based_on_periodic_wavelet_transform_i_g_davydov_i_m'>[50]</a>, <a href='#development_of_the_laboratory_model_urf_research_scientific_article_i_g_davydov_a_p_aslamov'>[51]</a>, <a href='#vibration_diagnostics_systems_using_mobile_platforms_a_v_tsurko_i_g_davydov_modern_means_of'>[52]</a>, <a href='#comparative_study_of_adaptive_algorithms_for_vibration_diagnostics_of_rolling_bearing_defects_s_yu_borisenko'>[53]</a>, <a href='#wavelet_model_decomposition_of_signal_envelopeа_i_g_davydov_i_m_seglyuk_a_v_tsurko'>[54]</a>, <a href='#clustering_for_a_given_number_of_groups_algorithm_of_isodata_class_i_g_davydov_a'>[55]</a>, <a href='#models_of_vibration_signals_of_rolling_bearings_in_the_presence_of_surface_defects_i_g'>[56]</a>, <a href='#peculiarities_of_usage_of_complementary_golay_sequences_i_g_davydov_a_p_aslamov_materials_of'>[57]</a>, <a href='#evaluation_of_sampling_frequencies_of_pulse_processes_using_modifications_of_wavelet_transform_i_g_davydov'>[58]</a>, <a href='#signal_processors_in_digital_radio_communications_devices_laboratory_workshop_teaching-method_manual_a_a_kazyeka_e'>[60]</a>, <a href='#computing_means_of_radio_systems_laboratory_practicum_study_guide_s_yu_vasyukevich_i_g_davydov'>[61]</a>, <a href='#diagnostics_of_industrial_equipment_by_vibration_signals_based_on_periodic_wavelet_transform_research_report_conclusion'>[62]</a>, <a href='#methods_and_means_of_digital_signal_processing_laboratory_workshop_in_2_p_p_1_methods'>[63]</a>, <a href='#correlation_function_sidelobe_minimisation_scientific_article_i_g_davydov_a_p_aslamov_materials_of_the'>[64]</a>, <a href='#device_for_preliminary_phase_processing_of_vibroacoustic_signals_on_pld_i_g_davydov_m_v'>[67]</a>, <a href='#sparse_wavelet_decomposition_for_solving_problems_of_vibration_diagnostics_i_g_davydov_a_p_aslamov'>[68]</a>, <a href='#refinement_of_shaft_spin_frequency_for_vibration_diagnostics_tasks_i_g_davydov_a_p_aslamov'>[69]</a>, <a href='#algorithms_for_refinement_of_the_shaft_rotational_speed_for_solving_the_problems_of_vibration_diagnostics'>[70]</a>, <a href='#sparse_wavelet_decomposition_of_signals_for_solving_vibration_diagnostics_problems_y_aslamov_i_davydov_a'>[71]</a>.</p>"
+- id: Alexander Borsuk
+  translation: "<a href='https://alex.bio/' target='_blank'>Alexander Borsuk</a>"
+- id: borsukTitle
+  translation: "Cofounder and investor, cofounder of <a href='http://maps.me/' target='_blank'>MAPS.ME</a>"
+- id: borsukDescription
+  translation: "<p>Alexander graduated from the Belarusian State University of Informatics and Radioelectronics in 2004 majoring in “Computing Machines, Systems and Networks” of the Computer Systems and Networks Department.</p> <p>For more than 15 years he has been engaged in various projects in data processing, mobile development, and network communications. His vast engineering experience is perfectly complemented by leadership and business skills, travel experience, a healthy lifestyle and an active interest in biotechnology and medicine. Under Alexander’s leadership, offline maps <a href='http://maps.me/' target='_blank'>MAPS.ME</a> for the iPhone and Android devices were got first 2.5 million users worldwide (now more than 100 million). With a team of 13 members the project became self-sustainable and in November 2014 it was sold to <a href='https://corp.mail.ru/en/' target='_blank'>Mail.Ru Group</a>. After disclosing the source code of <a href='http://maps.me/' target='_blank'>MAPS.ME</a>, creating a map editor and successfully handing over all the responsibilities to the new team, Alexander invested his money and ideas in VibroBox to help I. Davydov bring the project up to the international level and gain experience in the fields of digital signal processing and machine learning.<p>Scientific papers and publications: <a href='#algorithms_for_refinement_of_the_shaft_rotational_speed_for_solving_the_problems_of_vibration_diagnostics'>[70]</a>, <a href='#sparse_wavelet_decomposition_of_signals_for_solving_vibration_diagnostics_problems_y_aslamov_i_davydov_a'>[71]</a>.</p>"
+- id: yaslamovTitle
+  translation: "Senior researcher, Master of Science, M.Sc., Ph.D. Student"
+- id: yaslamovDescription
+  translation: "<p>Yury graduated from the Belarusian State University of Informatics and Radioelectronics in 2015 with a degree in “Radio-Electronic Systems” of the Radio Engineering and Electronics Department and also holds a Master's degree in technical sciences. He is currently engaged in scientific work as part of a postgraduate course at BSUIR majoring in “Mathematical support and software for computing machines, systems and computer networks”, Information Technology Software Division, Computer Networks and Systems Department.</p> <p>Yury is an expert in the field of digital signal processing. His area of expertise is the development of methods for condition monitoring of industrial equipment based on vibration signal analysis. He heads the department of digital signal processing of VibroBox team. He is engaged in the development of adaptive filtering algorithms, wavelet, and spectral analysis, construction of classifiers based on fuzzy logic and decision-making devices based on trend analysis. Mr. Aslamov also researches the domain of informative features of the defective equipment. He has experience in applying machine learning to vibration diagnostics. He is involved in verifying the telemetry picking-up system developed by the VibroBox team.</p> <p>The theme of Master's thesis: Picking-up and processing of visual information from CMOS array to solve detection problem.</p><p>Scientific papers and publications: <a href='#a_history_of_the_emergence_of_systems_with_extension_of_signal_spectrum_scientific_article_a'>[29]</a>, <a href='#development_of_the_laboratory_model_urf_research_scientific_article_i_g_davydov_a_p_aslamov'>[51]</a>, <a href='#clustering_for_a_given_number_of_groups_algorithm_of_isodata_class_i_g_davydov_a'>[55]</a>, <a href='#gathering_and_processing_of_video_information_from_the_cmos-matrix_to_solve_detection_problems_the_author'>[66]</a>, <a href='#sparse_wavelet_decomposition_for_solving_problems_of_vibration_diagnostics_i_g_davydov_a_p_aslamov'>[68]</a>, <a href='#refinement_of_shaft_spin_frequency_for_vibration_diagnostics_tasks_i_g_davydov_a_p_aslamov'>[69]</a>, <a href='#algorithms_for_refinement_of_the_shaft_rotational_speed_for_solving_the_problems_of_vibration_diagnostics'>[70]</a>, <a href='#sparse_wavelet_decomposition_of_signals_for_solving_vibration_diagnostics_problems_y_aslamov_i_davydov_a'>[71]</a>.</p>"
+- id: vasukevichTitle
+  translation: "CTO, Master of Science, M.Sc., Ph.D. student"
+- id: vasukevichDescription
+  translation: "<p>Sergei graduated from the Belarusian State University of Informatics and Radioelectronicsin 2009 with a degree in “Radio Engineering Systems” of the Radio Engineering and Electronics Department, and also has an academic Master's degree in technical sciences and a researcher’s diploma.</p> <p>Sergei is attracted to projects that combine cloud computing and Web technologies. He has experience in projects related to hardware and software development, scientific research and development of large Web-based solutions. All of this allows him to easily navigate the technologies used in the VibroBox project. As a project team member, he is responsible for setting objectives, defining technical tasks and working on the system architecture.</p><p>Scientific papers and publications: <a href='#study_on_maximum_displacement_of_the_power_spectrum_of_a_wavelet_function_depending_on_the'>[20]</a>, <a href='#study_on_the_effectiveness_of_selecting_shock_pulse_signals_with_the_noise_in_the_background'>[21]</a>, <a href='#detecting_defects_of_rolling_bearings_based_on_the_vibration_signal_envelope_spectrum_i_g_davydov'>[23]</a>, <a href='#evaluation_of_the_effectiveness_of_wavelet_analysis_and_gabor_transform_when_selecting_informative_features_of'>[24]</a>, <a href='#annual_report_on_the_state_research_program_technical_diagnostics_5_4_19_detection_of_informative'>[27]</a>, <a href='#review_of_the_methods_of_evaluation_of_technical_condition_of_technological_equipment_based_on_vibration'>[30]</a>, <a href='#description_of_the_ethernet_mac_lite_module_on_vhdl_on_xilinx_fpga_s_yu_vasyukevich'>[31]</a>, <a href='#evaluation_of_the_technical_state_of_engineering_products_based_on_the_analysis_of_vibration_signal'>[32]</a>, <a href='#application_of_hilbert-huang_transform_for_diagnosing_defects_of_industrial_equipment_i_g_davydov_s_yu'>[33]</a>, <a href='#realisation_of_the_tract_of_dvb-s_transmitter_pretreatment_based_on_fpga_s_yu_vasyukevich_a'>[34]</a>, <a href='#overview_of_adaptive_algorithms_for_defect_classification_of_engineering_products_i_g_davydov_a_v'>[37]</a>, <a href='#overview_of_adaptive_algorithms_for_vibration_fault_detection_for_rolling_bearings_i_g_davydov_a'>[38]</a>, <a href='#applicability_of_modern_mobile_phones_to_the_problems_of_vibration_diagnostics_a_v_tsurko_s'>[40]</a>, <a href='#shock_pulse_repetition_frequency_estimation_algorithm_based_on_periodic_wavelet_transform_i_g_davydov_s'>[43]</a>, <a href='#laboratory_workshop_on_vsr_and_pkipptu_courses_i_g_davydov_a_v_tsurko_s_yu'>[44]</a>, <a href='#estimation_of_noise_immunity_for_the_diagnostics_method_for_rotor_units_of_machines_depending_on'>[48]</a>, <a href='#evaluation_of_applicability_of_vibro-sensors_embedded_in_the_modern_mobile_platform_for_tasks_related_to'>[49]</a>, <a href='#comparative_study_of_adaptive_algorithms_for_vibration_diagnostics_of_rolling_bearing_defects_s_yu_borisenko'>[53]</a>, <a href='#computing_means_of_radio_systems_laboratory_practicum_study_guide_s_yu_vasyukevich_i_g_davydov'>[61]</a>.</p>"
+- id: Aliaksei Maniuk
+  translation: "<a href='http://www.maniuk.net/' target='_blank'>Aliaksei Maniuk</a>"
+- id: maniukTitle
+  translation: "Solution Architect, Master of Science, M.Sc."
+- id: maniukDescription
+  translation: "<p>For more than 10 years, Aliaksei has been working on various projects related to large systems of medical and banking services. He acquired extensive technical experience working for international companies, such as <a href='https://www.epam.com/' target='_blank'>EPAM Systems</a>, <a href='http://www.trizetto.com/' target='_blank'>TriZetto: Healthcare IT Solutions & Services</a>. His area of expertise includes effective, scalable systems for data collection and analysis. In 2012, he graduated from the Belarusian State University of Informatics and Radioelectronics majoring in “Information Technology Software”, Computer Networks and Systems Department. In 2013, he obtained an academic master's degree in technical sciences with a major in “Mathematical support and software for computing machines, systems, and computer networks”.</p> <p>His role in the VibroBox project is dedicated to the complex analysis of the application’s architecture and structure; he is responsible for developing algorithms of interaction between the data collection service and the computing platform.</p> <p>The theme of Master's thesis: “Methods and means for text document protection”.</p><p>Scientific papers and publications: <a href='#digital_watermarks_in_text_files_a_p_maniuk_faculty_of_computer_systems_and_networks_the'>[39]</a>.</p>"
+- id: Aleksandr Tsurko
+  translation: "Alexander Tsurko"
+- id: tsurkoTitle
+  translation: "DSP & AI Engineer, Research Scientist, Master of Science, M.Sc., Ph.D. student"
+- id: tsurkoDescription
+  translation: "<p>In VibroBox Alexander develops the expert system for vibration diagnostics. He also works on the equipment which records vibration signals and telemetry data. His current research is adaptive data analysis using digital signal processing, data science and artificial intelligence.</p> <p>He has more than five years of experience in many projects, including embedded digital systems design and programming, DSP and telemetry, FPGA, satellite communication technologies, machine learning, cybernetics. He has also led teams of developers and researchers.</p> <p>In 2012 he graduated from Belarusian State University of Informatics and Radioelectronics with a bachelor's degree in Radioinformatics engineering. Later, in 2013, he received a master's degree in Technical Sciences. The title of his thesis is Adaptive algorithms for early detection of rolling bearing defects by vibration signals.</p> <p>Now he is a postgraduate student and prepares to defend his Ph.D. thesis in System Analysis.</p> <p>Currently Alexander is collaborating with BSUIR as a research scientist and assistant of Information Radiotechnologies Department.  His interests include the future of humanity and sustainable development of culture and nature. The most favorite free time activities are walking, backpacking, cycling, sailing.</p><p id='scientific_papers_and_publications_27_28_31_34_35_36_37_38_40_41_42'>Scientific papers and publications: <a href='#annual_report_on_the_state_research_program_technical_diagnostics_5_4_19_detection_of_informative'>[27]</a>, <a href='#annual_report_on_the_state_research_program_technical_diagnostics_5_4_19_detection_of_informative'>[28]</a>, <a href='#description_of_the_ethernet_mac_lite_module_on_vhdl_on_xilinx_fpga_s_yu_vasyukevich'>[31]</a>, <a href='#realisation_of_the_tract_of_dvb-s_transmitter_pretreatment_based_on_fpga_s_yu_vasyukevich_a'>[34]</a>, <a href='#information_technologies_and_their_influence_on_the_future_of_humankind_i_g_davydov_a_v'>[35]</a>, <a href='#methods_of_frequency_and_time_analysis_of_a_set_of_empirical_modes_of_vibration_signals'>[36]</a>, <a href='#overview_of_adaptive_algorithms_for_defect_classification_of_engineering_products_i_g_davydov_a_v'>[37]</a>, <a href='#overview_of_adaptive_algorithms_for_vibration_fault_detection_for_rolling_bearings_i_g_davydov_a'>[38]</a>, <a href='#applicability_of_modern_mobile_phones_to_the_problems_of_vibration_diagnostics_a_v_tsurko_s'>[40]</a>, <a href='#development_of_methodological_literature_on_laboratory_work_for_students_of_technical_majors_i_g_davydov'>[41]</a>, <a href='#adaptive_algorithms_in_vibration_diagnosis_i_g_davydov_a_v_tsurko_materials_of_the_49th'>[42]</a>, <a href='#shock_pulse_repetition_frequency_estimation_algorithm_based_on_periodic_wavelet_transform_i_g_davydov_s'>[43]</a>, <a href='#laboratory_workshop_on_vsr_and_pkipptu_courses_i_g_davydov_a_v_tsurko_s_yu'>[44]</a>, <a href='#the_line_of_development_of_the_social_paradigm_with_a_systematic_approach_to_the_survival'>[45]</a>, <a href='#detection_of_informative_features_to_evaluate_the_technical_condition_of_the_transmission_sites_of_mobile'>[47]</a>, <a href='#estimation_of_noise_immunity_for_the_diagnostics_method_for_rotor_units_of_machines_depending_on'>[48]</a>, <a href='#evaluation_of_applicability_of_vibro-sensors_embedded_in_the_modern_mobile_platform_for_tasks_related_to'>[49]</a>, <a href='#vibration_diagnostics_systems_using_mobile_platforms_a_v_tsurko_i_g_davydov_modern_means_of'>[52]</a>, <a href='#comparative_study_of_adaptive_algorithms_for_vibration_diagnostics_of_rolling_bearing_defects_s_yu_borisenko'>[53]</a>, <a href='#wavelet_model_decomposition_of_signal_envelopeа_i_g_davydov_i_m_seglyuk_a_v_tsurko'>[54]</a>, <a href='#models_of_vibration_signals_of_rolling_bearings_in_the_presence_of_surface_defects_i_g'>[56]</a>, <a href='#evaluation_of_sampling_frequencies_of_pulse_processes_using_modifications_of_wavelet_transform_i_g_davydov'>[58]</a>, <a href='#computing_means_of_radio_systems_laboratory_practicum_study_guide_s_yu_vasyukevich_i_g_davydov'>[61]</a>, <a href='#diagnostics_of_industrial_equipment_by_vibration_signals_based_on_periodic_wavelet_transform_research_report_conclusion'>[62]</a>, <a href='#methods_and_means_of_digital_signal_processing_laboratory_workshop_in_2_p_p_1_methods'>[63]</a>, <a href='#device_for_preliminary_phase_processing_of_vibroacoustic_signals_on_pld_i_g_davydov_m_v'>[67]</a>.</p>"
+- id: Andrey Aslamov
+  translation: "Andrei Aslamov"
+- id: aslamovTitle
+  translation: "Research engineer, Master of Science, M.Sc., Ph.D. Student"
+- id: aslamovDescription
+  translation: "<p>Andrei graduated from the Belarusian State University of Informatics and Radioelectronics in 2015 with a degree in “Radio-Electronic Systems” of the Radio Engineering and Electronics Department and also holds a Master's degree in technical sciences. He is currently engaged in scientific work as part of his postgraduate course at BSUIR “Mathematical support and software of computing machines, systems and computer networks run” by the Information Technology Software Division, Computer Networks and Systems Department.</p> <p>His area of expertise is the development of evaluation methods for condition monitoring of industrial equipment based on vibration signal analysis. He has practical experience in designing and simulating multi-channel digital radio systems. He works at the Department of Digital Signal Processing of the VibroBox project. He develops and implements algorithms of adaptive filtering, performs wavelet and spectral analysis and verifies the informative features of defects based on fuzzy logic.</p> <p>The theme of Master's thesis: “Synthesis and study of orthogonal pseudo-random signals”.</p><p>Scientific papers and publications: <a href='#a_history_of_the_emergence_of_systems_with_extension_of_signal_spectrum_scientific_article_a'>[29]</a>, <a href='#development_of_the_laboratory_model_urf_research_scientific_article_i_g_davydov_a_p_aslamov'>[51]</a>, <a href='#clustering_for_a_given_number_of_groups_algorithm_of_isodata_class_i_g_davydov_a'>[55]</a>, <a href='#peculiarities_of_usage_of_complementary_golay_sequences_i_g_davydov_a_p_aslamov_materials_of'>[57]</a>, <a href='#development_of_laboratory_work_multi-channel_information_transmission_system_with_code_multiplexing_scientific_article_a'>[59]</a>, <a href='#correlation_function_sidelobe_minimisation_scientific_article_i_g_davydov_a_p_aslamov_materials_of_the'>[64]</a>, <a href='#synthesis_and_study_of_orthogonal_pseudo-random_signal_systems_author_s_abstract_diss_master_s_degree'>[65]</a>, <a href='#sparse_wavelet_decomposition_for_solving_problems_of_vibration_diagnostics_i_g_davydov_a_p_aslamov'>[68]</a>, <a href='#refinement_of_shaft_spin_frequency_for_vibration_diagnostics_tasks_i_g_davydov_a_p_aslamov'>[69]</a>, <a href='#algorithms_for_refinement_of_the_shaft_rotational_speed_for_solving_the_problems_of_vibration_diagnostics'>[70]</a>, <a href='#sparse_wavelet_decomposition_of_signals_for_solving_vibration_diagnostics_problems_y_aslamov_i_davydov_a'>[71]</a>.</p>"
+- id: Anatoliy Shevchenko
+  translation: "Anatoli Shevchenko"
+- id: shevchenkoTitle
+  translation: "Expert on vibration diagnostics (condition monitoring engineer)"
+- id: shevchenkoDescription
+  translation: "<p>Anatoli was born in Tselinograd (now Astana, Kazakhstan) and received higher technical education majoring in “Mechanical equipment of metallurgical plants” in Kazakhstan, Temirtau. He gained his experience as a vibration diagnostics expert at the Karaganda metallurgical industrial complex, TOO “Kazmehanomontazh” (Temirtau, Kazakhstan) and the <a href='https://eng.belsteel.com/' target='_blank'>Belarusian metallurgical plant </a> (JSC “BMZ”, Zhlobin, Belarus). For the past 23 years, he has been employed as a specialist in the field of vibration diagnostics of mechanical, electrical and power rotary equipment at the Belarusian Metallurgic Plant. As part of his involvement with the VibroBox project, he advises the team of developers on vibration diagnostics issues and supports experimental research and verification of the results obtained.</p>"
+- id: Mikita Kasmach
+  translation: "Nikita Kosmach"
+- id: kasmachTitle
+  translation: "Research engineer, Master's Degree student"
+- id: kasmachDescription
+  translation: "<p>Nikita is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-Electronic Information Protection” of the Radio Engineering and Electronics Department.</p> <p>He has practical experience in designing and simulating digital receiver-transmitter devices, as well as devices for processing and analysing RF signals. In particular, he has worked with the <a href='https://wiki.analog.com/resources/eval/user-guides/ad-fmcomms2-ebz' target='_blank'>AD-FMCOMMS1-EBZ</a> platform by Analog Devices. As part of the VibroBox team, he develops and tests vibration diagnostics modules in the frequency domain, as well as modules of defect classification in the domain of informative features.</p>"
+- id: Petr Riabtsev
+  translation: "Petr Ryabtsev"
+- id: riabtsevTitle
+  translation: "Research engineer, Master's Degree student"
+- id: riabtsevDescription
+  translation: "<p>Petr is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-electronic Information Protection” of the Radio Engineering and Electronics Department.</p> <p>As a VibroBox team member, he is responsible for implementing decision-making algorithms based on fuzzy logic.</p>"
+- id: Oleg Avsyankin
+  translation: "Oleg Avsyankin"
+- id: avsyankinTitle
+  translation: "Bearing industry expert"
+- id: avsyankinDescription
+  translation: "<p>Oleg has been working in the bearing industry since 1976, 17 years of them as Chief Engineer at the “Podshipnik” Research Institute. He is currently the lead design engineer at the <a href='http://mpz.com.by/en/' target='_blank'>Minsk Bearing Plant</a>. As part of the VibroBox project, he is responsible for organising experimental research and consulting the team of developers on the structural features of different engineering objects.</p>"
+- id: Roman Tolkach
+  translation: "Roman Tolkach"
+- id: tolkachTitle
+  translation: "Research engineer, Master's Degree student"
+- id: tolkachDescription
+  translation: "<p>Roman is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-electronic Information Protection” of the Radio Engineering and Electronics Department.</p> <p>He has practical experience in designing, modeling and verifying systems for the spectral analysis of audio and radio signals. In particular, he has worked closely with the equipment of <a href='http://www.tira-gmbh.de/en/' target='_blank'>TIRA GmbH</a>, <a href='https://www.anritsu.com/en-US' target='_blank'>Anritsu</a>, <a href='http://www.aktakom.com/' target='_blank'>Aktakom</a>, <a href='http://www.tek.com/' target='_blank'>Tektronix</a>.</p> <p>In the VibroBox project, he is responsible for testing the vibration signal and telemetry picking-up equipment that is being developed, and for developing digital signal processing modules in the spectral domain and data acquisition subsystems.</p>"
+- id: Mihail Bogdanec
+  translation: "Mikhail Bogdanets"
+- id: bogdanecTitle
+  translation: "Expert on the operation of industrial equipment, engineer-inventor"
+- id: bogdanecDescription
+  translation: "<p>Mikhail has many years of experience as Chief Engineer in various industries. He is the creator of 13 inventions and patents in the field of mechanical engineering. As part of the Vibrobox project, he addresses the issues of organisational and technical support of applied research (including the development and manufacturing of the necessary facilities), operational testing of the equipment developed by the team, as well as industrial cooperation and procurement.</p>"
+- id: Yaraslava Herasimuk
+  translation: "Yaraslava Herasimuk"
+- id: herasimukTitle
+  translation: "Business analyst, Master's Degree student"
+- id: herasimukDescription
+  translation: "<p>Yaraslava graduated from Belarusian State Economic University, majoring in “Economics”, International Economic Relations Department. She is currently enrolled in the graduate school of BSEU majoring in “Informatics for Economics”.</p> <p>The theme of Master's thesis: “Analysis and improvement of business processes in preparation for the competitive selection of innovation projects.”</p> <p>Yaraslava has practical experience in business process and analytics management. During her career, she has worked with products of <a href='https://www.sap.com/product/enterprise-management/s4hana-erp.html' target='_blank'>SAP Enterprise management</a> (world leader in automated business-to-business management solutions), as well as statistical studies using the software product <a href='http://www.stata.com/' target='_blank'>Stata</a>.</p> <p>As part of the VibroBox project, she is responsible for collecting, processing, analysing and generalising best practices and scientific and technical information generated by the team’s research, and also for analysing the target market.</p>"
+- id: Artem Bourak
+  translation: "Artem Bourak"
+- id: bourakTitle
+  translation: "Research engineer, Master's Degree student"
+- id: bourakDescription
+  translation: "<p>Artem is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radioinformatics”, Radio Engineering and Electronics Department.</p> <p>Artem has experience in developing algorithms for wavelet processing and classification of informative features based on machine learning, as well as digital devices using programmable logic integrated diagrams. He worked in the International Switching Center of Belarus solving programming tasks and tasks related to telecommunication networks and systems modeling.</p> <p>As part of the VibroBox team, he is responsible for researching expert analysis and interpreting acoustic and vibration signals to address the challenges of vibration diagnostics and medicine. He is also involved in developing equipment components for the vibration signal and telemetry picking-up system and in the functional testing of digital signal processing algorithms.</p>"
+- id: titleContactPage
+  translation: "VibroBox: Contact Us"
+- id: metaDescriptionContactPage
+  translation: "Our HQ is in Tallin, Estonia. Development and scientific team is located in Minsk, Belarus. We respond to every email."
+- id: metaKeywordsContactPage
+  translation: "contact, us, address, hq, office, development, location, Minsk, Belarus, Tallinn"
+- id: menuContactPage
+  translation: "Contact"
+- id: headquarters
+  translation: "Headquarters"
+- id: developmentOffice
+  translation: "Development office"
+- id: ourContacts
+  translation: "Our Contacts"
+- id: contactsIntro
+  translation: "Please don't hesitate to contact us directly at <a href='mailto:info@vibrobox.com'>info@vibrobox.com</a>."
+- id: addressEstonia
+  translation: "Rävala pst 8, office 810<br/>Tallinn, 10143<br/>Estonia<br/><a href=tel:+3726027212>+372 602 7212</a>"
+- id: addressBelarus
+  translation: "22A/2 Lahoyski Tract, office 402<br/>Minsk, 220090<br/>Belarus<br/><a href=tel:+375291768335>+375 29 1768335</a>"
+- id: sitel
+  translation: "LLC Sitel"
+- id: mapCopyright
+  translation: "Map data © <a href='http://openstreetmap.org/'>OpenStreetMap</a> | Imagery © <a href='http://mapbox.com/'>Mapbox</a>"
+- id: contactsSocialNetworks
+  translation: "Social networks:"
+- id: titleFaqPage
+  translation: "VibroBox: Frequently Asked Questions and Answers, help and support."
+- id: metaDescriptionFaqPage
+  translation: "Here you can find some frequently asked questions and answers. Please let us know if you need more information."
+- id: metaKeywordsFaqPage
+  translation: "questions, answers, FAQ, Q&A, help, support, information, frequently, asked"
+- id: menuFaqPage
+  translation: "Questions and Answers"
+- id: faqTitle
+  translation: "Questions and Answers"
+- id: faqPreface
+  translation: "Any questions? Email us at <a href='mailto:info@vibrobox.com'>info@vibrobox.com</a>."
+- id: metaDescriptionTechnologyPage
+  translation: "The detailed and in-depth description of our vibration diagnostics technology. Which algorithms are used for digital signal processing? How wavelets and kinematic scheme are used to extract exact defects from vibration? How to apply machine learning?"
+- id: titleTechnologyPage
+  translation: "How does exactly VibroBox Technology predict machinery malfunction and provide detailed recommendations?"
+- id: menuTechnologyPage
+  translation: "The Science"
+- id: metaKeywordsTechnologyPage
+  translation: "Vibration, sensors, telemetry, neural networks, machine learning, wavelets, fuzzy logic, algorithms, predictive, proactive, prescriptive, maintenance, IIoT, Industry, Industrie, 4.0, science, technology, software, hardware"
+- id: updatedAt
+  translation: "This is the translation of the <a href=https://www.vibrobox.ru/technology>original article</a> in Russian, updated on %B %e, %Y at %H:%M %Z."
+- id: updatedAtWindows
+  translation: "This is the translation of the <a href=https://www.vibrobox.ru/technology>original article</a> in Russian, updated on %B %#d, %Y at %H:%M UTC."
+- id: setlocale
+  translation: "en_US"
+- id: setlocaleWindows
+  translation: "en"
