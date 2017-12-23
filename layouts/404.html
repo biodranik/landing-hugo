@@ -1,9 +1,13 @@
-{{ partial "header" . }}
-
-<section id="content">
-  <h1>{{ T "404 Page not found" }}</h1>
-  <p>{{ T "error404details" }}</p>
-  <p><a href="{{ .Site.BaseURL }}">&larr; {{ T "goToHomePage" . }}</a></p>
-</section> <!-- content -->
-
-{{ partial "footer" . }}
+{{ define "main" }}
+<section class="section">
+  <h1>
+    {{ T "404pageH1" }}
+  </h1>
+  <p class="preface">
+    {{ T "404pageText" }}
+  </p>
+  <p>
+    <a href="{{ .Site.BaseURL }}">&larr; {{ T "goToHomePage" . }}</a>
+  </p>
+</section>
+{{ end }}

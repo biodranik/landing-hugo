@@ -2,16 +2,16 @@
   <section class="banner">
     <div class="section">
       <h1 class="title-index__main">
-        <?= T('indexMainTitle') ?>
+        {{ T "indexMainTitle" }}
       </h1>
       <div class="preface preface--home">
-        <?= T('indexPreface') ?>
+        {{ .Content }}
       </div>
       <a class="actionButton" href="{{ ref . "technology.md" }}">
-        <?= T('moreAboutTechnology') ?>
+        {{ T "moreAboutTechnology" }}
       </a>
-      <a class="actionButton" href="<?= DEMO_URL ?>" target="_blank">
-        <?= T('viewDemo') ?>
+      <a class="actionButton" href="{{ .Language.Params.demourl }}" target="_blank">
+        {{ T "viewDemo" }}
       </a>
     </div>
   </section>
@@ -34,10 +34,10 @@
 
   <section class="section system separator">
     <h2 class="title-index__second">
-      <?= T("systemItem") ?>
+      {{ T "systemItem" }}
     </h2>
     <p class="preface">
-      <?= T("systemPreface") ?>
+      {{ T "systemPreface" }}
     </p>
     <div class="system-container">
       <?php foreach ($solutionSectionItems as $item) : ?>
@@ -55,7 +55,7 @@
 
   <section class="section plus">
     <h2 class="title-index__second">
-      <?= T("plusTitle") ?>
+      {{ T "plusTitle" }}
     </h2>
     <div class="plus-container">
       <?php foreach ($plusSectionItems as $item) : ?>
@@ -76,7 +76,7 @@
   <section class="preface">
     <a class="actionButton" href="<?= URL('technology.php') ?>">
       <p>
-        <?= T('bottomIndexTechButton') ?>
+        {{ T "bottomIndexTechButton" }}
       </p>
     </a>
   </section>

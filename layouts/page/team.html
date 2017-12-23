@@ -1,8 +1,37 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<section id="content">
-  <h1>{{ T .Title }}</h1>
-  {{ .Content }}
-</section> <!-- content -->
+  <section class="section team">
+    <h1>
+      {{ T "teamH1" }}
+    </h1>
+    <p class="preface">
+      {{ T "teamPreface" }}
+    </p>
+    <div class="team-container">
+      <?php foreach ($team as $m) : ?>
+      <div id="<?= MakePrettyLink($m['name']) ?>" class="team-member">
+        <img class="team-member__img" src="<?= URL($m['img']) ?>" alt="<?= $m['name'] ?>" title="<?= $m['name'] ?>" />
+        <div class="team-member__description">
+          <h3 class="team-member__name">
+            <?= T($m['name']) ?>
+          </h3>
+          <h4 class="team-member__title">
+            <?= T($m['title']) ?>
+          </h4>
+          <div>
+            <?= T($m['description']) ?>
+          </div>
+        </div>
+      </div>
+      <?php endforeach; ?>
+    </div>
+  </section>
+  <?php if (HasContent('publications')) : ?>
+  <section class="section">
+    <div class="content content__publications">
+      <?php IncludeContent('publications') ?>
+    </div>
+  </section>
+  <?php endif; ?>
 
-{{ partial "footer.html" . }}
+{{ end }}
