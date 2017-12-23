@@ -1,0 +1,5 @@
+{{- if .Get 0 -}}
+<a href="{{ $.Site.Params.demourl }}" title="{{ T "viewDemo" }}">{{ .Get 0 }}</a>
+{{- else -}}
+{{ $.Site.Params.demourl }}
+{{- end -}}
