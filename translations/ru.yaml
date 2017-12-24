@@ -1,3 +1,27 @@
+- id: January
+  translation: января
+- id: February
+  translation: февраля
+- id: March
+  translation: марта
+- id: April
+  translation: апреля
+- id: May
+  translation: мая
+- id: June
+  translation: июня
+- id: July
+  translation: июля
+- id: August
+  translation: августа
+- id: September
+  translation: сентября
+- id: October
+  translation: октября
+- id: November
+  translation: ноября
+- id: December
+  translation: декабря
 - id: homePageTitle
   translation: "VibroBox — вибродиагностика оборудования в реальном времени."
 - id: homeMenu

@@ -33,6 +33,7 @@ Languages:
     Keywords: [TODO, default, keywords]
     StaticDir2: static/en
     demourl: https://demo.vibrobox.com/demo?locale=en
+    dateformat: "January 02, 2006"
   ru:
     BaseUrl: https://www.vibrobox.ru/
     Weight: 2
@@ -47,6 +48,7 @@ Languages:
     Keywords: [TODO, ключевые, слова, по-умолчанию]
     StaticDir2: static/ru
     demourl: https://demo.vibrobox.com/demo?locale=ru
+    dateformat: "02 January 2006"
     # TODO: Uncommend when section localization bug will be fixed (see news/_index.ru.md for details).
     #permalinks:
     #  news: /новости/:year/:month/:slug/

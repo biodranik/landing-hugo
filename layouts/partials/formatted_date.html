@@ -1,0 +1,12 @@
+<!-- This partial requires .Page object as a parameter (referenced as .)
+and uses [params] dateformat option from the config.
+Dates in languages other than English are not supported by hugo. Here is a workaround
+which uses months translations from i18n folder.
+See https://gohugo.io/content-management/multilingual/#customize-dates
+and https://discourse.gohugo.io/t/dates-only-in-english/1317/40 for more details -->
+{{- if eq .Lang "ru" -}}
+  {{- $dateInEnglish := .Date.Format $.Site.Params.dateformat -}}
+  {{- replace $dateInEnglish .Date.Month (T .Date.Month) -}}
+{{- else -}}
+  {{- .Date.Format $.Site.Params.dateformat -}}
+{{- end -}}
