@@ -1,0 +1,17 @@
+{{$name := .Get "name" -}}
+{{$underscoredName := delimit (split $name " ") "_" -}}
+{{$imageSrc := printf "/img/team/%s.jpg" $underscoredName -}}
+<div name="#{{lower $underscoredName}}" class="team-member">
+  <img class="team-member__img" src="{{ relURL $imageSrc}}" alt="{{$name}}" title="{{$name}}" />
+  <div class="team-member__description">
+    <h3 class="team-member__name">
+      {{$name}}
+    </h3>
+    <h4 class="team-member__title">
+      {{.Get "title"}}
+    </h4>
+    <div>
+      {{.Inner}}
+    </div>
+  </div>
+</div>
