@@ -15,9 +15,12 @@ MetadataFormat: yaml
 DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
+# Correct lastmod time for pages in sitemap.
+EnableGitInfo: true
 # Open all external links from content in a new window.
 BlackFriday:
   hrefTargetBlank: true
+  #laxHtmlBlocks: true
 
 # Urls with year and month for the news section.
 # Title or file name will be used if slug is not defined in the post frontmatter.
