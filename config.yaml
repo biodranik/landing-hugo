@@ -15,10 +15,13 @@ MetadataFormat: yaml
 DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
+# Open all external links from content in a new window.
+BlackFriday:
+  hrefTargetBlank: true
 
 # Urls with year and month for the news section.
 # Title or file name will be used if slug is not defined in the post frontmatter.
-permalinks:
+Permalinks:
   news: /news/:year/:month/:slug/
 
 Languages:
@@ -42,7 +45,7 @@ Languages:
     Title: На русском
     GoogleAnalytics: UA-79782596-2
     BlackFriday:
-      AngledQuotes: true
+      angledQuotes: true
     Copyright: © 2017 VibroBox
     Description: TODO Описание страницы на русском по-умолчанию, для всего сайта
     Keywords: [TODO, ключевые, слова, по-умолчанию]
