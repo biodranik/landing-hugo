@@ -26,8 +26,6 @@
   translation: "VibroBox — вибродиагностика оборудования в реальном времени."
 - id: homeMenu
   translation: "Главная"
-- id: teamPageTitle
-  translation: "Наша команда"
 - id: contactPageTitle
   translation: "Связаться с нами"
 - id: technologyPageTitle
@@ -124,10 +122,6 @@
   translation: "Под руководством Игоря Давыдова, кандидата технических наук и эксперта по вибродиагностике, команда VibroBox в Минске занимается наукой, разрабатывает алгоритмы ЦОС и «умные» датчики. Опыт в MAPS.ME Александра Борсука помогает масштабироваться на весь мир."
 - id: metaKeywordsTeamPage
   translation: "команда, VibroBox, Минск, Беларусь, учёные, инженеры, вибродиагносты, ЦОС, датчики"
-- id: teamH1
-  translation: "Наша команда"
-- id: teamPreface
-  translation: "В VibroBox работает команда квалифицированных исследователей и инженеров из Беларуси. Если у вас есть опыт в цифровой обработке сигналов и алгоритмах машинного обучения или в вибрационной диагностике, а также желание присоединиться к нашей команде - пишите нам на <a href='mailto:jobs@vibrobox.com'>jobs@vibrobox.com</a>"
 - id: Igor Davydov
   translation: "<a href='https://www.bsuir.by/ru/kaf-informatsion-radiotekh/davydov-i-g' target='_blank'>Игорь Давыдов</a>"
 - id: idavydovTitle
