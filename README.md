@@ -56,5 +56,18 @@ git push -u origin gh-pages
 git branch -d master
 ```
 
+### Tips and tricks
+#### Correct usage of hugo date formatting
+You should always [remember](https://www.madboa.com/blog/2016/08/24/hugo-dateformat/) the rules of the date values in the format string. For example:
+```
+{{.Date.Format "Jan 1, 2006"}}
+```
+- Month must be Jan, January, 01, or 1
+- Date must be 02 or 2
+- Hour must be 03, 3, or 15
+- Minute must 04
+- Second must be 05
+- Year must be 2006
+- Timezone must be MST or -7
 
 [Hugo Releases]: https://github.com/spf13/hugo/releases/latest
