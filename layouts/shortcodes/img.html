@@ -1,5 +1,6 @@
-<figure{{ with .Get "class" }} class="{{.}}" {{ end }}>
-  {{ with .Get "link"}}<a href="{{.}}">{{ end }}
-    <img src="{{ .Get "src" }}"{{ with .Inner | plainify }} alt="{{.}}" title="{{.}}"{{ end }}{{ with .Get "width" }} width="{{.}}"{{ end }}{{ with .Get "height" }} height="{{.}}"{{ end }} /> {{ if .Get "link"}}</a>{{ end }}
-  {{ with .Inner }}<figcaption>{{.}}</figcaption>{{ end }}
+<figure{{with .Get "class"}} class="{{.}}" {{end}}>
+  {{with .Get "link"}}<a href="{{.}}">{{end -}}
+    <img src="{{.Get "src"}}"{{with .Inner | plainify}}{{$trimmed := trim . ".\n"}} alt="{{$trimmed}}" title="{{$trimmed}}"{{end}}{{with .Get "width"}} width="{{.}}"{{end}}{{with .Get "height"}} height="{{.}}"{{end}} /> {{if .Get "link"}}</a>{{end}}
+  {{with .Inner}}<figcaption>
+    {{.}}  </figcaption>{{end}}
 </figure>
