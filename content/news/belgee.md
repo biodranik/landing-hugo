@@ -10,32 +10,31 @@ share:
   imageWidth: 1999
   imageHeight: 1500
 ---
+# VibroBox vibration diagnostics service was successfully tested at "BELGEE" car factory in Belarus
 
-# Испытания «VibroBox» на совместном белорусско-китайском предприятии по производству автомобилей Geely — СЗАО «БЕЛДЖИ»
 {{<date>}}
 
-Термин «Индустрия 4.0» («Industry 4.0»), описывающий европейскую инициативу массового внедрения концепции интернета вещей (IoT) в производственные процессы и системы управления предприятиями прочно вошёл в лексикон передовых промышленных гигантов.
+"Industry 4.0" is a European version of Industrial Internet of Things (IIoT) concept. This term is being frequently used by the industry leaders now.
 
-Системам оценки технического состояния оборудования в рамках этой концепции отведена важная роль. При помощи сервисов полностью автоматической диагностики промышленное оборудование должно уметь оценивать своё техническое состояние и сообщать о выявленных проблемах и требуемом обслуживании в систему управления предприятием[^1], которая проверит наличие на складе необходимых комплектующих, закажет их в случае необходимости, найдёт окно в технологическом процессе и сформирует заявку на точечное и своевременное обслуживание этого оборудования. При этом нет необходимости останавливать производственный процесс на длительный срок, разбирать и собирать производственную линию для выявления неисправностей и т.д.
+Equipment condition evaluation systems play a major role in this concept. A technical condition of an industry equipment should be evaluated in a fully automated mode and without human intervention.
+Further, enterprise management systems (CMMS, MES, ERP) should be notified about detected defects and required maintenance. Maintenance system will check if there are accessory parts available in the storage and order them if necessary. Then it will schedule the optimal equipment maintenance timeframe to avoid unnecessary interruptions. As a result, there is no need to completely disassemble and then assemble manufacturing line for maintenance diagnostics as well as to stop
+production process for a long time.
 
-Именно для выполнения задач оценки технического состояния промышленного оборудования в рамках концепции «Индустрия 4.0» разработан сервис «VibroBox». Для этого используются облачные системы хранения и обработки данных, технологии машинного обучения (machine learning) на основе нейронных сетей (neural network), вейвлетный анализ (wavelet analysis), создание собственных базисных функций, правила нечёткой логики (fuzzy logic) и другие алгоритмы цифровой обработки сигналов.
+We have developed [VibroBox]({{<relref "">}}) with a strong focus on the "Industry 4.0" concept. Predictive maintenance is impossible without a detailed list of internal defects and maintenance recommendations provided by automated vibration diagnostics. For this purpose, we have used various advanced technologies: cloud services to store and process data, machine learning based on neural networks, wavelet analysis, custom basis functions, fuzzy logic rules, and other
+digital signal processing algorithms.
 
-Компания «[CITIC Construction](http://construction.citic/en/into/index.html)»[^2] на протяжении многих лет входит в [топ-60](http://www.enr.com/toplists/2016-Top-250-International-Contractors1) крупнейших международных строительных  компаний по версии журнала [ENR](http://www.enr.com/)[^3]. Одной из основных целей компании с момента её создания стало привлечение и использование самых передовых технологий и моделей ведения бизнеса.
+For many years "[CITIC Construction](http://construction.citic/en/into/index.html)" (a subdivision of Chinese CITIC GROUP) has been one of the biggest [top-60](http://www.enr.com/toplists/2016-Top-250-International-Contractors1) international construction companies according to [ENR](http://www.enr.com/). From the very beginning the company has focused on attracting the most advanced technologies and business models.
 
-Для оценки возможностей «VibroBox» и перспектив дальнейшего сотрудничества по предложению руководителя проекта со стороны «CITIC Construction» [комплекс оборудования для сбора и передачи данных телеметрии «VibroBox»]({{<relref "technology.md#аппаратная_платформа_сервиса_vibrobox">}}) был установлен на технологическом оборудовании строящегося в г. Жодино завода [СЗАО «БЕЛДЖИ»](http://belgee.by/) – белорусско-китайского совместного предприятия по сборке легковых автомобилей марки Geely. Оценка технического состояния проводится для насосного и компрессорного оборудования китайского производства. Специалистам «CITIC Construction» предоставлен доступ к [облачному сервису]({{<demourl>}}) обработки данных телеметрии VibroBox и автоматически формируемым отчётам о техническом состоянии контролируемого оборудования. Результаты проводимой сервисом VibroBox диагностики специалисты CITIC Construction оценили как высоко информативные, отметив стабильность работы системы.
+"VibroBox" [system]({{<relref "technology.md#telemetry_sensors">}}) was installed on "[BELGEE](http://belgee.by/)" factory (Belarusian-Chinese joint venture to build "Geely" cars) in Zhodzina town to collect, transfer and analyze telemetry data. "VibroBox" capabilities have been demonstrated to evaluate a potential collaboration in the future. Vibration diagnostics was used on a pump and compressor equipment manufactured in China. "CITIC Construction" experts have accessed VibroBox [cloud]({{<demourl>}}) to analyze telemetry data and automatic reports about the technical condition of the evaluated equipment. CITIC Construction experts evaluated the results of diagnostics as highly informative and confirmed that the system worked consistently.
 
 {{% img src="/img/news/geely_davydov_vasukevich.jpg" %}}
-[Игорь Давыдов]({{<relref "team.md#igor_davydov">}}) и [Сергей Васюкевич]({{<relref "team.md#sergey_vasukevich">}}) объясняют [принцип работы]({{<relref "technology.md">}}) VibroBox и просматривают автоматически созданный [отчёт]({{<demourl>}}) о состоянии оборудования и подробные рекомендации по его обслуживанию.
+[Igor Davydov]({{<relref "team.md#igor_davydov">}}) and [Sergey Vasukevich]({{<relref "team.md#sergey_vasukevich">}}) explain [how VibroBox service works]({{<relref "technology.md">}}) and demonstrate the possibility to [see a detailed report]({{<demourl>}}) and recommendations about equipment's health right away.
 {{% /img %}}
 
 {{% img src="/img/news/geely_vibration_sensor_on_a_pump.jpg" %}}
-Датчик [вибрации]({{<relref "technology.md#датчики_для_съёма_вибрационного_сигнала_и_данных_телеметрии">}}), установленный на горизонтальный центробежный насос.
+[Vibration sensor]({{<relref "technology.md#telemetry_sensors">}}) mounted on a horizontal centrifugal pump.
 {{% /img %}}
 
-{{% img src="/img/news/geely_collecting_telemetry.jpg" %}}Система VibroBox в действии: сбор и отправка данных в облачный сервис для [полностью автоматической]({{<relref "technology.md">}}) диагностики.
+{{% img src="/img/news/geely_collecting_telemetry.jpg" %}}
+[Unmanned diagnostics]({{<relref "technology.md">}}) in action: collecting and sending telemetry data to the cloud service.
 {{% /img %}}
-
-[^1]: Системы управления предприятием включают в себя CMMS, MES, ERP и некоторые другие.
-[^2]: [CITIC Construction](http://construction.citic/en/into/index.html) — одно из подразделений китайского концерна [CITIC GROUP](http://www.group.citic/wps/portal)
-[^3]: [Engineering News-Record](http://www.enr.com/) — признанный журнал в области строительства и архитектуры.
-
