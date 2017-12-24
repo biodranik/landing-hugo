@@ -1,23 +1,23 @@
 <footer class="footer">
   <ul class="footer__nav">
     {{- $currentPage := . -}}
-    {{ range .Site.Menus.main }}
+    {{range .Site.Menus.main}}
     <li class="footer__nav-item">
-      <a class="footer__link" href="{{ .URL }}">
-        {{ .Name }}
+      <a class="footer__link" href="{{.URL}}">
+        {{.Name}}
       </a>
     </li>
-    {{ end }}
+    {{end}}
     <li class="footer__nav-item footer__nav-item--login">
-      <a class="footer__link footer__link--login" href="{{ .Language.Params.demourl }}" target="_blank">
-        {{ T "loginButton" }}
+      <a class="footer__link footer__link--login" href="{{.Language.Params.demourl}}" target="_blank">
+        {{T "loginButton"}}
       </a>
     </li>
   </ul>
   <p class="footer__copyright">
-    {{ .Site.Copyright }}
+    {{.Site.Copyright}}
   </p>
 </footer>
 <!-- Custom scripts files from pages (if any). -->
-{{- range $.Params.scripts }}<script src="{{ . }}"></script>{{ end }}
-{{ template "_internal/google_analytics_async.html" . }}
+{{- range $.Params.scripts}}<script src="{{.}}"></script>{{end}}
+{{template "_internal/google_analytics_async.html" .}}

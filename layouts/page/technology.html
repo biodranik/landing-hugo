@@ -2,17 +2,17 @@
 onload="scrollProgress.set({color: '#FF0000', height: '2px', bottom: false});"
 {{- end -}}
 
-{{ define "main" }}
+{{define "main"}}
 
 <section class="section technology">
-  <h1>{{ .Title }}</h1>
+  <h1>{{.Title}}</h1>
   <div class="content content__technology">
-    {{ .Content }}
+    {{.Content}}
   </div>
 </section> <!-- content -->
 
-{{ end }}
-{{ define "scripts" }}
+{{end}}
+{{define "scripts"}}
 <script>
   // Simple progress scroller script which is called from <body onload>.
   // See https://github.com/jeremenichelli/scrollProgress and
@@ -176,4 +176,4 @@ onload="scrollProgress.set({color: '#FF0000', height: '2px', bottom: false});"
     };
   });
 </script>
-{{ end }}
+{{end}}

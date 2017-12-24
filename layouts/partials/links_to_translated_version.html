@@ -1,10 +1,10 @@
 <!-- TODO: Link to the home page in the alternate language if the page is not translated. -->
-{{ if .IsTranslated }}
+{{if .IsTranslated}}
 <ul class="languages no-print">
-  {{- range .Translations }}
+  {{- range .Translations}}
   <li>
-    <a hreflang="{{ .Lang }}" href="{{ .Permalink }}" rel="alternate">{{ .Language.Title }}</a>
+    <a hreflang="{{.Lang}}" href="{{.Permalink}}" rel="alternate">{{.Language.Title}}</a>
   </li>
-  {{ end}}
+  {{end}}
 </ul>
-{{ end }}
+{{end}}

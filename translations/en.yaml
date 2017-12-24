@@ -17,7 +17,7 @@
 - id: error404details
   translation: "This is not a web page you are looking for."
 - id: goToHomePage
-  translation: "Go to {{ .Site.BaseURL }}"
+  translation: "Go to {{.Site.BaseURL}}"
 - id: metaDescriptionIndexPage
   translation: "Automatic vibration diagnostics service as a part of proactive (or prescriptive in contrast to predictive) maintenance. Our scientists are focused on wavelets, neural networks, fuzzy logic and other digital signal processing algorithms."
 - id: metaKeywordsIndexPage

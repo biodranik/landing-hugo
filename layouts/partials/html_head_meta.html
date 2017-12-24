@@ -1,12 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="copyright" content="{{ .Site.Copyright }}">
+<meta name="copyright" content="{{.Site.Copyright}}">
 <!-- Page description displayed by search engines in the results list. Visible part is around 260 chars.-->
-<meta name="description" content="{{ $.Param "description" }}">
+<meta name="description" content="{{$.Param "description"}}">
 <!-- These keywords are used by Yandex in some cases. -->
-{{- with $.Param "keywords" }}<meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end -}}
+{{- with $.Param "keywords"}}<meta name="keywords" content="{{range $i, $e := .}}{{if $i}}, {{end}}{{$e}}{{end}}">{{end -}}
 <!-- Outputs meta tag with hugo version used for site generation. -->
-{{ .Hugo.Generator }}
+{{.Hugo.Generator}}
 
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="icons/mstile-144x144.png?v=4">

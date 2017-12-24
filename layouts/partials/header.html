@@ -1,26 +1,26 @@
 <header class="header">
-  <a href="{{ .Site.BaseURL }}" class="logo"></a>
+  <a href="{{.Site.BaseURL}}" class="logo"></a>
 
-  {{ partial "links_to_translated_version.html" . }}
+  {{partial "links_to_translated_version.html" .}}
 
   <!-- Hidden checkbox is used for pure CSS toggle menu. -->
   <input type="checkbox" id="menu__trigger" class="menu__trigger" />
   <label class="no-print" for="menu__trigger">
-    {{ T "Menu" }}
+    {{T "Menu"}}
   </label>
 
   <ul class="menu no-print">
     {{- $currentPage := . -}}
-    {{ range .Site.Menus.main }}
+    {{range .Site.Menus.main}}
     <li class="menu__item">
-      <a class="menu__link{{ if $currentPage.IsMenuCurrent "main" . }} menu__link--selected{{end}}" href="{{ .URL }}">
-        {{ .Name }}
+      <a class="menu__link{{if $currentPage.IsMenuCurrent "main" .}} menu__link--selected{{end}}" href="{{.URL}}">
+        {{.Name}}
       </a>
     </li>
-    {{ end }}
+    {{end}}
     <li class="menu__item menu__item--login">
-      <a class="menu__link menu__link--login" href="{{ .Language.Params.demourl }}" target="_blank">
-        {{ T "loginButton" }}
+      <a class="menu__link menu__link--login" href="{{.Language.Params.demourl}}" target="_blank">
+        {{T "loginButton"}}
       </a>
     </li>
   </ul>

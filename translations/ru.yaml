@@ -41,7 +41,7 @@
 - id: error404details
   translation: "Это не та страница, которую вы ищете."
 - id: goToHomePage
-  translation: "Перейти на {{ .Site.BaseURL }}"
+  translation: "Перейти на {{.Site.BaseURL}}"
 - id: titleTeamPage
   translation: "Команда VibroBox: Учёные и инженеры из Минска."
 - id: menuTeamPage

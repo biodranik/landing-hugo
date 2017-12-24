@@ -1,16 +1,16 @@
-{{ define "main"}}
+{{define "main"}}
 <section class="section">
   <!-- Renders content/news/_index.md -->
-  {{ .Content }}
+  {{.Content}}
 </section>
 <section class="section">
   <ul class="newslist">
     <!-- Ranges through content/news/*.md -->
-    {{ range .Data.Pages -}}
+    {{range .Data.Pages -}}
     <li>
-      <a href="{{ .Permalink }}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+      <a href="{{.Permalink}}">{{partial "formatted_date" .}} | {{.Title}}</a>
     </li>
-    {{- end }}
+    {{- end}}
   </ul>
 </section>
-{{ end }}
+{{end}}

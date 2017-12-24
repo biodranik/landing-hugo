@@ -1,13 +1,13 @@
-{{ define "main" }}
+{{define "main"}}
 <section class="section">
   <h1>
-    {{ T "404pageH1" }}
+    {{T "404pageH1"}}
   </h1>
   <p class="preface">
-    {{ T "404pageText" }}
+    {{T "404pageText"}}
   </p>
   <p>
-    <a href="{{ .Site.BaseURL }}">&larr; {{ T "goToHomePage" . }}</a>
+    <a href="{{.Site.BaseURL}}">&larr; {{T "goToHomePage" .}}</a>
   </p>
 </section>
-{{ end }}
+{{end}}
