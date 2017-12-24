@@ -26,7 +26,7 @@ img { box-sizing: content-box; }
 
 body {
   color: $baseColor;
-  font-family: "San Francisco", -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
   letter-spacing: -0.02em;
   font-size: $baseFontSize;
   font-weight: normal;
