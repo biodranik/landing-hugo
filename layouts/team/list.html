@@ -1,0 +1,31 @@
+{{define "main"}}
+<section class="section team">
+  <!-- Renders content/team/_index.md -->
+  {{.Content}}
+</section>
+<section class="section">
+  <!-- Ranges through content/team/*.md -->
+  {{range .Data.Pages -}}
+  {{$name := .Title | markdownify -}}
+  {{$jobTitle := .Params.job_title | markdownify -}}
+  {{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
+  {{$imageSrc := printf "/img/team/%s.jpg" $underscoredName | relURL -}}
+  <div name="#{{lower $underscoredName}}" class="team-member">
+    <a href="{{.RelPermalink}}">
+      <img class="team-member__img" src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
+    </a>
+    <div class="team-member__description">
+      <h3 class="team-member__name">
+        {{$name}}
+      </h3>
+      <h4 class="team-member__title">
+        {{$jobTitle}}
+      </h4>
+      <div>
+        {{.Content}}
+      </div>
+    </div>
+  </div>
+  {{- end}}
+</section>
+{{end}}

@@ -1,5 +1,5 @@
-{{$name := .Get "name" -}}
-{{$underscoredName := delimit (split $name " ") "_" -}}
+{{$name := .Get "name" | markdownify -}}
+{{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
 {{$imageSrc := printf "/img/team/%s.jpg" $underscoredName -}}
 <div name="#{{lower $underscoredName}}" class="team-member">
   <img class="team-member__img" src="{{ relURL $imageSrc}}" alt="{{$name}}" title="{{$name}}" />
@@ -8,7 +8,7 @@
       {{$name}}
     </h3>
     <h4 class="team-member__title">
-      {{.Get "title"}}
+      {{.Get "title" | markdownify }}
     </h4>
     <div>
       {{.Inner}}
