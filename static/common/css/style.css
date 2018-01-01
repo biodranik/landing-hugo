@@ -44,10 +44,13 @@ h1 {
       font-size: 28.8px; } }
 
 p,
-ul,
 table {
   margin: 0;
   padding: 0; }
+
+ul {
+  margin: 0;
+  padding-left: 1em; }
 
 a {
   color: #0188c9;
@@ -898,3 +901,25 @@ html[lang=ru] .system-container__g-report:after {
   .content figcaption {
     text-align: center;
     font-style: italic; }
+
+.toc ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0; }
+
+.toc ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em; }
+
+.toc ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em; }
+
+.toc li ol > li {
+  margin: 0; }
+
+.toc li ol > li:before {
+  content: counters(item, ".") " "; }
