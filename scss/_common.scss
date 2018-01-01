@@ -59,10 +59,16 @@ h1 {
 }
 
 p,
-ul,
 table {
   margin: 0;
   padding: 0;
+}
+
+
+ul {
+  margin: 0;
+  // Zero padding visually breaks nested lists, they are aligned at the same level as the parent list.
+  padding-left: 1em;
 }
 
 a {
