@@ -238,18 +238,6 @@
   translation: "Данные карты © <a href='http://openstreetmap.org/'>OpenStreetMap</a> | Изображения © <a href='http://mapbox.com/'>Mapbox</a>"
 - id: contactsSocialNetworks
   translation: "Социальные сети:"
-- id: titleFaqPage
-  translation: "VibroBox: Часто задаваемые вопросы и ответы, помощь и справка."
-- id: metaDescriptionFaqPage
-  translation: "Для удобства, мы собрали часто задаваемые вопросы и ответы на них на этой странице. Пишите нам, если у вас остались вопросы."
-- id: metaKeywordsFaqPage
-  translation: "Вопросы, ответы, FAQ, ЧАВО, поддержка, помощь, справка, информация"
-- id: menuFaqPage
-  translation: "Вопросы и ответы"
-- id: faqTitle
-  translation: "Вопросы и ответы"
-- id: faqPreface
-  translation: "Возникли вопросы? У нас есть ответы! Пишите на <a href='mailto:info@vibrobox.com'>info@vibrobox.com</a>."
 - id: titleTechnologyPage
   translation: "Как именно технология VibroBox упреждает поломки оборудования и предоставляет детальные рекомендации?"
 - id: menuTechnologyPage

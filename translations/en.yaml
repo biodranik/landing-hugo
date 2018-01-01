@@ -204,18 +204,6 @@
   translation: "Map data © <a href='http://openstreetmap.org/'>OpenStreetMap</a> | Imagery © <a href='http://mapbox.com/'>Mapbox</a>"
 - id: contactsSocialNetworks
   translation: "Social networks:"
-- id: titleFaqPage
-  translation: "VibroBox: Frequently Asked Questions and Answers, help and support."
-- id: metaDescriptionFaqPage
-  translation: "Here you can find some frequently asked questions and answers. Please let us know if you need more information."
-- id: metaKeywordsFaqPage
-  translation: "questions, answers, FAQ, Q&A, help, support, information, frequently, asked"
-- id: menuFaqPage
-  translation: "Questions and Answers"
-- id: faqTitle
-  translation: "Questions and Answers"
-- id: faqPreface
-  translation: "Any questions? Email us at <a href='mailto:info@vibrobox.com'>info@vibrobox.com</a>."
 - id: metaDescriptionTechnologyPage
   translation: "The detailed and in-depth description of our vibration diagnostics technology. Which algorithms are used for digital signal processing? How wavelets and kinematic scheme are used to extract exact defects from vibration? How to apply machine learning?"
 - id: titleTechnologyPage
