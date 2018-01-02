@@ -18,7 +18,7 @@
 
   <section class="section news__section">
     <ul>
-      {{range (.Site.GetPage "section" "news").Pages.ByDate}}
+      {{range (.Site.GetPage "section" .Site.Params.news_section).Pages.ByDate}}
       <li>
         <time class="newsDate" datetime="{{.Date}}" itemprop="datePublished">
           {{- partial "formatted_date" . -}}

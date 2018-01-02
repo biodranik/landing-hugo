@@ -47,6 +47,8 @@ Please see already existing pages for examples.
 
 ### Page's front matter variables
 
+- `image` or `images` Relative or absolute URL(s) to related image(s), used as a preview for sharing.
+- `video` or `videos` Relative or absolute URL(s) to related video(s).
 - `private: true` Do not expose page to search engines (useful for internal use).
 
 ## Under the hood

@@ -15,6 +15,47 @@
 {{if .Params.private -}}
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="same-origin">
-{{else}}
+{{else -}}
 <meta name="referrer" content="unsafe-url">
+{{- end}}
+
+<!-- Required Open Graph Info -->
+<meta property="og:title" content="{{.Title}}">
+{{with .Params.image -}}
+<meta property="og:image" content="{{if hasPrefix . "http"}}{{.}}{{else}}{{. | absURL}}{{end}}">
+{{end -}}
+{{with .Params.images}}{{range first 6 . -}}
+<meta property="og:image" content="{{if hasPrefix . "http"}}{{.}}{{else}}{{. | absURL}}{{end}}">
+{{end}}{{end -}}
+<meta property="og:url" content="{{.Permalink}}">
+<!-- Optional Open Graph Info -->
+<meta property="og:description" content="{{if .Description}}{{.Description}}{{else}}{{.Summary}}{{end}}">
+<meta property="og:locale" content="{{.Site.Params.locale}}">
+{{with .Params.video}}
+<meta property="og:video" content="{{.}}">
+{{end}}
+{{with .Params.videos}}{{range .}}
+<meta property="og:video" content="{{.}}">
+{{end}}{{end}}
+{{if eq .Type .Site.Params.news_section}}
+<!-- Required Open Graph Info -->
+<meta property="og:type" content="article">
+<!-- Article Open Graph Info (for news) -->
+{{with .ExpiryDate}}<meta property="article:expiration_time" content="{{.}}">{{end}}
+{{with .PublishDate}}<meta property="article:published_time" content="{{.}}">{{end}}
+{{with .Lastmod}}<meta property="article:modified_time" content="{{.}}">{{end}}
+{{with .Site.Params.facebook_author_profile -}}
+<meta property="article:author" content="{{.}}">
+<meta property="article:publisher" content="{{.}}">
+{{end -}}
+<meta property="article:section" content="{{.Section | humanize}}">
+{{with .Params.keywords}}{{range first 6 . -}}
+<meta property="article:tag" content="{{.}}">
+{{end}}{{end -}}
+{{else if eq .Type .Site.Params.team_section}}
+<!-- Profile Open Graph Info (for our team) -->
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="{{index (split .Title " " | first 1) 0}}">
+<meta property="profile:last_name" content="{{index (split .Title " " | last 1) 0}}">
+<meta property="profile:gender" content="{{if in .Title "Yaraslava"}}female{{else}}male{{end}}">
 {{end}}

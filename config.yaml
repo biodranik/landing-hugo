@@ -27,11 +27,19 @@ BlackFriday:
 Permalinks:
   news: /news/:year/:month/:slug/
 
+# The name of the news section, used in templates and in Open Graph.
+# Can be localized when hugo will support localized section names.
+Params:
+  news_section: news
+  team_section: team
+  facebook_author_profile: https://www.facebook.com/VibroBox
+
 Languages:
   en:
     Weight: 1
     LanguageName: English
     LanguageCode: en
+    locale: en_US
     Title: In English
     GoogleAnalytics: UA-79782596-1
     Copyright: © 2018 VibroBox OÜ
@@ -45,6 +53,7 @@ Languages:
     Weight: 2
     LanguageName: Русский
     LanguageCode: ru
+    locale: ru_RU
     Title: На русском
     GoogleAnalytics: UA-79782596-2
     BlackFriday:
