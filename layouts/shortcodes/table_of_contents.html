@@ -3,7 +3,7 @@ This is a hack to remove excess <ul> from <h1>.-->
 {{$regex := "<nav id=\"TableOfContents\">\n*<ul>\n*<li>(<a href=.*</a>|)((?s).*)</li>\n*</ul>\n*</nav>"}}
 {{$withoutH1 := replaceRE $regex "$2" .Page.TableOfContents}}
 <!-- Convert unnumbered list to a numbered one if shortcode has at least one parameter -->
-<nav class="toc">{{if len .Params}}
+<nav class="numberedSublist">{{if len .Params}}
 {{replaceRE "<ul>" "<ol>" $withoutH1 | replaceRE "</ul>" "</ol>" | safeHTML}}
 {{else}}
 {{$withoutH1 | safeHTML}}
