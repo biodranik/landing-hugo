@@ -34,7 +34,7 @@ Languages:
     LanguageCode: en
     Title: In English
     GoogleAnalytics: UA-79782596-1
-    Copyright: © 2017 VibroBox OÜ
+    Copyright: © 2018 VibroBox OÜ
     Description: TODO Default English description
     Keywords: [TODO, default, keywords]
     StaticDir2: static/en
@@ -49,7 +49,7 @@ Languages:
     GoogleAnalytics: UA-79782596-2
     BlackFriday:
       angledQuotes: true
-    Copyright: © 2017 VibroBox
+    Copyright: © 2018 VibroBox
     Description: TODO Описание страницы на русском по-умолчанию, для всего сайта
     Keywords: [TODO, ключевые, слова, по-умолчанию]
     StaticDir2: static/ru
