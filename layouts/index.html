@@ -18,17 +18,16 @@
 
   <section class="section news__section">
     <ul>
-      <?php foreach ($newsItems as $news) : ?>
+      {{range (.Site.GetPage "section" "news").Pages.ByDate}}
       <li>
-        <time class="newsDate" datetime="<?= $news['date'] ?>" itemprop="datePublished">
-          <?= (new DateTime($news['date']))->format(T(NEWS_DATE_FORMAT)) ?>
+        <time class="newsDate" datetime="{{.Date}}" itemprop="datePublished">
+          {{- partial "formatted_date" . -}}
         </time>
-        <a href="<?= URL($news['link']) ?>">
-          <?= $news['title'] ?>
+        <a href="{{.RelPermalink}}">
+          {{.Title}}
         </a>
       </li>
-      <?php endforeach; ?>
-
+      {{end}}
     </ul>
   </section>
 
