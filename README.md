@@ -38,6 +38,17 @@ To create new localized */pagename* on the site you need:
 
 Please see already existing pages for examples.
 
+## Usage
+
+### Shortcodes
+
+- `{{<date>}}` Inserts properly formatted `<time>` tag with a date from the front matter (or last page modification date).
+- `{{<date "inline">}}` Inserts date only, without any additional HTML.
+
+### Page's front matter variables
+
+- `private: true` Do not expose page to search engines (useful for internal use).
+
 ## Under the hood
 Proposed workflow uses gh-pages branch in the repository to serve static pages. It is also possible to use *docs* folder from the *master* branch to publish web site. To do that you need to remove *docs* folder from *.gitignore* and change your GitHub Pages repository settings.
 
