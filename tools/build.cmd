@@ -6,14 +6,14 @@ REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 SETLOCAL
 
 SET tools_dir=%~dp0
-REM Project root directory without slash at the end.
+REM Project root directory without a slash at the end.
 SET root=%tools_dir%..
 SET bin=%root%\bin
 
 for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
 
 REM Building scss.
-CALL %tools_dir%\sassc.cmd
+CALL %tools_dir%sassc.cmd
 REM Exit script if error has happened in sassc.cmd.
 IF %errorlevel% NEQ "" (
     EXIT /B 1
