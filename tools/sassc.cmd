@@ -9,6 +9,8 @@ SET tools_dir=%~dp0
 REM Project root directory without slash at the end.
 SET root=%tools_dir%..
 SET bin=%root%\bin
+REM Normalize full path by removing dots. Sassc does not like them.
+FOR /F "delims=" %%F IN ("%root%") DO SET "root=%%~fF"
 
 for %%f in (%bin%\sassc*%PROCESSOR_ARCHITECTURE%.exe) do SET sassc=%%f
 
