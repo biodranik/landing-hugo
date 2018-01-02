@@ -1,10 +1,9 @@
 ---
 date: 2018-01-02
-title: Privacy Statement Policy
-description: Our web site privacy policy.
+title: Privacy Policy
+description: Our web site privacy policy
 keywords: "privacy, policy"
 ---
-
 # Privacy Policy
 
 *Last update: {{<date "inline">}}*
@@ -14,15 +13,15 @@ keywords: "privacy, policy"
 ## Background
 
 This Policy applies as between you, the User of this Website and VibroBox OÜ, the owner
-and provider of this Website. This Policy applies to our use of any and all Data collected by
-us about your use of the Website.
+and provider of this Website.
+This Policy applies to our use of any and all Data collected by us about your use of the Website.
 
 1. ### Definitions and Interpretation
 
     In this Policy the following terms shall have the following meanings:
 
     **“Data”** means collectively all information that you submit to the VibroBox OÜ via the Website.
-    This definition shall, where applicable, incorporate the definitions provided in the Data Protection Act 1998;
+    This definition shall, where applicable, incorporate the definitions provided in the EU Directive 95/46/EC;
 
     **“Cookie”** means a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use specific features of the Website.
     Details of the cookies used on this Website are set out in Clause 12;
@@ -59,7 +58,7 @@ us about your use of the Website.
     1. Any personal Data you submit will be retained by VibroBox for 24 months.
     2. Unless we are obliged or permitted by law to do so, and subject to Clause 5, your Data will not be disclosed to third parties.
     This includes our affiliates and/or other companies within our group.
-    3. All personal Data is stored securely by the principles of the Data Protection Act 1998. For more details on security see Clause 11 below.
+    3. All personal Data is stored securely by the principles of the EU Directive 95/46/EC. For more details on security see Clause 11 below.
     4. Any or all of the above Data may be required by us from time to time to provide you with the best possible service and experience when using our Website.
     Specifically, Data may be used by us for the following reasons:
         1. internal record keeping;
@@ -74,7 +73,7 @@ us about your use of the Website.
     The providers of such services have access to certain personal Data provided by Users of this Website.
     2. Any Data used by such parties is used only to the extent required by them to perform the services that VibroBox requests.
     Any use for other purposes is strictly prohibited.
-    Furthermore, any Data that is processed by third parties shall be processed within the terms of this Policy and by the Data Protection Act 1998.
+    Furthermore, any Data that is processed by third parties shall be processed within the terms of this Policy and by the EU Directive 95/46/EC.
 
 6. ### Links to Other Websites
 
