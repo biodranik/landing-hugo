@@ -11,3 +11,10 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="icons/mstile-144x144.png?v=4 | relURL">
 <meta name="theme-color" content="#ffffff">
+
+{{if .Params.private -}}
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="referrer" content="same-origin">
+{{else}}
+<meta name="referrer" content="unsafe-url">
+{{end}}
