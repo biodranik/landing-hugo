@@ -4,12 +4,13 @@
 <link href="{{.Permalink}}" hreflang="{{.Lang}}" rel="alternate">
 {{end -}}
 {{end}}<!-- if .Site.IsMultiLingual -->
-<link rel="icon" type="image/x-icon" href="{{"favicon.ico" | relURL}}">
+
 <link rel="stylesheet" type="text/css" href="{{"css/style.css" | relURL}}">
 <!-- Custom css files from pages (if any). -->
 {{- range $.Params.css -}}
 <link rel="stylesheet" type="text/css" href="{{. | relURL}}" />
 {{end -}}
+
 <!-- Favicon section. TODO: Automatically change ?v=4 if resources have changed. -->
 <link rel="apple-touch-icon" href="{{"icons/apple-touch-icon.png?v=4" | relURL}}">
 <link rel="apple-touch-icon" sizes="60x60" href="{{"icons/apple-touch-icon-60x60.png?v=4" | relURL}}">
@@ -23,4 +24,5 @@
 <link rel="icon" type="image/png" sizes="512x512" href="{{"icons/android-chrome-512x512.png?v=4" | relURL}}">
 <link rel="manifest" href="{{"icons/manifest.json?v=4" | relURL}}">
 <link rel="mask-icon" href="{{"icons/safari-pinned-tab.svg?v=4" | relURL}}" color="#5bbad5">
-<link rel="shortcut icon" href="{{"icons/favicon.ico?v=4" | relURL}}">
+<link rel="shortcut icon" href="{{"favicon.ico?v=4" | relURL}}">
+<link rel="icon" type="image/x-icon" href="{{"favicon.ico?v=4" | relURL}}">
