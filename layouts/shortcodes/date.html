@@ -1,2 +1,6 @@
 <!-- TODO: Make more generic, rename class to the itemprop value. -->
+{{if eq (.Get 0) "inline"}}
+  {{- partial "formatted_date.html" .Page -}}
+{{else -}}
 <time class="publicationDate" datetime="{{.Page.Date.Format "2006-01-02T03:04:05MST"}}" itemprop="datePublished">{{partial "formatted_date.html" .Page}}</time>
+{{- end}}
