@@ -3,18 +3,16 @@
 {{$jobTitle := .Params.job_title | markdownify -}}
 {{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
 {{$imageSrc := printf "/img/team/%s.jpg" $underscoredName | relURL -}}
-<div name="#{{lower $underscoredName}}" class="team-member">
-  <img class="team-member__img" src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
-  <div class="team-member__description">
-    <h3 class="team-member__name">
-      {{$name}}
-    </h3>
-    <h4 class="team-member__title">
-      {{$jobTitle}}
-    </h4>
-    <div>
+<section name="#{{lower $underscoredName}}" class="section">
+  <h1>{{$name}}</h1>
+  <div class="teammate__job-title">{{$jobTitle}}</div>
+  <div class="teammate__container">
+    <div class="teammate__img">
+      <img src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
+    </div>
+    <div class="teammate__description">
       {{.Content}}
     </div>
   </div>
-</div>
+</section>
 {{end}}

@@ -16,7 +16,10 @@ REM Building scss.
 CALL %tools_dir%sassc.cmd
 REM Exit script if error has happened in sassc.cmd.
 IF %errorlevel% NEQ "" (
-    EXIT /B 1
+    IF %errorlevel% NEQ 0 (
+        ECHO "Command exited with errorlevel=%errorlevel%"
+        EXIT /B 1
+    )
 )
 
 ECHO Running hugo ...
