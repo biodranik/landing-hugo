@@ -15,7 +15,7 @@ for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
 for %%f in (%bin%\*fswatch*%PROCESSOR_ARCHITECTURE%.exe) do SET fswatch=%%f
 
 REM Launch hugo web server in background.
-START "" /B %hugo% server -s %root% || ECHO ERROR while launching %hugo% server. && EXIT /B 1
+START "" /B %hugo% server -s %root% --quiet --disableFastRender || ECHO ERROR while launching %hugo% server. && EXIT /B 1
 
 REM Rebuild scss on the launch once and watch for any scss directory changes indefinitely.
 :loop

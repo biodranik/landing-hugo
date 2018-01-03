@@ -28,7 +28,7 @@ FSWATCH_BINARY="$BIN/fswatch"
 trap 'kill 0' EXIT
 
 # Run hugo in the background. It automatically rebuilds the site on any css changes.
-"$HUGO_BINARY" server -s "$ROOT" --quiet &
+"$HUGO_BINARY" server -s "$ROOT" --quiet --disableFastRender &
 
 # Build css.
 source "$SCRIPT_DIR/sassc.sh"
