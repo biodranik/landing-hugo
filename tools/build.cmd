@@ -13,14 +13,7 @@ SET bin=%root%\bin
 for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
 
 REM Building scss.
-CALL %tools_dir%sassc.cmd
-REM Exit script if error has happened in sassc.cmd.
-IF %errorlevel% NEQ "" (
-    IF %errorlevel% NEQ 0 (
-        ECHO "Command exited with errorlevel=%errorlevel%"
-        EXIT /B 1
-    )
-)
+CALL %tools_dir%sassc.cmd || ECHO "Command sassc.cmd exited with error" && EXIT /B 1
 
 ECHO Running hugo ...
 %hugo% -s %root% --cleanDestinationDir=true || ECHO ERROR while launching %hugo%. && EXIT /B 1
