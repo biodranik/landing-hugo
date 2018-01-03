@@ -9,7 +9,8 @@
   {{$name := .Title | markdownify -}}
   {{$jobTitle := .Params.job_title | markdownify -}}
   {{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
-  {{$imageSrc := printf "/img/team/%s" .Params.img | relURL -}}
+  {{$imgName := delimit (split (plainify .File.TranslationBaseName) " ") "_" -}}
+  {{$imageSrc := printf "/img/team/%s.jpg" $imgName | relURL -}}
   <div name="#{{lower $underscoredName}}" class="teammate-sm">
       <img src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
       <div class="teammate-sm__title">

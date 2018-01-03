@@ -2,7 +2,6 @@
 title: Yury Aslamov
 job_title: Senior researcher, Master of Science, M.Sc., Ph.D. Student
 weight: 20
-img: Yury_Aslamov.jpg
 ---
 Yury graduated from the Belarusian State University of Informatics and Radioelectronics (BSUIR) in 2015 with a degree in “Radio-Electronic Systems” of the Radio Engineering and Electronics Department and also holds a Master's degree in technical sciences. He is currently engaged in scientific work as part of a postgraduate course at BSUIR majoring in “Mathematical support and software for computing machines, systems and computer networks”, Information Technology Software Division, Computer Networks and Systems Department.
 
