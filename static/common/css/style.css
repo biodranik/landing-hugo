@@ -778,52 +778,82 @@ html[lang=ru] .system-container__g-report:after {
   html[lang=ru] .system-container__g-report:after {
     top: auto; } }
 
-.team-container {
-  padding-top: 3rem;
+.team-preface p {
+  font-size: 20px;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .team-preface p {
+      font-size: 18px; } }
+
+.team {
   display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap; }
-
-.content__publications {
-  padding: 0 2px; }
-  .content__publications p {
-    font-weight: bold;
-    text-align: center; }
-
-.team-member {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1.5rem; }
+  flex-flow: row wrap;
+  justify-content: space-around; }
   @media (max-width: 425px) {
-    .team-member {
-      padding: 0; } }
-  .team-member__img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem; }
+    .team {
+      flex-direction: column; } }
+  .team .teammate-sm {
+    width: 33.333%;
+    min-height: 590px;
+    padding: 14px; }
     @media (max-width: 768px) {
-      .team-member__img {
-        width: 140px;
-        height: 140px; } }
-  .team-member__description p {
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    text-align: justify;
-    margin-bottom: 0.5rem; }
-  .team-member__name {
-    margin-bottom: 0.5rem;
-    font-weight: bold; }
-  .team-member__title {
-    margin-bottom: 0.5rem;
-    font-weight: bold; }
+      .team .teammate-sm {
+        width: 50%; } }
+    @media (max-width: 425px) {
+      .team .teammate-sm {
+        width: 100%; } }
+    .team .teammate-sm img {
+      width: 100%; }
+    .team .teammate-sm__title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-align: center; }
+    .team .teammate-sm__job-title {
+      text-align: center;
+      font-size: 1.1rem; }
+
+@media (max-width: 425px) {
+  .teammate {
+    flex-direction: column; } }
+
+.teammate__job-title {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 28px; }
+
+.teammate__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  @media (max-width: 768px) {
+    .teammate__container {
+      flex-direction: column; } }
+
+.teammate__img {
+  width: 50%;
+  padding: 14px;
+  text-align: center; }
+  @media (max-width: 768px) {
+    .teammate__img {
+      width: 100%; } }
+  .teammate__img img {
+    max-width: 100%; }
+    @media (max-width: 768px) {
+      .teammate__img img {
+        max-width: 70%; } }
+
+.teammate__description {
+  width: 50%;
+  min-height: 1px;
+  padding: 14px; }
+  @media (max-width: 768px) {
+    .teammate__description {
+      width: 100%; } }
+  .teammate__description p {
+    line-height: 28px;
+    margin-bottom: 28px;
+    text-align: left; }
 
 .content__faq h2 {
   border-top: 2px solid #eee;
