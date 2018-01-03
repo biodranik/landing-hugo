@@ -2,7 +2,6 @@
 title: Alexander Borsuk
 job_title: Founding Investor, cofounder of [MAPS.ME](https://maps.me/ "Offline maps for iPhone and Android")
 weight: 10
-img: Alexander_Borsuk.jpg
 ---
 Alexander graduated from the Belarusian State University of Informatics and Radioelectronics in 2004 majoring in “Computing Machines, Systems and Networks” of the Computer Systems and Networks Department.
 

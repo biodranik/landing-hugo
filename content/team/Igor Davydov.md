@@ -2,7 +2,6 @@
 title: Igor Davydov
 job_title: Founder, CEO, Ph.D., Associate Professor
 weight: 1
-img: Igor_Davydov.jpg
 ---
 Igor graduated from the Belarusian State University of Informatics and Radioelectronics (BSUIR) in 2002 with a degree in 'Radio Engineering Systems' of the Radio Engineering and Electronics Department, after which he entered post-graduate studies. His thesis titled “Ball bearing qualimetry system based on vibration signal analysis” was dedicated to promising methods of vibration signal analysis and was done in close cooperation with the testing laboratory of the Minsk Bearing Plant and the “Podshipnik” Research Institute. The defense of the thesis was held in 2006 in the Doctoral Council for Defending Dissertations D 02.05.13 at the Belarusian National Technical University.
 

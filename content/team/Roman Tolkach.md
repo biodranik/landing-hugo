@@ -2,7 +2,6 @@
 title: Roman Tolkach
 job_title: Research engineer, Master's Degree student
 weight: 50
-img: Roman_Tolkach.jpg
 ---
 Roman is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-electronic Information Protection” of the Radio Engineering and Electronics Department.
 
