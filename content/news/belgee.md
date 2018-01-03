@@ -28,7 +28,7 @@ For many years "[CITIC Construction](http://construction.citic/en/into/index.ht
 "VibroBox" [system]({{<relref "technology.md#telemetry_sensors">}}) was installed on "[BELGEE](http://belgee.by/)" factory (Belarusian-Chinese joint venture to build "Geely" cars) in Zhodzina town to collect, transfer and analyze telemetry data. "VibroBox" capabilities have been demonstrated to evaluate a potential collaboration in the future. Vibration diagnostics was used on a pump and compressor equipment manufactured in China. "CITIC Construction" experts have accessed VibroBox [cloud]({{<demourl>}}) to analyze telemetry data and automatic reports about the technical condition of the evaluated equipment. CITIC Construction experts evaluated the results of diagnostics as highly informative and confirmed that the system worked consistently.
 
 {{% img src="/img/news/geely_davydov_vasukevich.jpg" %}}
-[Igor Davydov]({{<relref "team/Igor Davydov.md">}}) and [Sergey Vasukevich]({{<relref "team/Sergey Vasukevich.md">}}) explain [how VibroBox service works]({{<relref "technology.md">}}) and demonstrate the possibility to [see a detailed report]({{<demourl>}}) and recommendations about equipment's health right away.
+[Igor Davydov]({{<relref "Igor Davydov.md">}}) and [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) explain [how VibroBox service works]({{<relref "technology.md">}}) and demonstrate the possibility to [see a detailed report]({{<demourl>}}) and recommendations about equipment's health right away.
 {{% /img %}}
 
 {{% img src="/img/news/geely_vibration_sensor_on_a_pump.jpg" %}}
