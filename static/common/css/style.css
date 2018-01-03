@@ -839,9 +839,6 @@ html[lang=ru] .system-container__g-report:after {
       width: 100%; } }
   .teammate__img img {
     max-width: 100%; }
-    @media (max-width: 768px) {
-      .teammate__img img {
-        max-width: 70%; } }
 
 .teammate__description {
   width: 50%;
