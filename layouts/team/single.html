@@ -2,8 +2,7 @@
 {{$name := .Title | markdownify -}}
 {{$jobTitle := .Params.job_title | markdownify -}}
 {{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
-{{$imgName := delimit (split (plainify .File.TranslationBaseName) " ") "_" -}}
-{{$imageSrc := printf "/img/team/%s.jpg" $imgName | relURL -}}
+{{$imageSrc := printf "/img/team/%s.jpg" .File.TranslationBaseName | relURL -}}
 <section name="#{{lower $underscoredName}}" class="section">
   <h1>{{$name}}</h1>
   <div class="teammate__job-title">{{$jobTitle}}</div>
