@@ -8,8 +8,8 @@ menu:
     name: Главная
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
-  imageWidth: 1200
-  imageHeight: 700
+  image_width: 1200
+  image_height: 700
 ---
 Полностью *автоматический* сервис диагностики, оценки технического состояния и детальных рекомендаций по обслуживанию производственного и технологического оборудования.
 

@@ -8,8 +8,8 @@ menu:
     name: Home
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
-  imageWidth: 1200
-  imageHeight: 700
+  image_width: 1200
+  image_height: 700
 ---
 VibroBox is NOT an “old-school” predictive maintenance or condition monitoring system. We call it *prescriptive* or *proactive* diagnostics for Industry 4.0 and IIoT.
 
