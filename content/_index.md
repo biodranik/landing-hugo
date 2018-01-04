@@ -1,9 +1,36 @@
 ---
-title: homePageTitle
+title: VibroBox — condition monitoring, vibration analysis and diagnostics.
+description: Automatic vibration diagnostics service as a part of proactive (or prescriptive in contrast to predictive) maintenance. Our scientists are focused on wavelets, neural networks, fuzzy logic and other digital signal processing algorithms.
+keywords: 
+- VibroBox
+- prescriptive
+- proactive
+- predictive
+- estimation
+- condition
+- monitoring
+- equipment
+- vibro
+- diagnostics
+- vibrodiagnostics
+- vibration
+- prediction
+- maintenance
+- neural
+- networks
+- wavelets
+- fuzzy
+- logic
+- IIoT
+- industry
 menu:
   main:
     weight: -100
     name: Home
+share:
+  image: img/meta/VibroBox_and_vibration_sensor.jpg
+  imageWidth: 1200
+  imageHeight: 700
 ---
 
 VibroBox is NOT an “old-school” predictive maintenance or condition monitoring system. We call it *prescriptive* or *proactive* diagnostics for Industry 4.0 and IIoT.
