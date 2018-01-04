@@ -1,7 +1,13 @@
 ---
 title: Alexander Borsuk
-job_title: Founding Investor, cofounder of [MAPS.ME](https://maps.me/ "Offline maps for iPhone and Android")
+job_title: Founding Investor, co-founder of [MAPS.ME](https://maps.me/ "Offline maps for iPhone and Android")
+description: Alexander invested his money, ideas and experience in VibroBox to help Dr. Davydov bring the project up to the international level and gain experience in the fields of digital signal processing, machine learning and science in general.
+keywords: Alexander Borsuk, Founding Investor, co-founder of MAPS.ME, VibroBox
 weight: 10
+share:
+  image: img/team/Alexander Borsuk.jpg
+  image_width: 400
+  image_height: 575
 ---
 Alexander graduated from the Belarusian State University of Informatics and Radioelectronics in 2004 majoring in “Computing Machines, Systems and Networks” of the Computer Systems and Networks Department.
 

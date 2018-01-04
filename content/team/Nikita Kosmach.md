@@ -1,7 +1,13 @@
 ---
 title: Nikita Kosmach
 job_title: Research engineer, Master's Degree student
+description: Nikita has practical experience in designing and simulating digital receiver-transmitter devices, as well as devices for processing and analysing RF signals.
+keywords: Nikita Kosmach, Research engineer, Master's Degree student, VibroBox
 weight: 50
+share:
+  image: img/team/Nikita Kosmach.jpg
+  image_width: 400
+  image_height: 575
 ---
 Nikita is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-Electronic Information Protection” of the Radio Engineering and Electronics Department.
 

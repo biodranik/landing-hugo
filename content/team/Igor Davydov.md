@@ -1,7 +1,13 @@
 ---
 title: Igor Davydov
 job_title: Founder, CEO, Ph.D., Associate Professor
+description: Mr. Davydov is an expert in digital signal processing, machine learning, and decision-making systems. He has extensive experience in research and development, especially in the development and implementation of vibration-based condition monitoring systems.
+keywords: Igor Davydov, Founder, CEO, Ph.D., Associate Professor, VibroBox
 weight: 1
+share:
+  image: img/team/Igor Davydov.jpg
+  image_width: 400
+  image_height: 575
 ---
 Igor graduated from the Belarusian State University of Informatics and Radioelectronics (BSUIR) in 2002 with a degree in 'Radio Engineering Systems' of the Radio Engineering and Electronics Department, after which he entered post-graduate studies. His thesis titled “Ball bearing qualimetry system based on vibration signal analysis” was dedicated to promising methods of vibration signal analysis and was done in close cooperation with the testing laboratory of the Minsk Bearing Plant and the “Podshipnik” Research Institute. The defense of the thesis was held in 2006 in the Doctoral Council for Defending Dissertations D 02.05.13 at the Belarusian National Technical University.
 

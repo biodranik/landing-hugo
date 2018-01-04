@@ -1,7 +1,13 @@
 ---
 title: Artem Bourak
 job_title: Research engineer, Master's Degree student
+description: As part of the VibroBox team, Artem is responsible for researching expert analysis and interpreting acoustic and vibration signals to address the challenges of vibration diagnostics and medicine.
+keywords: Artem Bourak, Research engineer, Master's Degree student, VibroBox
 weight: 50
+share:
+  image: img/team/Artem Bourak.jpg
+  image_width: 400
+  image_height: 575
 ---
 Artem is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radioinformatics”, Radio Engineering and Electronics Department.
 
