@@ -39,16 +39,51 @@
       {{T "systemPreface"}}
     </p>
     <div class="system-container">
-      <?php foreach ($solutionSectionItems as $item) : ?>
-      <div class="system-container__item  <?= $item['css'] ?> ">
-        <h3 class="system-container__title system-icon <?= $item['icon'] ?>">
-          <?= $item['title'] ?>
+      <div class="system-container__item system-container__equipment">
+        <h3 class="system-container__title system-icon system-icon__equipment">
+          {{T "systemEquipmentTitle"}}
         </h3>
         <p class="system-container__text">
-          <?= $item['description'] ?>
+          {{T "systemEquipmentDescription"}}
         </p>
       </div>
-      <?php endforeach; ?>
+
+      <div class="system-container__item system-container__transfer">
+        <h3 class="system-container__title system-icon system-icon__transfer">
+          {{T "systemTransferTitle"}}
+        </h3>
+        <p class="system-container__text">
+          {{T "systemTransferDescription"}}
+        </p>
+      </div>
+
+      <div class="system-container__item system-container__processing">
+        <h3 class="system-container__title system-icon system-icon__processing">
+          {{T "systemProcessingTitle"}}
+        </h3>
+        <p class="system-container__text">
+          {{T "systemProcessingDescription"}}
+        </p>
+      </div>
+
+      <div class="system-container__item system-container__g-report">
+        <h3 class="system-container__title system-icon system-icon__g-report">
+          {{T "systemGReportTitle"}}
+        </h3>
+        <p class="system-container__text">
+          {{T "systemGReportDescription"}}
+        </p>
+      </div>
+
+      <div class="system-container__item system-container__u-report">
+        <h3 class="system-container__title system-icon system-icon__u-report">
+          {{T "systemUReportTitle"}}
+        </h3>
+        <p class="system-container__text">
+          {{T "systemUReportDescription"}}
+        </p>
+      </div>
+      
     </div>
   </section>
 
@@ -57,23 +92,55 @@
       {{T "plusTitle"}}
     </h2>
     <div class="plus-container">
-      <?php foreach ($plusSectionItems as $item) : ?>
       <div class="plus-container__item">
-        <h3 class="plus-container__title plus-icon <?= $item['icon'] ?>">
+        <h3 class="plus-container__title plus-icon plus-icon__automatic">
           <span>
-            <?= $item['title'] ?>
+            {{T "plusAutomaticSystemTitle"}}
           </span>
         </h3>
         <p class="plus-container__text">
-          <?= $item['description'] ?>
+          {{T "plusAutomaticSystemDescription"}}
         </p>
       </div>
-      <?php endforeach; ?>
+
+      <div class="plus-container__item">
+        <h3 class="plus-container__title plus-icon plus-icon__economy">
+          <span>
+            {{T "plusEconomyTitle"}}
+          </span>
+        </h3>
+        <p class="plus-container__text">
+          {{T "plusEconomyDescription"}}
+        </p>
+      </div>
+
+      <div class="plus-container__item">
+        <h3 class="plus-container__title plus-icon plus-icon__availability">
+          <span>
+            {{T "plusAvailabilityTitle"}}
+          </span>
+        </h3>
+        <p class="plus-container__text">
+          {{T "plusAvailabilityDescription"}}
+        </p>
+      </div>
+
+      <div class="plus-container__item">
+        <h3 class="plus-container__title plus-icon plus-icon__simplicity">
+          <span>
+            {{T "plusSimplicityTitle"}}
+          </span>
+        </h3>
+        <p class="plus-container__text">
+          {{T "plusSimplicityDescription"}}
+        </p>
+      </div>
+
     </div>
   </section>
 
   <section class="preface">
-    <a class="actionButton" href="<?= URL('technology.php') ?>">
+    <a class="actionButton" href="{{ref . "technology.md"}}">
       <p>
         {{T "bottomIndexTechButton"}}
       </p>

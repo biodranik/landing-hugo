@@ -1,7 +1,7 @@
 ---
 title: Our team of scientists and engineers.
 description: Igor Davydov, Ph.D. in vibration diagnostics, is leading our scientists and hardware engineers. Alexander Borsuk helps our software engineers to scale world wide with his MAPS.ME experience.
-keywords: team, VibroBox, Minsk, Belarus, scientists, engineers, vibrodiagnosts, DSP, hardware
+keywords: team VibroBox Minsk Belarus scientists engineers vibrodiagnosts DSP hardware
 menu:
   main:
     weight: 20
