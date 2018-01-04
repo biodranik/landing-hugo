@@ -2,7 +2,7 @@
 date: 2018-01-02
 title: Privacy Policy
 description: Our web site privacy policy
-keywords: "privacy, policy"
+keywords: privacy, policy
 ---
 # Privacy Policy
 

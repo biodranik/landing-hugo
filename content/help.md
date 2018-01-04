@@ -1,7 +1,7 @@
 ---
 title: Questions and answers (FAQ), help and support.
 description: Here you can find some frequently asked questions and answers. Please let us know if you need help or more information.
-keywords: "questions, answers, FAQ, Q&A, help, support, information, frequently, asked"
+keywords: questions, answers, FAQ, Q&A, help, support, information, frequently, asked
 menu:
   main:
     weight: 30

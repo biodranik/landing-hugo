@@ -4,7 +4,7 @@
 <!-- Page description displayed by search engines in the results list. Visible part is around 260 chars.-->
 <meta name="description" content="{{$.Param "description"}}">
 <!-- These keywords are used by Yandex in some cases. -->
-{{- with $.Param "keywords"}}<meta name="keywords" content="{{range $i, $e := .}}{{if $i}}, {{end}}{{$e}}{{end}}">{{end -}}
+<meta name="keywords" content="{{delimit (.Param "keywords") " "}}">
 <!-- Outputs meta tag with hugo version used for site generation. -->
 {{.Hugo.Generator}}
 
