@@ -1,5 +1,5 @@
 ---
-title: VibroBox — condition monitoring, vibration analysis and diagnostics.
+title: Condition monitoring, vibration analysis and diagnostics.
 description: Automatic vibration diagnostics service as a part of proactive (or prescriptive in contrast to predictive) maintenance. Our scientists are focused on wavelets, neural networks, fuzzy logic and other digital signal processing algorithms.
 keywords: 
 - VibroBox
