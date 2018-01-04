@@ -8,8 +8,8 @@ menu:
     name: News
 share:
   image: TODO
-  imageWidth: TODO
-  imageHeight: TODO
+  image_width: TODO
+  image_height: TODO
 ---
 
 # Our News

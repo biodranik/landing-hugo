@@ -11,8 +11,8 @@ menu:
 #slug: новости
 share:
   image: TODO
-  imageWidth: TODO
-  imageHeight: TODO
+  image_width: TODO
+  image_height: TODO
 ---
 
 # Наши новости

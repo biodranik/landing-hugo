@@ -7,8 +7,8 @@ slug: испытания-вибродиагностики-vibrobox-на-пред
 aliases: [новости/испытания-вибродиагностики-vibrobox-на-предприятии-по-производству-автомобилей-geely-в-беларуси]
 share:
   image: img/news/geely_collecting_telemetry.jpg
-  imageWidth: 1999
-  imageHeight: 1500
+  image_width: 1999
+  image_height: 1500
 ---
 # Испытания «VibroBox» на совместном белорусско-китайском предприятии по производству автомобилей Geely — СЗАО «БЕЛДЖИ»
 
