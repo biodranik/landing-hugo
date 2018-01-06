@@ -463,6 +463,7 @@ aside {
   margin-top: 0.5em; }
 
 .news__section {
+  max-width: 100%;
   margin-top: 1em;
   border-bottom: 1px solid #6b6e70; }
   .news__section ul {
