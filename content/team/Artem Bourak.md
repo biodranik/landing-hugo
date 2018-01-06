@@ -6,8 +6,6 @@ keywords: Artem Bourak, Research engineer, Master's Degree student, VibroBox
 weight: 50
 share:
   image: img/team/Artem Bourak.jpg
-  image_width: 400
-  image_height: 575
 ---
 Artem is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radioinformatics”, Radio Engineering and Electronics Department.
 

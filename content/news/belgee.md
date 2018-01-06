@@ -7,8 +7,6 @@ slug: automatic-vibration-diagnostics-was-tested-at-geely-automobile-factory-in-
 aliases: [news/automatic-vibration-diagnostics-was-tested-at-geely-automobile-factory-in-belarus]
 share:
   image: img/news/geely_collecting_telemetry.jpg
-  image_width: 1999
-  image_height: 1500
 ---
 # VibroBox vibration diagnostics service was successfully tested at "BELGEE" car factory in Belarus
 

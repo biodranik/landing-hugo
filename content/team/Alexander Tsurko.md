@@ -6,8 +6,6 @@ keywords: Alexander Tsurko, DSP & AI Engineer, Research Scientist, Master of Sci
 weight: 40
 share:
   image: img/team/Alexander Tsurko.jpg
-  image_width: 400
-  image_height: 575
 ---
 In VibroBox Alexander develops the expert system for vibration diagnostics. He also works on the equipment which records vibration signals and telemetry data. His current research is adaptive data analysis using digital signal processing, data science and artificial intelligence.
 

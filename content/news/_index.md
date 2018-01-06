@@ -7,9 +7,7 @@ menu:
     weight: 5
     name: News
 share:
-  image: TODO
-  image_width: TODO
-  image_height: TODO
+  image: img/meta/VibroBox_and_vibration_sensor.jpg
 ---
 
 # Our News

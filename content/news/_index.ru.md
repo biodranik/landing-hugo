@@ -10,11 +10,8 @@ menu:
 # See https://discourse.gohugo.io/t/how-to-translate-sections/9060 for more details.
 #slug: новости
 share:
-  image: TODO
-  image_width: TODO
-  image_height: TODO
+  image: img/meta/VibroBox_and_vibration_sensor.jpg
 ---
-
 # Наши новости
 
 Самые важные события и новости от наших учёных и инженеров:

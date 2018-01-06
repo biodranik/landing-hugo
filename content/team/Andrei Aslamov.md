@@ -6,8 +6,6 @@ keywords: Andrei Aslamov, Research engineer, Master of Science, M.Sc., Ph.D. Stu
 weight: 50
 share:
   image: img/team/Andrei Aslamov.jpg
-  image_width: 400
-  image_height: 575
 ---
 Andrei graduated from the Belarusian State University of Informatics and Radioelectronics in 2015 with a degree in “Radio-Electronic Systems” of the Radio Engineering and Electronics Department and also holds a Master's degree in technical sciences. He is currently engaged in scientific work as part of his postgraduate course at BSUIR “Mathematical support and software of computing machines, systems and computer networks run” by the Information Technology Software Division, Computer Networks and Systems Department.
 

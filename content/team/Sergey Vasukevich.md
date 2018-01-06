@@ -6,8 +6,6 @@ keywords: Sergey Vasukevich, CTO, Master of Science, M.Sc., Ph.D. student, Vibro
 weight: 10
 share:
   image: img/team/Sergey Vasukevich.jpg
-  image_width: 400
-  image_height: 575
 ---
 Sergei graduated from the Belarusian State University of Informatics and Radioelectronicsin 2009 with a degree in “Radio Engineering Systems” of the Radio Engineering and Electronics Department, and also has an academic Master's degree in technical sciences and a researcher’s diploma.
 

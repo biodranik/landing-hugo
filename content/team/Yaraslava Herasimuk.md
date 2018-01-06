@@ -6,8 +6,6 @@ keywords: Yaraslava Herasimuk, Business analyst, Master's Degree student, VibroB
 weight: 50
 share:
   image: img/team/Yaraslava Herasimuk.jpg
-  image_width: 400
-  image_height: 575
 ---
 Yaraslava graduated from Belarusian State Economic University, majoring in “Economics”, International Economic Relations Department. She is currently enrolled in the graduate school of BSEU majoring in “Informatics for Economics”.
 
