@@ -10,17 +10,19 @@ aliases: [faq]
 layout: help
 ---
 # Questions and Answers
+
 <!-- Note: HTML tags in capital letters allow markdown parsing of their content.
 * TODO: Use H2 instead of H3 below (refactor css).
 * TODO: Refactor css to avoid inline html below.
 * TODO: Use definition lists in Markdown, like here: https://michelf.ca/projects/php-markdown/extra/#def-list -->
 <P class="preface">
-Please, [email us](mailto:info@vibrobox.com) or contact via [FaceBook](https://m.me/VibroBox) if you have any questions.
+Please contact us at <mailto:info@vibrobox.com> or on [FaceBook](https://m.me/VibroBox) if you have any questions.
 </p>
 
 {{<table_of_contents>}}
 
 <DIV class="content content__faq">
+
 ## General questions
 
 ### What is the equipment condition monitoring?
@@ -254,4 +256,5 @@ Yes, access to VibroBox service using the user's sensors is possible. Now VibroB
 Yes, access to VibroBox service without its sensors (its telemetry system) usage is possible. Now VibroBox works with typical sensors from some manufacturers (in particular, Bernecker + Rainer (B&R) и SKF), such as [accelerometers with built-in ICP (IEPE) electronics](https://en.wikipedia.org/wiki/Integrated_circuit_piezoelectric_sensor). In order to provide an acceptable level of reliability of received condition monitoring reports, the sensors used for the gathering of telemetry data should match the minimum technical specification.
 
 [Read more about sensors for VibroBox…]({{<relref "technology.md#vibrobox-hardware-platform">}})
+
 </div>

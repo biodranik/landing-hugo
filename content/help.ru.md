@@ -10,17 +10,19 @@ aliases: [faq]
 layout: help
 ---
 # Вопросы и ответы
+
 <!-- Note: HTML tags in capital letters allow markdown parsing of their content.
 * TODO: Use H2 instead of H3 below (refactor css).
 * TODO: Refactor css to avoid inline html below.
 * TODO: Use definition lists in Markdown, like here: https://michelf.ca/projects/php-markdown/extra/#def-list -->
 <P class="preface">
-Возникли вопросы? У нас есть ответы! Пишите нам на [электронную почту](mailto:info@vibrobox.com) или в [FaceBook](https://m.me/VibroBox).
+Возникли вопросы? Мы найдём ответы. Пишите на <mailto:info@vibrobox.com> или в [FaceBook](https://m.me/VibroBox).
 </p>
 
 {{<table_of_contents>}}
 
 <DIV class="content content__faq">
+
 ## Общие вопросы
 
 ### Что такое диагностика оборудования?
@@ -252,4 +254,5 @@ VibroBox поддерживает подключение датчиков ряд
 Да, доступ к услугам сервиса VibroBox без приобретения датчиков (системы телеметрии) возможен. Сейчас VibroBox функционирует с типовыми датчиками ряда производителей (в частности, Bernecker + Rainer (B&R) и SKF), таких как акселерометры со встроенной электроникой [ICP](https://en.wikipedia.org/wiki/Integrated_circuit_piezoelectric_sensor) ([IEPE](http://www.mmf.de/iepe-standard.htm)). Для того, чтобы обеспечить приемлемый уровень достоверности получаемой диагностической информации, применяемые для съёма телеметрической информации датчики должны соответствовать минимальной технической спецификации.
 
 [Читать подробнее о датчиках для VibroBox…]({{<relref "technology.md#аппаратная-платформа-сервиса-vibrobox)">}})
+
 </div>
