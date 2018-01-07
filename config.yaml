@@ -32,7 +32,10 @@ Permalinks:
 Params:
   news_section: news
   team_section: team
-  facebook_author_profile: https://www.facebook.com/VibroBox
+  facebook: https://www.facebook.com/VibroBox/
+  linkedin: https://www.linkedin.com/company/16209501/
+  twitter: https://twitter.com/VibroBox
+
 
 Languages:
   en:
