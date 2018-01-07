@@ -81,25 +81,39 @@ function StrPosN($haystack, $needle, $n) {
   return mb_strpos($haystack, $needle, $offset);
 }
 
-function MakePrettyLink($text/*, $maxWords = 15, $maxChars = 120*/) {
+function MakePrettyLink($text, $maxWords = 15, $maxChars = 120) {
   // Replace/remove leading arabic or roman numerals if they are present:
-  // '1. Text' => 'Text', 'XI Text' => 'Text' etc.
-  $num = mb_strstr($text, ' ', true);
-  if (!empty($num) and
-      false !== mb_eregi('[XVI\d][XVI\d\.\)]*$', $num) and
-      mb_strrpos($text, ' ') + 1 < mb_strlen($text))
-    $text = mb_strstr($text, ' ');
-  // Replace em and en dashes with hyphen.
-  $pretty = str_replace(['–', '—'], ['-', '-'], $text);
-  $pretty = mb_ereg_replace('[^\w_]', '-', $pretty);
+  $pretty = preg_replace('/^[XVI\d][XVI\d\.]*[\.\)] /', '', $text);
+  // Transformation according to https://godoc.org/github.com/russross/blackfriday#hdr-Sanitized_Anchor_Names
+  $pretty = preg_replace('/[\pC\pM\pP\pS\pZ]/u', '-', $pretty);
+  // // Merge 2+ sequential hyphens into a single hyphen.
+  $pretty = preg_replace('/\-+/', '-', $pretty);
   // Lowercase everything.
   $pretty = mb_strtolower($pretty);
-  // Merge 2+ sequential hyphens into a single hyphen.
-  $pretty = mb_ereg_replace('\-+', '-', $pretty);
   $pretty = trim($pretty, '-');
   // Return `-` if original string did not contain any characters.
   if (empty($pretty) and !empty($text))
     return '-';
+
+
+  // Replace/remove leading arabic or roman numerals if they are present:
+  // '1. Text' => 'Text', 'XI Text' => 'Text' etc.
+  // $num = mb_strstr($text, ' ', true);
+  // if (!empty($num) and
+  //     false !== mb_eregi('[XVI\d][XVI\d\.\)]*$', $num) and
+  //     mb_strrpos($text, ' ') + 1 < mb_strlen($text))
+  //   $text = mb_strstr($text, ' ');
+  // Replace em and en dashes with hyphen.
+  // $pretty = str_replace(['–', '—'], ['-', '-'], $text);
+  // $pretty = mb_ereg_replace('[^\w_]', '-', $pretty);
+  // // Lowercase everything.
+  // $pretty = mb_strtolower($pretty);
+  // // Merge 2+ sequential hyphens into a single hyphen.
+  // $pretty = mb_ereg_replace('\-+', '-', $pretty);
+  // $pretty = trim($pretty, '-');
+  // // Return `-` if original string did not contain any characters.
+  // if (empty($pretty) and !empty($text))
+  //   return '-';
 
   // Shorten link if necessary.
   // $underscorePos = StrPosN($pretty, '_', $maxWords /* Cut the link after this number of words. */);
@@ -107,6 +121,8 @@ function MakePrettyLink($text/*, $maxWords = 15, $maxChars = 120*/) {
   //   $pretty = mb_substr($pretty, 0, $underscorePos);
   // if (mb_strlen($pretty) > $maxChars /* Maximum number of characters in the link. */)
   //   $pretty = mb_substr($pretty, 0, $maxChars);
+
+  echo "\n$text => $pretty\n";
 
   return $pretty;
 }
