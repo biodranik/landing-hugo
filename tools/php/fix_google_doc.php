@@ -84,6 +84,9 @@ foreach (ImprovePunctuation($html) as $result)
 foreach (ImgToFigures($html) as $result)
   echo $result;
 
+foreach (FixHugoLinks($html) as $result)
+  echo $result;
+
 if (false === file_put_contents($argv[2], $html))
   echo "ERROR while saving processed html to ${argv[2]}\n";
 
@@ -326,4 +329,19 @@ function CreateDOMDocument($html) {
 
 function isNodeEmpty($node) {
   return empty(trim($node->nodeValue, " \n\r\t\0\xC2\xA0"));
+}
+
+function fixHugoLinks(&$text) {
+  $patterns = [
+    '!https://www.vibrobox.(com|ru)/team!' => '../team/',
+    '!https://demo.vibrobox.(com|ru)/demo\?locale=(en|ru)!' => 'https://demo.vibrobox.$1/demo\?locale=$2',
+    '!https://www.vibrobox.(com|ru)/!' => '../',
+    '!images/image([0-9]+\.)(png|jpg|jpeg|svg)!' => '../img/technology/image$1$2',
+    '!^<div>.*<\/div>\s<p>.*<\/p>\s!sU' => '',
+  ];
+  $keys = array_keys($patterns);
+  $values = array_values($patterns);
+  $text = preg_replace($keys, $values, $text, -1, $count);
+  $results[] = "* Replaced $count patterns for hugo links.\n";
+  return $results;
 }
