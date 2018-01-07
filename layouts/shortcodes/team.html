@@ -1,1 +1,1 @@
-{{with .Site.GetPage "section" $.Site.Params.team_section}} {{.Permalink}} {{end}}
+{{(.Site.GetPage "section" $.Site.Params.team_section).RelPermalink}}
