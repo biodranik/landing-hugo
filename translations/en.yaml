@@ -132,3 +132,5 @@
   translation: "en_US"
 - id: setlocaleWindows
   translation: "en"
+- id: goBackToTheTeam
+  translation: Go Back to the Team Page

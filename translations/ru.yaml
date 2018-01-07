@@ -156,3 +156,5 @@
   translation: "ru_RU"
 - id: setlocaleWindows
   translation: "ru"
+- id: goBackToTheTeam
+  translation: Вернуться на страницу с командой
