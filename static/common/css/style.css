@@ -800,7 +800,6 @@ html[lang=ru] .system-container__g-report:after {
       flex-direction: column; } }
   .team .teammate-sm {
     width: 33.333%;
-    min-height: 590px;
     padding: 14px; }
     @media (max-width: 768px) {
       .team .teammate-sm {
