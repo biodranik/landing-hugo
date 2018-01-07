@@ -219,10 +219,17 @@ function GetUglyIDs($domDocument) {
   foreach ($domDocument->getElementsByTagName('*') as $el) {
     if (!$el->hasAttribute('id'))
       continue;
-    $value = $el->getAttribute('id');
-    if (preg_match('/(h|id|kix)\.[\w-]+/', $value)) {
-      $results[$value] = $el->nodeValue;
+    $id = $el->getAttribute('id');
+    if (preg_match('/(h|id|kix)\.[\w-]+/', $id)) {
+      $results[$id] = $el->nodeValue;
+    } else if ($el->nodeName == "table" and preg_match('/t\.[\w-]+/', $id)) {
+      // Use previous <p> tag for tables.
+      while ($el->nodeName != 'p') //{
+        $el = $el->previousSibling;
+        ///echo $el->nodeName;//}
+      $results[$id] = $el->nodeValue;
     }
+
   }
   return $results;
 }
