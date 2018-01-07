@@ -11,7 +11,9 @@
   {{$underscoredName := delimit (split (plainify $name) " ") "_" -}}
   {{$imageSrc := printf "/img/team/%s.jpg" .File.TranslationBaseName | relURL -}}
   <div name="#{{lower $underscoredName}}" class="teammate-sm">
-      <img src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
+      <a href="{{.RelPermalink}}">
+        <img src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
+      </a>
       <div class="teammate-sm__title">
         <a href="{{.RelPermalink}}"> {{$name}} </a>
       </div>
