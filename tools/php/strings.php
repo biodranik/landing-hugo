@@ -121,9 +121,6 @@ function MakePrettyLink($text, $maxWords = 15, $maxChars = 120) {
   //   $pretty = mb_substr($pretty, 0, $underscorePos);
   // if (mb_strlen($pretty) > $maxChars /* Maximum number of characters in the link. */)
   //   $pretty = mb_substr($pretty, 0, $maxChars);
-
-  echo "\n$text => $pretty\n";
-
   return $pretty;
 }
 
