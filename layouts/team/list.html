@@ -23,4 +23,14 @@
   </div>
   {{- end}}
 </section>
+{{if eq .Lang "en"}}
+<section class="section publications">
+  <h2>Scientific Papers and Publications</h2>
+  <ol>
+  {{range $.Site.Data.publications.publications}}
+    <li>{{.}}</li>
+  {{end}}
+  </ol>
+</section>
+{{end}}<!-- if .Lang -->
 {{end}}

@@ -11,9 +11,18 @@
       <img src="{{$imageSrc}}" alt="{{$name}}" title="{{$name}}" />
     </div>
     <div class="teammate__description">
-      {{.Content}}
+      {{.Content -}}
     </div>
   </div>
+         {{if and (eq .Lang "en") (index $.Site.Data.publications.authors (string $name))}}
+        <h2>Scientific Papers and Publications</h2>
+        <ol>
+          {{range (index $.Site.Data.publications.authors (string $name)) -}}
+          <li>{{index $.Site.Data.publications.publications (string .)}}</li>
+          {{end -}}
+        </ol>
+        {{end -}}
+
   <p><a href="{{(.Site.GetPage "section" $.Site.Params.team_section).RelPermalink}}">{{T "goBackToTheTeam"}}</a></p>
 </section>
 {{end}}
