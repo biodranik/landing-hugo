@@ -1,2 +1,4 @@
 # Ignore folder with generated content.
 docs
+# Packages installed by npm.
+node_modules
