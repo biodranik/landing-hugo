@@ -24,6 +24,9 @@ body {
   width: 100%;
   padding: 0;
   margin: 0; }
+  @media (max-width: 768px) {
+    body {
+      font-size: 14.4px; } }
 
 h1,
 h2,
@@ -41,7 +44,7 @@ h1 {
   margin: 1rem; }
   @media (max-width: 768px) {
     h1 {
-      font-size: 28.8px; } }
+      font-size: 27.2px; } }
 
 p,
 table {
@@ -779,12 +782,14 @@ html[lang=ru] .system-container__g-report:after {
   html[lang=ru] .system-container__g-report:after {
     top: auto; } }
 
-.team-preface p {
-  font-size: 20px;
-  text-align: center; }
-  @media (max-width: 768px) {
-    .team-preface p {
-      font-size: 18px; } }
+.team-preface ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem; }
+
+@media (max-width: 992px) {
+  .team-preface {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem; } }
 
 .team {
   display: flex;

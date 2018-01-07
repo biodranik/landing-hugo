@@ -1,11 +1,11 @@
 .team-preface {
-  p {
-    font-size: 1.25 * $baseFontSize;
-    text-align: center;
-
-    @include phablet {
-      font-size: 1.125 * $baseFontSize;
-    }
+  ul {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  @include mediumDevices {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
   }
 }
 
