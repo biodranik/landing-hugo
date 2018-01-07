@@ -4,8 +4,6 @@
   translation: "Home"
 - id: contactPageTitle
   translation: "Contact Us"
-- id: technologyPageTitle
-  translation: "VibroBox Technology Details"
 - id: headquarters
   translation: "Headquarters"
 - id: developmentOffice

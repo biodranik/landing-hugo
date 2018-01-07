@@ -1,0 +1,2 @@
+<!-- This partial loads html file (1st parameter). -->
+{{- readFile (.Get 0) | markdownify -}}

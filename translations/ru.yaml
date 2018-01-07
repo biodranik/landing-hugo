@@ -28,8 +28,6 @@
   translation: "Главная"
 - id: contactPageTitle
   translation: "Связаться с нами"
-- id: technologyPageTitle
-  translation: "Подробнее о технологии VibroBox"
 - id: headquarters
   translation: "Главный офис"
 - id: developmentOffice
