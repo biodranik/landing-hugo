@@ -1,0 +1,6 @@
+<!-- Prints sha of the file. TODO: Correctly support localized static files, see https://gohugo.io/content-management/static-files/ for more details. -->
+{{- if hasPrefix . "http" -}}
+{{- . -}}
+{{- else -}}
+{{- printf "%s?v=%s" . (printf "static/common/%s" . | readFile | sha1 | first 8) | relURL -}}
+{{- end -}}

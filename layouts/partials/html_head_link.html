@@ -5,26 +5,26 @@
 {{end -}}
 {{end}}<!-- if .Site.IsMultiLingual -->
 
-<link rel="stylesheet" type="text/css" href="{{"css/style.css" | relURL}}">
+<link rel="stylesheet" type="text/css" href="{{partial "v" "css/style.css"}}">
 <!-- Custom css files from pages (if any). -->
 {{- range $.Params.css -}}
-<link rel="stylesheet" type="text/css" href="{{. | relURL}}" />
+<link rel="stylesheet" type="text/css" href="{{partial "v" .}}" />
 {{end -}}
 
 <!-- Favicon section. TODO: Automatically change ?v=4 if resources have changed. -->
-<link rel="apple-touch-icon" href="{{"icons/apple-touch-icon.png?v=4" | relURL}}">
-<link rel="apple-touch-icon" sizes="60x60" href="{{"icons/apple-touch-icon-60x60.png?v=4" | relURL}}">
-<link rel="apple-touch-icon" sizes="76x76" href="{{"icons/apple-touch-icon-76x76.png?v=4" | relURL}}">
-<link rel="apple-touch-icon" sizes="120x120" href="{{"icons/apple-touch-icon-120x120.png?v=4" | relURL}}">
-<link rel="apple-touch-icon" sizes="152x152" href="{{"icons/apple-touch-icon-152x152.png?v=4" | relURL}}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{"icons/apple-touch-icon-180x180.png?v=4" | relURL}}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{"icons/favicon-16x16.png?v=4" | relURL}}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{"icons/favicon-32x32.png?v=4" | relURL}}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{"icons/android-chrome-192x192.png?v=4" | relURL}}">
-<link rel="icon" type="image/png" sizes="512x512" href="{{"icons/android-chrome-512x512.png?v=4" | relURL}}">
-<link rel="manifest" href="{{"icons/manifest.json?v=4" | relURL}}">
-<link rel="mask-icon" href="{{"icons/safari-pinned-tab.svg?v=4" | relURL}}" color="#5bbad5">
-<link rel="shortcut icon" href="{{"favicon.ico?v=4" | relURL}}">
-<link rel="icon" type="image/x-icon" href="{{"favicon.ico?v=4" | relURL}}">
+<link rel="apple-touch-icon" href="{{partial "v" "icons/apple-touch-icon.png"}}">
+<link rel="apple-touch-icon" sizes="60x60" href="{{partial "v" "icons/apple-touch-icon-60x60.png"}}">
+<link rel="apple-touch-icon" sizes="76x76" href="{{partial "v" "icons/apple-touch-icon-76x76.png"}}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{partial "v" "icons/apple-touch-icon-120x120.png"}}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{partial "v" "icons/apple-touch-icon-152x152.png"}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{partial "v" "icons/apple-touch-icon-180x180.png"}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{partial "v" "icons/favicon-16x16.png"}}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{partial "v" "icons/favicon-32x32.png"}}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{partial "v" "icons/android-chrome-192x192.png"}}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{partial "v" "icons/android-chrome-512x512.png"}}">
+<link rel="manifest" href="{{partial "v" "icons/manifest.json"}}">
+<link rel="mask-icon" href="{{partial "v" "icons/safari-pinned-tab.svg"}}" color="#5bbad5">
+<link rel="shortcut icon" href="{{partial "v" "favicon.ico"}}">
+<link rel="icon" type="image/x-icon" href="{{partial "v" "favicon.ico"}}">
 
 <link rel="canonical" href="{{.Permalink}}">
