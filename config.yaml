@@ -39,6 +39,7 @@ Params:
 
 Languages:
   en:
+    BaseUrl: https://www.vibrobox.com/
     Weight: 1
     LanguageName: English
     LanguageCode: en
