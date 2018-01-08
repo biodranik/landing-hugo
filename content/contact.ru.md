@@ -1,6 +1,7 @@
 ---
-date: 2016-12-30T21:30:24-08:00
-title: contactPageTitle
+title: Наши контакты
+description: Наш главный офис в Таллине, разработка и исследования ведутся в Минске. Пишите на почту, мы отвечаем на каждое письмо.
+keywords: контакты, адрес, адреса, офис, разработка, где находится, Минск, Беларусь, Таллин
 menu:
   main:
     weight: 40
@@ -10,5 +11,3 @@ aliases: [contact]
 layout: contact
 css: ["https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"]
 ---
-
-Контакты на русском
