@@ -10,7 +10,9 @@ html[lang="ru"] .content p {
   margin-right: 0.3rem;
 
   @include notSmartphone {
-    @include hyphens-justify;
+    p {
+      @include hyphens-justify;
+    }
   }
 
   h2 {

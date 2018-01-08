@@ -894,7 +894,7 @@ html[lang=ru] .system-container__g-report:after {
   margin-left: 0.3rem;
   margin-right: 0.3rem; }
   @media (min-width: 426px) {
-    .content {
+    .content p {
       -webkit-hyphens: auto;
       -moz-hyphens: auto;
       -ms-hyphens: auto;
