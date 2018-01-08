@@ -1,6 +1,7 @@
 ---
-date: 2016-12-30T21:30:24-08:00
-title: contactPageTitle
+title: Our contacts
+description: Our HQ is in Tallin, Estonia. Development and scientific team is located in Minsk, Belarus. We respond to every email.
+keywords: contact, us, address, hq, office, development, location, Minsk, Belarus, Tallinn
 menu:
   main:
     weight: 40
@@ -8,5 +9,3 @@ menu:
 layout: contact
 css: ["https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"]
 ---
-
-Contact English Page

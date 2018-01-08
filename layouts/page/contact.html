@@ -3,15 +3,16 @@
   {{T "ourContacts"}}
 </h1>
 <p class="preface preface--contacts">
-  {{T "contactsIntro"}}
+  {{T "contactsIntro" | safeHTML}}
 </p>
+<div class="contacts">
   <section class="contacts__offices">
     <div class="contacts__office">
       <h2 class="contacts__h2">
         {{T "headquarters"}}:</h2>
       <h3 class="contacts__h3">VibroBox OÜ</h3>
       <address class="contacts__address">
-        {{T "addressEstonia"}}
+        {{T "addressEstonia" | safeHTML}}
       </address>
     </div>
     <div class="contacts__office">
@@ -21,7 +22,7 @@
         {{T "sitel"}}
       </h3>
       <address class="contacts__address">
-        {{T "addressBelarus"}}
+        {{T "addressBelarus" | safeHTML}}
       </address>
     </div>
     <div class="contacts__social">
@@ -43,6 +44,7 @@
   </section>
   <!-- Map is rendered here by leaflet and our js code below. -->
   <section id="leaflet-map" class="leaflet-map"></section>
+</div>
 {{end}}
 {{define "scripts"}}
 <!-- Code which renders leaflet map with #leaflet-map id above. It's here for localization. -->
