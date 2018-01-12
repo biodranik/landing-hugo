@@ -36,8 +36,8 @@ There are some useful scripts to help with development:
 
 - [tools/watch.sh](tools/watch.sh) ([tools/watch.cmd](tools/watch.cmd) for Windows) launches hugo as a localhost web server and watches for any scss modifications automatically.
     You don't need anything else, just edit your web site sources and immediately see all changes in your browser.
-- [tools/build.sh](tools/build.sh) ([tools/build.cmd](tools/build.cmd) for Windows) generates static web site into the *docs* folder.
-- [tools/deploy.sh](tools/deploy.sh) ([tools/deploy.cmd](tools/deploy.cmd) for Windows) generates static web site into *docs* folder and pushes it into gh-pages branch of the repository.
+- [tools/build.sh](tools/build.sh) ([tools/build.cmd](tools/build.cmd) for Windows) generates static web site into the *public* folder.
+- [tools/deploy.sh](tools/deploy.sh) ([tools/deploy.cmd](tools/deploy.cmd) for Windows) generates static web site into *public* folder and pushes it into gh-pages branch of the repository.
 
 ### Set your public web site URL
 
@@ -52,8 +52,6 @@ To create new localized */pagename* on the site you need:
 
 Please see already existing pages for examples.
 
-## Usage
-
 ### Shortcodes
 
 - `{{<date>}}` Inserts properly formatted `<time>` tag with a date from the front matter (or last page modification date).
@@ -64,29 +62,6 @@ Please see already existing pages for examples.
 - `image` or `images` Relative or absolute URL(s) to related image(s), used as a preview for sharing.
 - `video` or `videos` Relative or absolute URL(s) to related video(s).
 - `private: true` Do not expose page to search engines (useful for internal use).
-
-## Under the hood
-
-Proposed workflow uses gh-pages branch in the repository to serve static pages. It is also possible to use *docs* folder from the *master* branch to publish web site. To do that you need to remove *docs* folder from *.gitignore* and change your GitHub Pages repository settings.
-
-### Manual initialization of gh-pages branch
-
-You need to create a copy of the same repository (but with gh-pages branch instead of master) in the docs folder:
-
-```bash
-mkdir docs
-cd docs
-git clone git@github.com:YOURNAME/YOURREPO.git
-git checkout --orphan gh-pages
-git rm -rf .
-touch README.md
-git add README.md
-git commit -m 'Initial gh-pages commit.'
-git push -u origin gh-pages
-git branch -d master
-```
-
-### Tips and tricks
 
 #### Correct usage of hugo date formatting
 
@@ -103,5 +78,10 @@ You should always [remember](https://www.madboa.com/blog/2016/08/24/hugo-datefor
 - Second must be 05
 - Year must be 2006
 - Timezone must be MST or -7
+
+## Github Pages deployment with Travis CI
+
+English version of the generated site (from *public/en* folder) is automatically uploaded into https://github.com/VibroBox/preview.com repository and is accessible at https://VibroBox.github.io/preview.com/
+
 
 [Hugo Releases]: https://github.com/spf13/hugo/releases/latest

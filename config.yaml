@@ -3,7 +3,7 @@
 BaseUrl: https://www.vibrobox.com/
 DefaultContentLanguage: en
 ContentDir: content
-PublishDir: docs
+PublishDir: public
 StaticDir: static/common
 
 BuildDrafts: true

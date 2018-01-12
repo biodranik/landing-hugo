@@ -18,7 +18,7 @@ ROOT="$MYDIR/.."
 
 # Publish directory where static html content is generated.
 # TODO: Share it between scripts, or use one script with different commands.
-OUT_DIR="$ROOT/docs"
+OUT_DIR="$ROOT/public"
 
 # Pre-requisites check.
 [ -f ./deploy.sh ] || { echo "ERROR: It is not the root repo directory."; exit 1; }
