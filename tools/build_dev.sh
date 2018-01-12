@@ -22,8 +22,8 @@ cp "$SCRIPT_DIR/../config.yaml" "$DEV_CONFIG"
 # config.yaml production values and their dev replacements for sed:
 declare -a toReplace=(
   's|dev_mode: false|dev_mode: true|g'
-  's|https://www.vibrobox.com/|https://VibroBox.github.io/preview.com/|g'
-  's|https://www.vibrobox.ru/|https://VibroBox.github.io/preview.ru/|g'
+  's|https://www.vibrobox.com/|https://vibrobox.github.io/preview.com/|g'
+  's|https://www.vibrobox.ru/|https://vibrobox.github.io/preview.ru/|g'
 )
 for sed_param in "${toReplace[@]}"; do
   sed -i .bak "$sed_param" "$DEV_CONFIG"
