@@ -1,0 +1,19 @@
+# Builds a development version of the site and publishes it's English version to Github pages.
+os: osx
+git:
+  depth: 1
+install:
+  - brew update
+  - brew install hugo sassc
+script: tools/build_dev.sh
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
+  keep-history: true
+  repo: VibroBox/preview.com
+  on:
+    branch: master
+  localdir: public/en
+  committer-from-gh: true
+  project-name: Development Preview of www.vibrobox.com
