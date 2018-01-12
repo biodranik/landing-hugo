@@ -1,3 +1,7 @@
+<!-- Do not index development version of the site -->
+{{- if $.Site.Params.dev_mode -}}
+<meta name="robots" content="noindex, nofollow">
+{{end -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="copyright" content="{{.Site.Copyright}}">

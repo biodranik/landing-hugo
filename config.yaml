@@ -30,6 +30,8 @@ Permalinks:
 # The name of the news section, used in templates and in Open Graph.
 # Can be localized when hugo will support localized section names.
 Params:
+  # This variable is set to `true` by tools/build_dev.sh
+  dev_mode: false
   news_section: news
   team_section: team
   facebook: https://www.facebook.com/VibroBox/
