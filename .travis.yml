@@ -1,7 +1,10 @@
-# Builds a development version of the site and publishes it's English version to Github pages.
+# Run build/deploy only on pull requests from the same repo and on pushes into the same repo.
+if: env(TRAVIS_SECURE_ENV_VARS) = true
 os: osx
+language: minimal
 git:
   depth: 1
+  submodules_depth: 1
 install:
   - brew update
   - brew install hugo sassc
@@ -29,3 +32,6 @@ deploy:
     target-branch: master
     local-dir: public/ru
     committer-from-gh: true
+cache:
+  directories:
+    - $HOME/Library/Caches/Homebrew  # Actual for Mac OS X only.
