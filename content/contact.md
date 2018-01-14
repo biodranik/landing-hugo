@@ -1,7 +1,7 @@
 ---
 title: Our contacts
-description: Our HQ is in Tallin, Estonia. Development and scientific team is located in Minsk, Belarus. We respond to every email.
-keywords: contact, us, address, hq, office, development, location, Minsk, Belarus, Tallinn
+description: Our headquarters are in Tallin, Estonia. Development and scientific team is located in Minsk, Belarus. We respond to every email.
+keywords: contact, contacts, address, headquarters, office, research, development, location, Minsk, Belarus, Tallinn
 menu:
   main:
     weight: 40
