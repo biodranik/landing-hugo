@@ -22,7 +22,7 @@ script:
     fi
 after_success:
   - |
-    if [ "$TRAVIS_BRANCH" != "master" ]; then
+    if [ ! -z "$TRAVIS_PULL_REQUEST_BRANCH" ]; then
       dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en \
           --project-name="English Version" --skip-cleanup=true --keep-history=true \
           --repo=biodranik/test --target-branch=english --committer-from-gh=true
