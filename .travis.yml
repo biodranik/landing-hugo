@@ -11,10 +11,16 @@ git:
 install: if [ "$TRAVIS_BRANCH" != "master" ]; then gem install dpl --no-rdoc --no-ri; fi
 # tools/build.sh is for production, tools/build_dev.sh is for dev testing.
 script: if [ "$TRAVIS_BRANCH" == "master" ]; then tools/build.sh; else tools/build_dev.sh; fi
-after_success: if [ "$TRAVIS_BRANCH" != "master" ]; then \
-                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en --project-name="English Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=english --committer-from-gh=true \
-                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/ru --project-name="Russian Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=russian --committer-from-gh=true \
-               fi
+after_success:
+  - |
+    if [ "$TRAVIS_BRANCH" != "master" ]; then
+      dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en \
+          --project-name="English Version" --skip-cleanup=true --keep-history=true \
+          --repo=biodranik/test --target-branch=english --committer-from-gh=true
+      dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/ru \
+          --project-name="Russian Version" --skip-cleanup=true --keep-history=true \
+          --repo=biodranik/test --target-branch=russian --committer-from-gh=true
+    fi
 # Deployment sections below push from master branch to production Github Pages.
 deploy:
   - provider: pages
