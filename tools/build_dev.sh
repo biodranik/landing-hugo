@@ -29,7 +29,7 @@ declare -a toReplace=(
   's|https://www.vibrobox.ru/|https://vibrobox.github.io/preview.ru/|g'
 )
 for sed_param in "${toReplace[@]}"; do
-  sed -i .bak "$sed_param" "$DEV_CONFIG"
+  sed -i.bak "$sed_param" "$DEV_CONFIG"
 done
 
 # Build site with modified dev config.
