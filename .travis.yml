@@ -1,37 +1,43 @@
-# Run build/deploy only on pull requests from the same repo and on pushes into the same repo.
-if: env(TRAVIS_SECURE_ENV_VARS) = true
-os: osx
+# Our "build" script also automatically deploys static html sites.
+# - Build & deploy do not work for forked pull requests (can't deploy without secure $GITHUB_TOKEN).
+# - Build results from pull requests are deployed to dev Github pages.
+# - Build results from the master branch are deployed directly into production Github pages.
+if: fork = false
 language: minimal
 git:
   depth: 1
   submodules_depth: 1
-install:
-  - brew update
-  - brew install hugo sassc
-script: tools/build_dev.sh
+# travis dpl gem is required to deploy from collaborators pull requests (non-master branches).
+install: [ "$TRAVIS_BRANCH" != "master" ] && gem install dpl --no-rdoc --no-ri
+# tools/build.sh is for production, tools/build_dev.sh is for dev testing.
+script: if [ "$TRAVIS_BRANCH" == "master" ]; then tools/build.sh; else tools/build_dev.sh; fi
+after_success: if [ "$TRAVIS_BRANCH" != "master" ]; then \
+                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en --project-name="English Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=english --committer-from-gh=true \
+                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/ru --project-name="Russian Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=russian --committer-from-gh=true \
+               fi
+# Deployment sections below push from master branch to production Github Pages.
 deploy:
   - provider: pages
+    # TODO Change to production
+    repo: VibroBox/preview.com
+    local-dir: public/en
     project-name: https://vibrobox.github.io/preview.com/
     skip-cleanup: true
     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
     keep-history: true
-    repo: VibroBox/preview.com
     on:
       branch: master
     target-branch: master
-    local-dir: public/en
     committer-from-gh: true
   - provider: pages
+    # TODO Change to production
+    repo: VibroBox/preview.ru
+    local-dir: public/ru
     project-name: https://vibrobox.github.io/preview.ru/
     skip-cleanup: true
     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
     keep-history: true
-    repo: VibroBox/preview.ru
     on:
       branch: master
     target-branch: master
-    local-dir: public/ru
     committer-from-gh: true
-cache:
-  directories:
-    - $HOME/Library/Caches/Homebrew  # Actual for Mac OS X only.
