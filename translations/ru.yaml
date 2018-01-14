@@ -126,8 +126,6 @@
   translation: "Центр разработки"
 - id: ourContacts
   translation: "Наши контакты"
-- id: contactsIntro
-  translation: "Мы с удовольствием ответим на любые ваши вопросы. Пишите нам на <a href='mailto:info@vibrobox.com'>info@vibrobox.com</a>."
 - id: addressEstonia
   translation: "Бульвар Равала 8, офис 810<br/>Таллин, 10143<br/>Эстония<br/><a href=tel:+3726027212>+372 602 7212</a>"
 - id: addressBelarus

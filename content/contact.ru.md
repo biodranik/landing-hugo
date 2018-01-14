@@ -11,3 +11,4 @@ aliases: [contact]
 layout: contact
 css: ["https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"]
 ---
+Мы с удовольствием ответим на любые ваши вопросы. Пишите нам на <info@vibrobox.com> или в [FaceBook](https://m.me/VibroBox)
