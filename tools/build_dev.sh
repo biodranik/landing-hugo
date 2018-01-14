@@ -13,12 +13,15 @@ set -euo pipefail
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+echo "****************************************************"
+echo "****** Building dev version of the site(s)... ******"
+echo "****************************************************"
+
 # Create a copy of config in a temporary directory and modify it for the dev build.
-if [ -z ${TMPDIR+x} ]; then
-  TMPDIR=/var/tmp/
-fi
-DEV_CONFIG="${TMPDIR}dev_config.yaml"
+TMP_FILE=`mktemp`
+DEV_CONFIG="${TMP_FILE}.yml"
 cp "$SCRIPT_DIR/../config.yaml" "$DEV_CONFIG"
+rm "$TMP_FILE"
 # config.yaml production values and their dev replacements for sed:
 declare -a toReplace=(
   's|dev_mode: false|dev_mode: true|g'
@@ -34,3 +37,6 @@ HUGO_CONFIG="$DEV_CONFIG" source "$SCRIPT_DIR/build.sh"
 
 # Remove production CNAME for dev builds.
 rm "$SCRIPT_DIR/../public/en/CNAME" "$SCRIPT_DIR/../public/ru/CNAME"
+
+# Remove temporary dev config.
+rm "$DEV_CONFIG"
