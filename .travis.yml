@@ -7,10 +7,19 @@ language: minimal
 git:
   depth: 1
   submodules_depth: 1
-# travis dpl gem is required to deploy from collaborators pull requests (non-master branches).
-install: if [ "$TRAVIS_BRANCH" != "master" ]; then gem install dpl --no-rdoc --no-ri; fi
-# tools/build.sh is for production, tools/build_dev.sh is for dev testing.
-script: if [ "$TRAVIS_BRANCH" == "master" ]; then tools/build.sh; else tools/build_dev.sh; fi
+# travis dpl gem is manually called to deploy from collaborators pull requests.
+install:
+  - |
+    if [ ! -z "$TRAVIS_PULL_REQUEST_BRANCH" ]; then
+      gem install dpl --no-rdoc --no-ri
+    fi
+script:
+  - |
+    if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_EVENT_TYPE" = "push" ]; then
+      tools/build.sh      # production
+    else
+      tools/build_dev.sh  # dev
+    fi
 after_success:
   - |
     if [ "$TRAVIS_BRANCH" != "master" ]; then
@@ -26,6 +35,7 @@ deploy:
   - provider: pages
     # TODO Change to production
     repo: VibroBox/preview.com
+    target-branch: master
     local-dir: public/en
     project-name: https://vibrobox.github.io/preview.com/
     skip-cleanup: true
@@ -33,11 +43,11 @@ deploy:
     keep-history: true
     on:
       branch: master
-    target-branch: master
     committer-from-gh: true
   - provider: pages
     # TODO Change to production
     repo: VibroBox/preview.ru
+    target-branch: master
     local-dir: public/ru
     project-name: https://vibrobox.github.io/preview.ru/
     skip-cleanup: true
@@ -45,5 +55,4 @@ deploy:
     keep-history: true
     on:
       branch: master
-    target-branch: master
     committer-from-gh: true
