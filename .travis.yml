@@ -7,12 +7,9 @@ language: minimal
 git:
   depth: 1
   submodules_depth: 1
-# travis dpl gem is manually called to deploy from collaborators pull requests.
 install:
-  - |
-    if [ ! -z "$TRAVIS_PULL_REQUEST_BRANCH" ]; then
-      gem install dpl --no-rdoc --no-ri
-    fi
+  # travis dpl gem is manually called to deploy from collaborators pull requests.
+  - gem install dpl --no-rdoc --no-ri
 script:
   - |
     if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_EVENT_TYPE" = "push" ]; then
@@ -23,13 +20,23 @@ script:
 after_success:
   - |
     if [ ! -z "$TRAVIS_PULL_REQUEST_BRANCH" ]; then
-      dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en \
-          --project-name="English Version" --skip-cleanup=true --keep-history=true \
-          --repo=biodranik/test --target-branch=english --committer-from-gh=true
-      dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/ru \
-          --project-name="Russian Version" --skip-cleanup=true --keep-history=true \
-          --repo=biodranik/test --target-branch=russian --committer-from-gh=true
+      params=( # Dev deployment repos for each language.
+        '--local-dir=public/en --project-name=preview.com --repo=VibroBox/preview.com'
+        '--local-dir=public/ru --project-name=preview.ru --repo=VibroBox/preview.ru'
+      )
+    elif [ "$TRAVIS_BRANCH" = "master" ]; then
+      params=( # Production deployment repos are pushed from master branch only.
+        '--local-dir=public/en --project-name=vibrobox.com --repo=VibroBox/www.vibrobox.com'
+        '--local-dir=public/ru --project-name=vibrobox.ru --repo=VibroBox/www.vibrobox.ru'
+      )
+    else
+      params=() # Do nothing for non-master branch pushes.
     fi
+    for param in "${params[@]}"; do
+      dpl --provider=pages --github-token=$GITHUB_TOKEN --skip-cleanup=true \
+          --keep-history=true --target-branch=master --committer-from-gh=true \
+          $param
+    done
 # Deployment sections below push from master branch to production Github Pages.
 # deploy:
 #   - provider: pages
