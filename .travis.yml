@@ -7,12 +7,13 @@ language: minimal
 git:
   depth: 1
   submodules_depth: 1
-install: true
+# travis dpl gem is required to deploy from collaborators pull requests (non-master branches).
+install: if [ "$TRAVIS_BRANCH" != "master" ]; then gem install dpl --no-rdoc --no-ri; fi
 # tools/build.sh is for production, tools/build_dev.sh is for dev testing.
 script: if [ "$TRAVIS_BRANCH" == "master" ]; then tools/build.sh; else tools/build_dev.sh; fi
 after_success: if [ "$TRAVIS_BRANCH" != "master" ]; then \
-                 LOCAL_DIR=public/en REPO_SLUG=biodranik/test TARGET_BRANCH=english tools/deploy.sh \
-                 LOCAL_DIR=public/ru REPO_SLUG=biodranik/test FQDN=test.ru TARGET_BRANCH=russian tools/deploy.sh \
+                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/en --project-name="English Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=english --committer-from-gh=true \
+                 dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=public/ru --project-name="Russian Version" --skip-cleanup=true --keep-history=true --repo=biodranik/test --target-branch=russian --committer-from-gh=true \
                fi
 # Deployment sections below push from master branch to production Github Pages.
 deploy:
