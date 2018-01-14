@@ -7,9 +7,8 @@ language: minimal
 git:
   depth: 1
   submodules_depth: 1
-install:
-  # travis dpl gem is required to deploy from collaborators pull requests (non-master branches).
-  - [ "$TRAVIS_BRANCH" != "master" ] && gem install dpl --no-rdoc --no-ri
+# travis dpl gem is required to deploy from collaborators pull requests (non-master branches).
+install: if [ "$TRAVIS_BRANCH" != "master" ]; then gem install dpl --no-rdoc --no-ri; fi
 # tools/build.sh is for production, tools/build_dev.sh is for dev testing.
 script: if [ "$TRAVIS_BRANCH" == "master" ]; then tools/build.sh; else tools/build_dev.sh; fi
 after_success: if [ "$TRAVIS_BRANCH" != "master" ]; then \
