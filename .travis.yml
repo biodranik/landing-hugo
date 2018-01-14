@@ -31,28 +31,28 @@ after_success:
           --repo=biodranik/test --target-branch=russian --committer-from-gh=true
     fi
 # Deployment sections below push from master branch to production Github Pages.
-deploy:
-  - provider: pages
-    # TODO Change to production
-    repo: VibroBox/preview.com
-    target-branch: master
-    local-dir: public/en
-    project-name: https://vibrobox.github.io/preview.com/
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
-    keep-history: true
-    on:
-      branch: master
-    committer-from-gh: true
-  - provider: pages
-    # TODO Change to production
-    repo: VibroBox/preview.ru
-    target-branch: master
-    local-dir: public/ru
-    project-name: https://vibrobox.github.io/preview.ru/
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
-    keep-history: true
-    on:
-      branch: master
-    committer-from-gh: true
+# deploy:
+#   - provider: pages
+#     # TODO Change to production
+#     repo: VibroBox/preview.com
+#     target-branch: master
+#     local-dir: public/en
+#     project-name: https://vibrobox.github.io/preview.com/
+#     skip-cleanup: true
+#     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
+#     keep-history: true
+#     on:
+#       branch: master
+#     committer-from-gh: true
+#   - provider: pages
+#     # TODO Change to production
+#     repo: VibroBox/preview.ru
+#     target-branch: master
+#     local-dir: public/ru
+#     project-name: https://vibrobox.github.io/preview.ru/
+#     skip-cleanup: true
+#     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
+#     keep-history: true
+#     on:
+#       branch: master
+#     committer-from-gh: true
