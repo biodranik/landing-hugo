@@ -926,11 +926,13 @@ html[lang=ru] .system-container__g-report:after {
         padding-left: 1rem; } }
   .content img {
     max-width: 100%;
-    max-height: 100%; }
-  @media (min-width: 769px) {
-    .content figure {
-      max-width: 60vw;
-      height: auto; } }
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; }
+    @media (min-width: 769px) {
+      .content img {
+        max-width: 60%;
+        max-height: 60%; } }
   @media (max-width: 768px) {
     .content figure {
       width: 100%;
@@ -940,6 +942,9 @@ html[lang=ru] .system-container__g-report:after {
     text-align: center;
     font-size: 0.8rem;
     font-style: italic; }
+  .content table {
+    table-layout: fixed;
+    width: 100%; }
 
 .numberedSublist ol {
   list-style-type: none;
