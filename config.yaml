@@ -16,6 +16,7 @@ DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
 # Correct lastmod time for pages in sitemap.
+# TODO: Check why it always shows the most current time in production.
 EnableGitInfo: true
 # Open all external links from content in a new window.
 BlackFriday:
@@ -37,6 +38,7 @@ Params:
   facebook: https://www.facebook.com/VibroBox/
   linkedin: https://www.linkedin.com/company/16209501/
   twitter: https://twitter.com/VibroBox
+  iso8601: 2006-01-02T15:04:05Z
 
 # Default copyright for all languages.
 Copyright: © 2018 VibroBox OÜ

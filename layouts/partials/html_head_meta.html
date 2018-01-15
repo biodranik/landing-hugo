@@ -46,9 +46,9 @@
 <!-- Required Open Graph Info -->
 <meta property="og:type" content="article">
 <!-- Article Open Graph Info (for news) -->
-{{with .ExpiryDate}}<meta property="article:expiration_time" content="{{.}}">{{end}}
-{{with .PublishDate}}<meta property="article:published_time" content="{{.}}">{{end}}
-{{with .Lastmod}}<meta property="article:modified_time" content="{{.}}">{{end}}
+{{- if not .ExpiryDate.IsZero}}<meta property="article:expiration_time" content="{{.ExpiryDate.UTC.Format $.Site.Params.iso8601}}">{{end}}
+{{with .PublishDate}}<meta property="article:published_time" content="{{.UTC.Format $.Site.Params.iso8601}}">{{end}}
+{{with .Lastmod}}<meta property="article:modified_time" content="{{.UTC.Format $.Site.Params.iso8601}}">{{end}}
 {{with .Site.Params.facebook -}}
 <meta property="article:author" content="{{.}}">
 <meta property="article:publisher" content="{{.}}">
