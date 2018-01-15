@@ -55,7 +55,7 @@
 {{end -}}
 <meta property="article:section" content="{{.Section | humanize}}">
 {{with .Params.keywords}}{{range first 6 . -}}
-<meta property="article:tag" content="{{.}}">
+<meta property="article:tag" content="{{. | strings.TrimSuffix ","}}">
 {{end}}{{end -}}
 {{else if eq .Type .Site.Params.team_section -}}
 <!-- Profile Open Graph Info (for our team) -->
