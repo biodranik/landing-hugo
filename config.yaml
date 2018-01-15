@@ -50,10 +50,10 @@ Languages:
     locale: en_US
     Title: In English
     GoogleAnalytics: UA-79782596-1
-    Description: TODO Default English description
+    Description: Automatic vibration diagnostics service as a part of proactive, prescriptive, predictive maintenance. Our scientists are focused on wavelets, machine learning, neural networks, fuzzy logic and other digital signal processing algorithms.
     # Hugo treats keywords in pages as an array, so here we also specify it as an array.
     # Simple syntax should be used in pages - Keywords: keywords, without, quotes, and, braces
-    Keywords: ["TODO, default, keywords"]
+    Keywords: ["VibroBox, prescriptive, proactive, predictive, estimation, condition, monitoring, equipment, vibro, diagnostics, vibrodiagnostics, vibration, prediction, maintenance, neural networks, wavelets, fuzzy logic, IIoT, industry"]
     StaticDir2: static/en
     demourl: https://demo.vibrobox.com/demo?locale=en
     dateformat: January 02, 2006
@@ -68,8 +68,8 @@ Languages:
     BlackFriday:
       angledQuotes: true
     Copyright: © 2018 VibroBox
-    Description: TODO Описание страницы на русском по-умолчанию, для всего сайта
-    Keywords: ["TODO, ключевые, слова, по-умолчанию"]
+    Description: Автоматический облачный сервис превентивного техобслуживания и диагностики внутренних дефектов оборудования. Мы используем вейвлеты, машинное обучение и другие алгоритмы цифровой обработки сигналов (ЦОС), чтобы оборудование не ломалось и служило гораздо дольше.
+    Keywords: ["VibroBox, Вибробокс, превентивное, техническое, обслуживание, оценка, состояния, мониторинг, оборудование, вибрация, вибродиагностика, диагностика, ЦОС, DSP, нейронные сети, машинное обучение, machine learning, neural networks, вейвлеты, wavelets, нечёткая логика, fuzzy logic, цифровая обработка сигналов, промышленный, интернет вещей, индустрия"]
     StaticDir2: static/ru
     demourl: https://demo.vibrobox.com/demo?locale=ru
     dateformat: 02 January 2006
