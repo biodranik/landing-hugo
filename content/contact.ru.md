@@ -6,8 +6,8 @@ menu:
   main:
     weight: 40
     name: Контакты
-slug: контакты
-aliases: [contact]
+#slug: контакты
+#aliases: [contact]
 layout: contact
 css: ["https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"]
 ---
