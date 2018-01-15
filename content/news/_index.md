@@ -9,7 +9,6 @@ menu:
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
 ---
-
 # Our News
 
 The most important news about VibroBox development and research from our scientists and engineers:
