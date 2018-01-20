@@ -35,6 +35,9 @@ done
 # Build site with modified dev config.
 HUGO_CONFIG="$DEV_CONFIG" source "$SCRIPT_DIR/build.sh"
 
+# Disable robots indexing for dev version.
+find "$SCRIPT_DIR/../public" -name robots.txt -exec echo "User-agent: *" > {} \; -exec echo "Disallow: /" >> {} \;
+
 # Remove production CNAME for dev builds.
 rm "$SCRIPT_DIR/../public/en/CNAME" "$SCRIPT_DIR/../public/ru/CNAME"
 
