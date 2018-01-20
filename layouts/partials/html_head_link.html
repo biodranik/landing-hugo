@@ -5,7 +5,9 @@
 {{end -}}
 {{end}}<!-- if .Site.IsMultiLingual -->
 
-<link rel="stylesheet" type="text/css" href="{{partial "v" "css/style.css"}}">
+<!-- CSS version trick does not help to pass CloudFront html caching. Skip it.
+<link rel="stylesheet" type="text/css" href="{{partial "v" "css/style.css"}}">-->
+<link rel="stylesheet" type="text/css" href="{{"css/style.css" | relURL}}">
 <!-- Custom css files from pages (if any). -->
 {{- range $.Params.css -}}
 <link rel="stylesheet" type="text/css" href="{{partial "v" .}}" />
