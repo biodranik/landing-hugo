@@ -1,7 +1,7 @@
 ---
 date: 2017-07-13T13:11:00-00:00
-title: Detailed description of our Prescriptive Maintenance technology
-details: General concept, DSP and machine learning algorithms, kinematic diagrams, sensors and hardware for automated vibration diagnostics and condition monitoring
+title: Automated Prescriptive Maintenance for IIoT & Industry 4.0
+details: Digital signal processing and machine learning algorithms, wavelets and fuzzy logic, kinematic diagrams, sensors and hardware for automated vibration diagnostics and condition monitoring
 menu:
   main:
     weight: 10
