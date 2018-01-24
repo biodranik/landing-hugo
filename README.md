@@ -2,7 +2,9 @@
 
 ## Static Web Site Workflow
 
-The main idea is to generate static web site content and publish it using [GitHub Pages](https://pages.github.com/).
+Any non-merged pull request is automatically built and deployed by Travis CI for development preview
+([English](https://vibrobox.github.io/preview.com/) and [Russian](https://vibrobox.github.io/preview.ru/) versions).
+All merges/pushes to the master branch are automatically deployed in production: https://www.vibrobox.com/ and https://www.vibrobox.ru/
 
 ## Installation
 
