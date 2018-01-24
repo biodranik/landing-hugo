@@ -7,5 +7,7 @@ menu:
     weight: 10
     name: The Science
 layout: technology
+share:
+  image: img/meta/VibroBox_and_vibration_sensor.jpg
 ---
 {{<include_html "data/technology.en.html">}}
