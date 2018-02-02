@@ -15,4 +15,4 @@ In 2008, his work “Software and hardware complex for evaluating of technical c
 
 Dr. Davydov is an expert in digital signal processing, machine learning, and decision-making systems. He has extensive experience in research and development, especially in the development and implementation of vibration-based condition monitoring systems. His area of expertise is the development of decision-making systems based on machine learning, methods, and software for equipment condition monitoring via vibroacoustic signals.
 
-Igor is also a thesis advisor and teaching professor at the Belarusian State University of Informatics and Radioelectronics at the Department of Information Technology.
+Igor is also a thesis advisor and teaching professor at the Belarusian State University of Informatics and Radioelectronics at the Department of Information Radiotechnology.
