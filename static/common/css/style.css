@@ -107,6 +107,9 @@ a {
     white-space: nowrap;
     display: inline-block;
     text-decoration: none; }
+  .footer__subscription {
+    margin-top: 1rem;
+    padding: 0 3rem; }
 
 .footer__nav {
   display: flex;
@@ -120,6 +123,54 @@ a {
   margin: 1em 0 0 0; }
   .footer__nav-item {
     margin: 0 0.5em 0 0.5em; }
+
+.news-form form {
+  text-align: center;
+  padding: 10px 0 10px 0; }
+
+.news-form input.button {
+  font-size: 13px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color: #aaa;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s; }
+  .news-form input.button:hover {
+    background-color: #777;
+    cursor: pointer; }
+  @media (max-width: 768px) {
+    .news-form input.button {
+      width: 100%;
+      margin: 0; } }
+
+.news-form input.email {
+  font-size: 15px;
+  border: 1px solid #ABB0B2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #343434;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 0px 0.4em;
+  display: inline-block;
+  margin: 0;
+  width: 300px;
+  vertical-align: top; }
+  @media (max-width: 768px) {
+    .news-form input.email {
+      width: 100%;
+      margin-bottom: 0.5rem; } }
 
 .header {
   display: flex;
