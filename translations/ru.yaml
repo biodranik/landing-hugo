@@ -154,3 +154,7 @@
   translation: "ru"
 - id: goBackToTheTeam
   translation: Вернуться на страницу с командой
+- id: mailchimpSubscribe
+  translation: Подписаться на новости
+- id: mailchimpEmail
+  translation: Email адрес
