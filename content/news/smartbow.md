@@ -6,13 +6,13 @@ keywords: Smartbow, China, VibroBox, wind turbine, predictive, maintenance, repo
 slug: vibrobox-and-smartbow-launching-the-collaboration
 aliases: [news/vibrobox-and-smartbow-launching-the-collaboration]
 share:
-  image: img/news/smartbow/smartbow-and-vibrobox-team.png
+  image: img/news/smartbow/smartbow-and-vibrobox-team.jpg
 ---
 # VibroBox and Smartbow launching the collaboration
 
 {{<date>}}
 
-{{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.png" %}}
+{{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.jpg" %}}
 [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) and [Roman Tolkach]({{<relref "Roman Tolkach.md">}}) with Smartbow colleagues.
 {{% /figure %}}
 
@@ -37,22 +37,22 @@ The installed equipment included:
 
 The successful deployment and testing of VibroBox system ensured Smartbow specialists in technology capabilities to provide efficient prescriptive maintenance. The next step for both parties is to conduct a large-scale pilot project on a wind farm in China.
 
-{{% figure src="img/news/smartbow/discussing-vibrobox-hardware-platform.png" %}}
+{{% figure src="img/news/smartbow/discussing-vibrobox-hardware-platform.jpg" %}}
 [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) explains how *[VibroBox hardware platform]({{<relref "technology.md#vibrobox-hardware-platform">}})* works.
 {{% /figure %}}
 
-{{% figure src="img/news/smartbow/wind-turbine.png" %}}
+{{% figure src="img/news/smartbow/wind-turbine.jpg" %}}
 [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) with Smartbow colleagues near the wind turbine where *[VibroBox system]({{<relref "technology.md#vibrobox-service-concept">}})* was tested.
 {{% /figure %}}
 
-{{% figure src="img/news/smartbow/wind-turbine-farm.png" %}}
+{{% figure src="img/news/smartbow/wind-turbine-farm.jpg" %}}
 [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) with Smartbow colleagues and the view of the [wind farm](https://en.wikipedia.org/wiki/Wind_farm).
 {{% /figure %}}
 
-{{% figure src="img/news/smartbow/vibrobox-equipment-inside-wind-turbine.png" %}}
+{{% figure src="img/news/smartbow/vibrobox-equipment-inside-wind-turbine.jpg" %}}
 *[VibroBox hardware platform]({{<relref "technology.md#vibrobox-hardware-platform">}})* installation example.
 {{% /figure %}}
 
-{{% figure src="img/news/smartbow/vbox.png" %}}
+{{% figure src="img/news/smartbow/vbox.jpg" %}}
 [Sergey Vasukevich]({{<relref "Sergey Vasukevich.md">}}) with Smartbow colleagues.
 {{% /figure %}}
