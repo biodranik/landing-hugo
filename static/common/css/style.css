@@ -997,6 +997,14 @@ html[lang=ru] .system-container__g-report:after {
     table-layout: fixed;
     width: 100%; }
 
+@media (min-width: 769px) {
+  .content-news img {
+    max-width: 70%;
+    max-height: 70%; } }
+
+.news-list li {
+  margin-bottom: 0.5rem; }
+
 .numberedSublist ol {
   list-style-type: none;
   counter-reset: item;
