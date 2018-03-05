@@ -78,3 +78,12 @@ html[lang="ru"] .content p {
     width: 100%;
   }
 }
+
+.content-news {
+  img {
+    @include largerThanPhablet {
+      max-width: 70%;
+      max-height: 70%;
+    }
+  }
+}
