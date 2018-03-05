@@ -1,14 +1,12 @@
 ---
-date: 2018-03-05 10:00:00 +03:00
-title: VibroBox and Smartbow launching the collaboration
-description: The successful deployment and testing of VibroBox system ensured Smartbow specialists in technology capabilities to provide efficient prescriptive maintenance.
-keywords: Smartbow, China, VibroBox, wind turbine, predictive, maintenance, report, test, vibration, diagnostics, collaboration
-slug: vibrobox-and-smartbow-launching-the-collaboration
-aliases: [news/vibrobox-and-smartbow-launching-the-collaboration]
+date: 2018-01-15 10:00:00 +03:00
+title: VibroBox and Smartbow are launching the collaboration
+description: The VibroBox team began working with the Chinese company Smartbow on diagnostics of wind turbines.
+keywords: Smartbow, China, VibroBox, wind, turbine, predictive, maintenance, report, test, vibration, diagnostics, collaboration, power, energy, 2025, prescriptive
 share:
   image: img/news/smartbow/smartbow-and-vibrobox-team.jpg
 ---
-# VibroBox and Smartbow launching the collaboration
+# VibroBox and Smartbow are launching the collaboration
 
 {{<date>}}
 
