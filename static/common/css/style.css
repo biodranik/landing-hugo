@@ -524,10 +524,14 @@ aside {
     list-style: none; }
     .news__section ul a {
       font-style: italic; }
+    .news__section ul li {
+      margin-bottom: 0.5rem; }
 
 .newsDate {
   margin-right: 1em;
-  text-decoration: underline; }
+  text-decoration: underline;
+  width: 115px;
+  display: inline-block; }
 
 .plus-container {
   margin-top: 3rem;
