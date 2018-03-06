@@ -7,10 +7,16 @@
     a {
       font-style: italic;
     }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
 .newsDate {
   margin-right: 1em;
   text-decoration: underline;
+  width: 115px;
+  display: inline-block;
 }
