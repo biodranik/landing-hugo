@@ -6,7 +6,7 @@
 <section class="section">
   <ul class="news-list">
     <!-- Ranges through content/news/*.md -->
-    {{range .Data.Pages -}}
+    {{range .Data.Pages.ByDate.Reverse -}}
     <li>
       <a href="{{.Permalink}}">{{partial "formatted_date" .}} | {{.Title}}</a>
     </li>

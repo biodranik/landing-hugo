@@ -16,6 +16,10 @@
 
 .newsDate {
   text-decoration: underline;
-  width: 140px;
+  width: 125px;
   display: inline-block;
+
+  @include phablet {
+    width: 120px;
+  }
 }

@@ -529,8 +529,11 @@ aside {
 
 .newsDate {
   text-decoration: underline;
-  width: 140px;
+  width: 125px;
   display: inline-block; }
+  @media (max-width: 768px) {
+    .newsDate {
+      width: 120px; } }
 
 .plus-container {
   margin-top: 3rem;
