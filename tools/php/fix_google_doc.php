@@ -334,7 +334,7 @@ function isNodeEmpty($node) {
 function fixHugoLinks(&$text) {
   $patterns = [
     '!https://www.vibrobox.(com|ru)/team!' => '../team/',
-    '!https://demo.vibrobox.(com|ru)/demo\?locale=(en|ru)!' => 'https://demo.vibrobox.$1/demo\?locale=$2',
+    '!https://demo.vibrobox.(com|ru)/demo\?locale=(en|ru)!' => 'https://demo.vibrobox.$1/demo?locale=$2',
     '!https://www.vibrobox.(com|ru)/!' => '../',
     '!images/image([0-9]+\.)(png|jpg|jpeg|svg)!' => '../img/technology/image$1$2',
     '!^<div>.*<\/div>\s<p>.*<\/p>\s!sU' => '',
