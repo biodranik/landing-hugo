@@ -919,6 +919,8 @@ html[lang=ru] .system-container__g-report:after {
     @media (max-width: 425px) {
       .teammate__description p {
         line-height: 1.2rem; } }
+  .teammate__description ul {
+    margin-bottom: 1.2rem; }
 
 .content__faq h2 {
   border-top: 2px solid #eee;
