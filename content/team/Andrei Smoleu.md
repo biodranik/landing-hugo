@@ -22,7 +22,7 @@ In VibroBox Andrei is responsible for:
 * hardware production;
 * project management;
 * technical documentation;
-* technology testing at the industry;
+* on-site technology testing;
 * certification.
 
 Education:
