@@ -1,7 +1,7 @@
 ---
 title: Timofei Rachkovsky
 job_title: Design Engineer, Master's Degree student
-description: As a Design Engineer, Timofei develops and tests our hardware and firmware. He is also responsible for the development of signal processing modules in the spectral domain and data acquisition subsystems.
+description: As a Design Engineer, Timofei develops and tests our hardware and firmware. He is also responsible for the development of signal processing algorithms in the spectral domain and data acquisition subsystems.
 keywords: Timofei Rachkovsky, design engineer, Master's Degree student, VibroBox, Digital Signal Processing, software testing, hardware testing, firmware, spectral domain, data acquisition
 weight: 50
 share:
@@ -9,7 +9,7 @@ share:
 ---
 As a Design Engineer, Timofei develops and tests our hardware and firmware. He is also responsible for:
 
-* development of signal processing modules in the spectral domain;
+* development of signal processing algorithms in the spectral domain;
 * data acquisition subsystems;
 * data processing framework/UI interaction API;
 * user manuals for VibroBox products.
