@@ -16,6 +16,6 @@ As a Design Engineer, Timofei develops and tests our hardware and firmware. He i
 
 Timofei works in a close contact with other developers to maximize the effectiveness of the final product.
 
-Timofei graduated in 2017 from Belarusian State University of Informatics and Radioelectronics with a bachelor’s degree in Radioinformatics engineering. Timofei’s thesis theme was “Data collection and transmission unit for condition monitoring systems.”
+Timofei graduated in 2017 from Belarusian State University of Informatics and Radioelectronics (BSUIR) with a bachelor’s degree in Radioinformatics engineering. Timofei’s thesis theme was “Data collection and transmission unit for condition monitoring systems.”
 
 Now Timofei is a Master’s Degree student at BSUIR in the speciality of Radioengineering, including systems and devices for radionavigation, radar, and television. His thesis theme thesis theme is “Condition monitoring of machinery based on a packet wavelet transform.”
