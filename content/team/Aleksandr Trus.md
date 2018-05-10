@@ -10,12 +10,19 @@ share:
 Alexander is skilled Hardware Engineer and Architect with excellent knowledge of modern hardware, electronics, microelectronics and industrial automation. He has high-grade experience in designing, production, testing and certification of electrical and electronics multipurpose devices intended for automation, telemetry data acquisition and transmitting, etc. His area of expertise covers:
 
 • Digital and Analog Circuitry and Safety;
+
 • FPGA fundamentals;
+
 • PCB layout;
+
 • Telemetry;
+
 • Telephony;
+
 • SCADA; PLC (Industrial Automation);
+
 • Electronics, microelectronics hardware Manufacturing, Testing and Certification;
+
 • Project and Team Management.
 
 In VibroBox Alexander is responsible for:
