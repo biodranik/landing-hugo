@@ -27,10 +27,15 @@ Alexander is skilled Hardware Engineer and Architect with excellent knowledge of
 
 In VibroBox Alexander is responsible for:
 • development and manufacturing sets of measurement equipment;
+
 • technical support;
+
 • development of testing equipment and accessories;
+
 • equipment and accessory design;
+
 • hardware production;
+
 • technical documentation;
 
 Education:
