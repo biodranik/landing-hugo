@@ -9,15 +9,15 @@ share:
 ---
 Aleksandr is a skilled hardware engineer and architect with an excellent knowledge of modern hardware, electronics, microelectronics and industrial automation. He has a vast experience in hardware design, production, testing and certification of multipurpose electrical and electronics devices intended for automation, telemetry data recording, collection, and transmitting. His area of expertise includes:
 
-* Digital and analog circuitry and safety
+* digital and analog circuitry and safety
 * FPGA fundamentals
 * PCB layout
-* Telemetry
-* Telephony
+* telemetry
+* telephony
 * SCADA 
 * PLC (industrial automation)
-* Electronics, microelectronics hardware manufacturing, testing and certification
-* Project and team management
+* electronics, microelectronics hardware manufacturing, testing and certification
+* project and team management
 
 In VibroBox Aleksandr is responsible for:
 
@@ -28,5 +28,4 @@ In VibroBox Aleksandr is responsible for:
 * hardware production
 * technical documentation
 
-As to education, Aleksandr has studied at the faculty of Radioengineering and Electronics in Belarusian State University of Informatics and Radioelectronics from 1996 to 2001. He got his Bachelor/Specialist degree in
-Microelectronics as an Electronics Engineer.
+As to education, Aleksandr has studied at the faculty of Radioengineering and Electronics in Belarusian State University of Informatics and Radioelectronics from 1996 to 2001. He got his Specialist degree in Microelectronics as an Electronics Engineer.
