@@ -10,4 +10,4 @@ layout: technology
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
 ---
-{{<include_html "data/technology.ru.html">}}
+{{<include_html "content/technology/technology.ru.html">}}
