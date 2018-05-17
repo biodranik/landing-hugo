@@ -16,12 +16,12 @@ The organizer company [Redenex](http://www.redenex.com/en/) has put together a s
 
 Russia’s as well as Commonwealth of Independent States ([CIS](https://en.wikipedia.org/wiki/Commonwealth_of_Independent_States#Member_states)) top ten projects were ranked by experts from [GenerationS](http://en.generation-startup.ru/), [Skolkovo](http://sk.ru/) and [VentureClub](https://ventureclub.co/) accelerators. VibroBox received the highest rating and [was awarded](https://www.eprussia.ru/news/base/2018/2419430.htm) the main prize from the Summit organizer.
 
-Ph.D. in Digital Signal Processing and a CEO of VibroBox [Igor Davydov]({{<relref "Igor Davydov.md">}}) presented our technology.
+Ph.D. in Digital Signal Processing and a CEO of VibroBox [Igor Davydov]({{<relref "Igor Davydov">}}) presented our technology.
 
 Currently, tech-heavy industrial enterprises are interested in a scalable and automated solution for assessing equipment's health to improve Asset Maintenance Management. VibroBox offers a unique technology for **Prescriptive Maintenance** to address service issues efficiently.
 
 {{% figure src="img/news/smart-energy-summit/igor-talks-about-vibrobox-service.jpg" %}}
-[Igor Davydov]({{<relref "Igor Davydov.md">}}) gives a talk about VibroBox **Prescriptive Maintenance** service.
+[Igor Davydov]({{<relref "Igor Davydov">}}) gives a talk about VibroBox **Prescriptive Maintenance** service.
 {{% /figure %}}
 
 ## Summary of VibroBox CEO Igor Davydov’s presentation
@@ -63,4 +63,4 @@ VibroBox implements the concept of **Prescriptive Maintenance** as an easily sca
 
 Read more about the summit on the [Energy and Industry of Russia website](https://www.eprussia.ru/news/base/2018/2419430.htm).
 
-More information about [VibroBox technology]({{<relref "technology.md">}}).
+More information about [VibroBox technology]({{<relref "technology">}}).
