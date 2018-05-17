@@ -10,15 +10,12 @@
 <body {{block "body_attributes" .}}{{end}}>
   {{partial "header" .}}
   <main role="main">
-  <!-- Code that all your templates share, like a header -->
   {{block "main" .}}
-  </main>
-  <!-- The part of the page that begins to differ between templates -->
   {{end}}
+  </main>
   {{partial "footer" .}}
   {{block "scripts" .}}
   {{end}}
-  </main>
 </body>
 
 </html>
