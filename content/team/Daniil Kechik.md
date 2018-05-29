@@ -1,13 +1,19 @@
 ---
 title: Daniil Kechik
 job_title: Research engineer, Master's Degree student
-description: As part of the VibroBox team, he develops and tests periodic components finding in vibrational signal in time domain module, shaft speed refinement module and equipment kinematics model estimation in frequency domain.
-keywords: Daniil, kechik, research, engineer, master, degree, student, VibroBox
+description: Daniil Kechik is a research engineer in VibroBox. He develops and tests digital signal processing algorithms and equipment kinematic scheme ("digital twin") modules.
+keywords: Daniil, Kechik, research, engineer, master, degree, student, VibroBox, kinematic, scheme, dsp, digital, signal, processing, twin
 weight: 50
 share:
   image: img/team/Daniil Kechik.jpg
 ---
-Daniil is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics (BSUIR) majoring in “Radioengineering including systems and devices of radionavigation, radiolocation and television” of the Radio Engineering and Electronics Department.
+Daniil Kechik is a research engineer in VibroBox. He develops and tests digital signal processing algorithms and equipment kinematic scheme ("digital twin") modules.
 
-He has experience in designing and simulating digital receiver-transmitter devices, as well as devices for processing and analysing radio frequency signals. Certified C++ programmer (ECDL Foundation certificate issued May 31, 2008, by Learning Technologies Center of “BelHard” CJSC). 
-As part of the VibroBox team, he develops and tests periodic components finding in vibrational signal in time domain module, shaft speed refinement module and equipment kinematics model estimation in frequency domain.
+His specializations include:
+
+* Design and simulation of digital receiver-transmitter devices
+* Software and hardware for processing and analyzing radio frequency signals
+* Extraction of periodic components from vibration and acoustic signals
+* Variable speed refinement module for shafts
+
+Daniil is also a Master's Degree student in the Faculty of Radioengineering and Electronics at Belarusian State University of Informatics and Radioelectronics majoring in “Radioengineering including systems and devices of radionavigation, radiolocation, and television.”
