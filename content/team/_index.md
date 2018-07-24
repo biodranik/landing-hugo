@@ -16,4 +16,4 @@ VibroBox is a team of well-qualified researchers, engineers and industry experts
 - Creative person with native/bilingual English who is able to transform our *"Scientific Russian"* into a *"Common English"*.
 - Engineers and scientists experienced in digital signal processing, machine learning algorithms and vibration diagnostics.
 
-Please contact us at <mailto:jobs@vibrobox.com> or on [FaceBook](https://m.me/VibroBox "Messenger") if you are interested to join our team or have any questions.
+Please contact us at <mailto:jobs@vibrobox.com> or on [FaceBook](https://m.me/VibroBox "Messenger") if you are interested in joining our team or have any questions.
