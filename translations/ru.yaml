@@ -28,10 +28,8 @@
   translation: "Главная"
 - id: contactPageTitle
   translation: "Связаться с нами"
-- id: headquarters
-  translation: "Главный офис"
 - id: developmentOffice
-  translation: "Офис разработки"
+  translation: "Офис разработки и исследований"
 - id: "404 Page not found"
   translation: "404 Страница не найдена"
 - id: error404details
@@ -115,21 +113,17 @@
 - id: titleContactPage
   translation: "VibroBox: Наши контакты"
 - id: metaDescriptionContactPage
-  translation: "Наш главный офис в Таллине, разработка и исследования ведутся в Минске. Пишите на почту, мы отвечаем на каждое письмо."
+  translation: "Наш офис разработки и исследований находится в Минске. Пишите на почту, мы отвечаем на каждое письмо."
 - id: metaKeywordsContactPage
-  translation: "контакты, адрес, адреса, офис, разработка, где находится, Минск, Беларусь, Таллин"
+  translation: "контакты, адрес, адреса, офис, разработка, где находится, Минск, Беларусь"
 - id: menuContactPage
   translation: "Контакты"
-- id: headquarters
-  translation: "Главный офис"
 - id: developmentOffice
   translation: "Центр разработки"
 - id: ourContacts
   translation: "Наши контакты"
-- id: addressEstonia
-  translation: "Бульвар Равала 8, офис 810<br/>Таллин, 10143<br/>Эстония<br/><a href=tel:+3726027212>+372 602 7212</a>"
 - id: addressBelarus
-  translation: "Логойский тракт 22A/2, офис 402<br/>г. Минск, 220090<br/>Беларусь<br/><a href=tel:+375291768335>+375 29 1768335</a>"
+  translation: "Логойский тракт 22A, офис 223<br/>г. Минск, 220090<br/>Беларусь<br/><a href=tel:+375291768335>+375 29 1768335</a>"
 - id: sitel
   translation: "ООО Сител"
 - id: mapCopyright
