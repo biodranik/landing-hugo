@@ -139,7 +139,7 @@ VibroBox equipment is manufactured by our company in Minsk.
 
 ### Where is the VibroBox team from?
 
-The whole VibroBox team from Belarus works in the research and development center located in its capital — Minsk. The head office of VibroBox is located in Tallinn (Estonia).
+Our engineering and scientific team works in Minsk, the capital of Belarus.
 
 ### What kind of specialists do you need? How to get to your team?
 

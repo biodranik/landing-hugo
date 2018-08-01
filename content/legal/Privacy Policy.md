@@ -12,7 +12,7 @@ keywords: privacy, policy
 
 ## Background
 
-This Policy applies as between you, the User of this Website and VibroBox OÜ, the owner
+This Policy applies as between you, the User of this Website and VibroBox, the owner
 and provider of this Website.
 This Policy applies to our use of any and all Data collected by us about your use of the Website.
 
@@ -20,13 +20,13 @@ This Policy applies to our use of any and all Data collected by us about your us
 
     In this Policy the following terms shall have the following meanings:
 
-    **“Data”** means collectively all information that you submit to the VibroBox OÜ via the Website.
+    **“Data”** means collectively all information that you submit to the VibroBox via the Website.
     This definition shall, where applicable, incorporate the definitions provided in the EU Directive 95/46/EC;
 
     **“Cookie”** means a small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use specific features of the Website.
     Details of the cookies used on this Website are set out in Clause 12;
 
-    **“VibroBox”** means VibroBox OÜ, registered at Rävala pst 8-810, Tallinn, Estonia;
+    **“VibroBox”** means Sitel LLC, registered at 22A Lahoyski Tract, office 223, Minsk, 220090 Belarus
 
     **“EU Cookie Law”** means the Privacy and Electronic Communications (EC Directive) Regulations 2003 as amended by the Privacy and Electronic Communications (EC Directive) (Amendment) Regulations 2011;
 

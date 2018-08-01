@@ -4,10 +4,8 @@
   translation: "Home"
 - id: contactPageTitle
   translation: "Contact Us"
-- id: headquarters
-  translation: "Headquarters"
 - id: developmentOffice
-  translation: "Development Office"
+  translation: "Research and Development Office"
 - id: "404 Page not found"
   translation: "404 Page not found"
 - id: error404details
@@ -91,21 +89,17 @@
 - id: titleContactPage
   translation: "VibroBox: Contact Us"
 - id: metaDescriptionContactPage
-  translation: "Our HQ is in Tallin, Estonia. Development and scientific team is located in Minsk, Belarus. We respond to every email."
+  translation: "Our development and scientific team is located in Minsk, Belarus. We respond to every email."
 - id: metaKeywordsContactPage
-  translation: "contact, us, address, hq, office, development, location, Minsk, Belarus, Tallinn"
+  translation: "contact, us, address, R&D, office, research, development, location, Minsk, Belarus"
 - id: menuContactPage
   translation: "Contact"
-- id: headquarters
-  translation: "Headquarters"
 - id: developmentOffice
   translation: "Development office"
 - id: ourContacts
   translation: "Our Contacts"
-- id: addressEstonia
-  translation: "Rävala pst 8, office 810<br/>Tallinn, 10143<br/>Estonia<br/><a href=tel:+3726027212>+372 602 7212</a>"
 - id: addressBelarus
-  translation: "22A/2 Lahoyski Tract, office 402<br/>Minsk, 220090<br/>Belarus<br/><a href=tel:+375291768335>+375 29 1768335</a>"
+  translation: "22A Lahoyski Trakt, office 223<br/>Minsk, 220090<br/>Belarus<br/><a href=tel:+375291768335>+375 29 1768335</a>"
 - id: sitel
   translation: "LLC Sitel"
 - id: mapCopyright
