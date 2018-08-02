@@ -4,7 +4,7 @@ title: VibroBox vibration diagnostics service was successfully tested at “Geel
 description: CITIC Construction experts evaluated the results of VibroBox diagnostics as highly informative and confirmed that the system worked consistently.
 keywords: Geely, Belgee, factory, auto, automobiles, Zhodino, Belarus, VibroBox, predictive, maintenance, report, test, vibration, diagnostics
 slug: automatic-vibration-diagnostics-was-tested-at-geely-automobile-factory-in-belarus
-aliases: [news/automatic-vibration-diagnostics-was-tested-at-geely-automobile-factory-in-belarus]
+aliases: [news/automatic-vibration-diagnostics-was-tested-at-geely-automobile-factory-in-belarus/]
 share:
   image: img/news/geely_collecting_telemetry.jpg
 ---

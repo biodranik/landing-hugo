@@ -105,7 +105,7 @@ VibroBox was developed taking into account the concepts of “Industry 4.0” a
 
 ### What are the prospects for the development of VibroBox?
 
-VibroBox was developed in accordance to concepts of Industrial Internet of Things (IIoT) and “Industry 4.0”. This is a strong foundation for integration with the global platform integrators of IIoT solutions, the largest of which are [General Electric](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/) and [Microsoft](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/) with the [Predix](https://www.ge.com/digital/predix) platform for Industrial Internet, SAP with [SAP Cloud Platform](https://www.sap.com/product/technology-platform/iot-platform-cloud.html) for the Internet of Things and Intel with its [Intel IoT Platform](http://www.intel.com/content/www/us/en/internet-of-things/infographics/iot-platform-infographic.html).
+VibroBox was developed in accordance to concepts of Industrial Internet of Things (IIoT) and “Industry 4.0”. This is a strong foundation for integration with the global platform integrators of IIoT solutions, the largest of which are [General Electric](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/) and [Microsoft](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/) with the [Predix](https://www.ge.com/digital/predix-platform-foundation-digital-industrial-applications) platform for Industrial Internet, SAP with [SAP Cloud Platform](https://www.sap.com/products/iot-platform-cloud.html) for the Internet of Things and Intel with its [Intel IoT Platform](https://www.intel.com/content/www/us/en/internet-of-things/infographics/iot-platform-infographic.html).
 
 Also, the potential built into the VibroBox service architecture is high: it is built such a way as to provide maximum flexibility and upgradeability of condition monitoring service without radical modification of its algorithms modules. At the same time, the service is based on the usage of the latest and progressive methods of machine learning and fuzzy logic, which makes VibroBox an extremely flexible system capable of independently learning on each day's data.
 
@@ -113,7 +113,7 @@ Also, the potential built into the VibroBox service architecture is high: it is 
 
 ### Where can I read more about your technology?
 
-We have put a lot of effort and published a detailed description of our technology [on our website](https://www.vibrobox.com/technology).
+We have put a lot of effort and published a detailed description of our technology [on our website](https://www.vibrobox.com/technology/).
 
 ### Where can I find detailed specifications of your sensors? Are there any Data sheets?
 
