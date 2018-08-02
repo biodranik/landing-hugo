@@ -105,7 +105,7 @@ VibroBox — система вибродиагностики, которая з
 
 ### Какие перспективы развития сервиса VibroBox
 
-Сервис VibroBox разрабатывался с учётом концепций промышленного интернета вещей (Industrial Internet of Things, сокращённо IIoT) и «Индустрии 4.0» («Industry 4.0»). Это даёт VibroBox серьёзный задел для интеграции с глобальными платформами-интеграторами решений IIoT, крупнейшими из которых являются [General Electric и Microsoft](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/#di57z7KwVijPt8vc.97) с [платформой Predix](https://www.ge.com/digital/predix), SAP с [платформой SAP Cloud Platform for the Internet of Things](https://www.sap.com/product/technology-platform/iot-platform-cloud.html) и Intel со своей [Intel IoT Platform](http://www.intel.com/content/www/us/en/internet-of-things/infographics/iot-platform-infographic.html). Уже сейчас мы активно развиваем партнёрство с SAP в этом направлении.
+Сервис VibroBox разрабатывался с учётом концепций промышленного интернета вещей (Industrial Internet of Things, сокращённо IIoT) и «Индустрии 4.0» («Industry 4.0»). Это даёт VibroBox серьёзный задел для интеграции с глобальными платформами-интеграторами решений IIoT, крупнейшими из которых являются [General Electric и Microsoft](https://news.microsoft.com/2016/07/11/ge-and-microsoft-partner-to-bring-predix-to-azure-accelerating-digital-transformation-for-industrial-customers/#di57z7KwVijPt8vc.97) с [платформой Predix](https://www.ge.com/digital/predix-platform-foundation-digital-industrial-applications), SAP с [платформой SAP Cloud Platform for the Internet of Things](https://www.sap.com/products/iot-platform-cloud.html) и Intel со своей [Intel IoT Platform](https://www.intel.com/content/www/us/en/internet-of-things/infographics/iot-platform-infographic.html). Уже сейчас мы активно развиваем партнёрство с SAP в этом направлении.
 
 Также высок потенциал, закладываемый в архитектуру сервиса VibroBox: она построена таким образом, чтобы обеспечить максимальную гибкость и модернизационную пригодность сервиса без радикальной доработки составляющих его модулей. В то же время работа сервиса основана на применении новейших методов машинного обучения (Machine Learning) и алгоритмов нечёткой логики (fuzzy logic), что делает VibroBox чрезвычайно гибкой системой, способной самостоятельно обучаться на снимаемых каждый день данных.
 
@@ -113,7 +113,7 @@ VibroBox — система вибродиагностики, которая з
 
 ### Где можно подробнее почитать о вашей технологии?
 
-Специально для этого мы создали подробнейший [раздел «Технология»](https://www.vibrobox.com/technology) на нашем сайте.
+Специально для этого мы создали подробнейший [раздел «Технология»](https://www.vibrobox.com/technology/) на нашем сайте.
 
 ### Где можно найти техническое описание ваших датчиков? Есть ли на них Data sheets?
 
