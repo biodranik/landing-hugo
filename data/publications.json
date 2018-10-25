@@ -1,12 +1,12 @@
 {
   "authors": {
-    "Igor Davydov": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71],
-    "Alexander Borsuk": [70, 71],
-    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71],
+    "Igor Davydov": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71, 72],
+    "Alexander Borsuk": [70, 71, 72, 73],
+    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71, 72],
     "Sergey Vasukevich": [20, 21, 23, 24, 27, 30, 31, 32, 33, 34, 37, 38, 40, 43, 44, 48, 49, 53, 61],
     "Aliaksei Maniuk": [39],
     "Alexander Tsurko": [27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 52, 53, 54, 56, 58, 61, 62, 63, 67],
-    "Andrei Aslamov": [29, 51, 55, 57, 59, 64, 65, 68, 69, 70, 71]
+    "Andrei Aslamov": [29, 51, 55, 57, 59, 64, 65, 68, 69, 70, 71, 72]
   },
   "publications": {
     "01": "Automated system for testing bearings / I.G. Davydov, V.N. Penza, G.A. Dostanko // Modern means of communication: materials of the 6th International Scientific and Technical conference, Naroch, 2001 / Vol. 2, Minsk, 2001. — pp. 61-63.",
@@ -79,6 +79,8 @@
     "68": "Sparse wavelet decomposition for solving problems of vibration diagnostics / I.G. Davydov, A.P. Aslamov, Y.P. Aslamov // 53rd Scientific Conference of post-graduate students, undergraduates and students of BSUIR / Minsk, BSUIR, 2017.",
     "69": "Refinement of shaft spin frequency for vibration diagnostics tasks / I.G. Davydov, A.P. Aslamov, Y.P. Aslamov // 53rd Scientific Conference of post-graduate students, undergraduates and students of BSUIR / Minsk, BSUIR, 2017.",
     "70": "Algorithms for refinement of the shaft rotational speed for solving the problems of vibration diagnostics of rotary equipment / Y. Aslamov, I. Davydov, A. Borsuk, A. Aslamov // First World Congress on Condition Monitoring, London, 13-16 June 2017, Session 6E: Vibration condition monitoring methods and technologies / The British Institute of Non-Destructive Testing.",
-    "71": "Sparse wavelet decomposition of signals for solving vibration diagnostics problems / Y. Aslamov, I. Davydov, A. Borsuk, A. Aslamov // First World Congress on Condition Monitoring, London, 13-16 June 2017, Session 7E: Vibration condition monitoring methods and technologies / The British Institute of Non-Destructive Testing."
+    "71": "Sparse wavelet decomposition of signals for solving vibration diagnostics problems / Y. Aslamov, I. Davydov, A. Borsuk, A. Aslamov // First World Congress on Condition Monitoring, London, 13-16 June 2017, Session 7E: Vibration condition monitoring methods and technologies / The British Institute of Non-Destructive Testing.",
+    "72": "Sparse wavelet decomposition in problems of vibration-based diagnostics of rotary equipment / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Borsuk // Doklady BGUIR [BSUIR reports], 2017, no. 8 (110), pp. 91-98. (in Russian)",
+    "73": "Formation of informative features of shock processes using wavelet analysis of non-stationary vibration signals: the author's abstract. Diss. MSc in Engineering: 1-39 81 03 / A.V. Borsuk; scientific adviser I.G. Davydov // Minsk : BSUIR, 2018. (in Russian)"
   }
 }
