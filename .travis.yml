@@ -37,6 +37,17 @@ after_success:
           --keep-history=true --target-branch=master --committer-from-gh=true \
           $param
     done
+    # Clear CDN cache after production deployments.
+    if [ "$TRAVIS_BRANCH" = "master" ]; then
+      zones=( $VIBROBOX_RU_ZONE $VIBROBOX_COM_ZONE )
+      for zone in "${zones[@]}"; do
+        curl -X DELETE "https://api.cloudflare.com/client/v4/zones/$zone/purge_cache" \
+        -H "X-Auth-Email: $X_AUTH_EMAIL" \
+        -H "X-Auth-Key: $X_AUTH_KEY" \
+        -H "Content-Type: application/json" \
+        --data '{"purge_everything":true}'
+      done
+    fi
 # Deployment sections below push from master branch to production Github Pages.
 # deploy:
 #   - provider: pages
