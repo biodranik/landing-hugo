@@ -99,7 +99,7 @@
 - id: ourContacts
   translation: "Our Contacts"
 - id: addressBelarus
-  translation: "22A Lahoyski Trakt, office 223<br/>Minsk, 220090<br/>Belarus<br/><a href=tel:+375291768335>+375 29 1768335</a>"
+  translation: "22A Lahoyski Trakt, office 223<br/>Minsk, 220090<br/>Belarus<br/><br/>Tel.: <a href=tel:+375291768335>+375(29)1768335</a>, <a href=tel:+375172680544>+375(17)2680544</a><br/>Fax: +375(17)2680545"
 - id: sitel
   translation: "LLC Sitel"
 - id: mapCopyright
