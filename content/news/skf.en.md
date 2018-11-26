@@ -10,7 +10,7 @@ share:
 
 {{<date>}}
 
-VibroBox и [SKF](http://www.skf.com) office in Minsk have a long history of cooperation in the field of vibration diagnostics of industrial equipment. Since the spring of 2018, VibroBox has established strong connections with SKF Moscow office (LLC SKF, Moscow).  During that cooperation from 6th of April till 7th of June 2018 SKF team have tested system for automatic assessment of the technical condition of industrial equipment developed by VibroBox team.
+VibroBox and [SKF](http://www.skf.com) office in Minsk have a long history of cooperation in the field of vibration diagnostics of industrial equipment. Since the spring of 2018, VibroBox has also established strong connections with SKF Moscow office (LLC SKF, Moscow).  During the period from 6th of April till 7th of June 2018, SKF team tested VibroBox system for automatic assessment of the technical condition of industrial equipment.
 
 The primary goal of the experiment was the practical confirmation of the functionality, efficiency, and reliability of the VibroBox system. SKF provided diagnostic equipment and software for data collection during the tests. VibroBox Cloud Processing System analyzed vibration data, detected defects and issued recommendations on the technical condition of the equipment remotely from Minsk.
 
