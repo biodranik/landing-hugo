@@ -1,12 +1,14 @@
 ---
 date: 2018-08-02 10:00:00 +03:00
-title: The world leader of bearings manufacturing LLC SKF and VibroBox have agreed on the partnership
+title: Bearing manufacturer SKF and VibroBox have agreed on the partnership
+slug: bearing-manufacturer-skf-and-vibrobox-have-agreed-on-the-partnership-in-predictive-and prescriptive-maintenance
+
 description: LLC SKF and VibroBox outlined further actions to expand cooperation, including the implementation of joint commercial projects in Russia.
 keywords: VibroBox, SKF, experiment, vibration, diagnostics, equipment, cooperation, Minsk, Moscow, result, solution, projects, industrial
 share:
   image: img/news/skf/vibrobox-and-skf.jpg
 ---
-# The world leader of bearings manufacturing LLC SKF and VibroBox have agreed on the partnership
+# The world leader in bearings manufacturing LLC SKF and VibroBox have agreed on the partnership
 
 {{<date>}}
 
