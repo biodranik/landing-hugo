@@ -2,3 +2,5 @@
 public
 # Packages installed by npm.
 node_modules
+# Temporary cached resources used by hugo.
+resources
