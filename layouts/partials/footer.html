@@ -24,5 +24,8 @@
   </p>
 </footer>
 <!-- Custom scripts files from pages (if any). -->
-{{- range $.Params.scripts}}<script src="{{.}}"></script>{{end}}
+{{- range $.Params.scripts}}
+<script src="{{.}}"></script>{{end}}
+{{- if eq (getenv "HUGO_ENV") "production"}}
 {{template "_internal/google_analytics_async.html" .}}
+{{end -}}
