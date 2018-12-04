@@ -18,6 +18,9 @@ Logi18nwarnings: true
 # Correct lastmod time for pages in sitemap.
 # TODO: Check why it always shows the most current time in production.
 EnableGitInfo: true
+# Disable robots indexing in development preview when HUGO_ENV=production
+# See layouts/robots.txt for more details
+EnableRobotsTXT: true
 # Open all external links from content in a new window.
 BlackFriday:
   hrefTargetBlank: true
