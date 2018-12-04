@@ -13,11 +13,11 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Do not index dev version and private pages -->
-{{if or .Params.private $.Site.Params.dev_mode -}}
+{{if and (eq (getenv "HUGO_ENV") "production") (not .Params.private) -}}
+<meta name="referrer" content="unsafe-url">
+{{else -}}
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="same-origin">
-{{else -}}
-<meta name="referrer" content="unsafe-url">
 {{- end}}
 
 <!-- Required Open Graph Info -->
