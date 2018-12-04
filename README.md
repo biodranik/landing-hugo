@@ -41,6 +41,14 @@ There are some useful scripts to help with development:
 - [tools/build.sh](tools/build.sh) ([tools/build.cmd](tools/build.cmd) for Windows) generates static web site into the *public* folder.
 - [tools/deploy.sh](tools/deploy.sh) ([tools/deploy.cmd](tools/deploy.cmd) for Windows) generates static web site into *public* folder and pushes it into gh-pages branch of the repository.
 
+### Production build
+
+Set `HUGO_ENV` environment variable to `production` before deploying into production:
+
+```bash
+$ HUGO_ENV=production hugo
+```
+
 ### Set your public web site URL
 
 You can either modify `BaseUrl: https://YOURGITHUBNAME.github.io/REPONAME/` in `config.yaml` or set HUGO_BASEURL environment variable to your web site base url.
@@ -84,6 +92,5 @@ You should always [remember](https://www.madboa.com/blog/2016/08/24/hugo-datefor
 ## Github Pages deployment with Travis CI
 
 English version of the generated site (from *public/en* folder) is automatically uploaded into https://github.com/VibroBox/preview.com repository and is accessible at https://VibroBox.github.io/preview.com/
-
 
 [Hugo Releases]: https://github.com/spf13/hugo/releases/latest
