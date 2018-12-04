@@ -13,7 +13,7 @@ install:
 script:
   - |
     if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_EVENT_TYPE" = "push" ]; then
-      tools/build.sh      # production
+      HUGO_ENV=production tools/build.sh      # production
     else
       tools/build_dev.sh  # dev
     fi
