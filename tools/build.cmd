@@ -1,5 +1,5 @@
 @ECHO OFF
-REM Builds css files by sassc and generates static html site.
+REM Generates static html site.
 REM
 REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 
@@ -10,12 +10,13 @@ REM Project root directory without a slash at the end.
 SET root=%tools_dir%..
 SET bin=%root%\bin
 
-for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
+REM Try to use hugo from bin submodule and fall back to version in PATH
+IF EXIST %root%\bin\hugo.exe (
+  SET hugo=%root%\bin\hugo.exe
+) ELSE (
+  SET hugo=hugo.exe
+)
 
-REM Building scss.
-CALL %tools_dir%sassc.cmd || ECHO "Command sassc.cmd exited with error" && EXIT /B 1
-
-ECHO Running hugo ...
-%hugo% -s %root% --cleanDestinationDir=true || ECHO ERROR while launching %hugo%. && EXIT /B 1
+%hugo% -s %root% || ECHO "Please install hugo binary from here: https://github.com/gohugoio/hugo/releases"
 
 ENDLOCAL
