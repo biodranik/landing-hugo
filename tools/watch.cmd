@@ -1,28 +1,21 @@
 @ECHO OFF
-REM Builds css files by sassc and generates static html site.
+REM Runs hugo in the development mode on local machine
 REM
 REM Created by Alexander Borsuk <me@alex.bio> from Minsk, Belarus.
 
 SETLOCAL
 
 SET tools_dir=%~dp0
-REM Project root directory without slash at the end.
 SET root=%tools_dir%..
-SET bin=%root%\bin
-SET watch_directory=%root%\scss
 
-for %%f in (%bin%\hugo*%PROCESSOR_ARCHITECTURE%.exe) do SET hugo=%%f
-for %%f in (%bin%\*fswatch*%PROCESSOR_ARCHITECTURE%.exe) do SET fswatch=%%f
+REM Try to use hugo from bin submodule and fall back to version in PATH
+IF EXIST %root%\bin\hugo.exe (
+  SET hugo=%root%\bin\hugo.exe
+) ELSE (
+  SET hugo=hugo.exe
+)
 
-REM Launch hugo web server in background.
-START "" /B %hugo% server -s %root% --quiet --disableFastRender || ECHO ERROR while launching %hugo% server. && EXIT /B 1
-
-REM Rebuild scss on the launch once and watch for any scss directory changes indefinitely.
-:loop
-ECHO Rebuilding %sassc_output%
-REM Do not stop after sassc returned error, because it can be caused by invalid scss syntax.
-CALL %tools_dir%\sassc.cmd
-%fswatch% --one-event %watch_directory% || ECHO ERROR while launching %fswatch%. && EXIT /B 1
-GOTO loop
+REM Hugo (extended) automatically rebuilds the site on any scss changes.
+%hugo% server -s %root% || ECHO "Please install hugo binary from here: https://github.com/gohugoio/hugo/releases"
 
 ENDLOCAL

@@ -3,14 +3,19 @@
 {{range $.Site.Home.AllTranslations -}}
 <link href="{{.Permalink}}" hreflang="{{.Lang}}" rel="alternate">
 {{end -}}
-{{end}}<!-- if .Site.IsMultiLingual -->
+{{end -}}
 
 <!-- CSS version trick does not help to pass CloudFront html caching. Skip it.
 <link rel="stylesheet" type="text/css" href="{{partial "v" "css/style.css"}}">-->
-<link rel="stylesheet" type="text/css" href="{{"css/style.css" | relURL}}">
+{{- $options := (dict "targetPath" "css/style.css")}}
+{{$style := resources.Get "scss/style.scss" | resources.ToCSS $options}}
+{{if eq (getenv "HUGO_ENV") "production"}}
+{{$style := resources.Minify $style | resources.Fingerprint}}
+{{end -}}
+<link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
 <!-- Custom css files from pages (if any). -->
 {{- range $.Params.css -}}
-<link rel="stylesheet" type="text/css" href="{{partial "v" .}}" />
+<link rel="stylesheet" type="text/css" href="{{.}}" />
 {{end -}}
 
 <!-- Favicon section. TODO: Automatically change ?v=4 if resources have changed. -->
