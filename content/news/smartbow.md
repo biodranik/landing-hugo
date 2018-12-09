@@ -11,7 +11,7 @@ share:
 {{<date>}}
 
 {{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) and [Roman Tolkach]({{<relref "Roman Tolkach">}}) with Smartbow colleagues.
+[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) and [Roman Tolkach]({{<relref "/team/Roman Tolkach">}}) with Smartbow colleagues.
 {{% /figure %}}
 
 [Wind energy](https://en.wikipedia.org/wiki/Wind_power) is one of the highest priority areas of Prescriptive Maintenance.
@@ -24,33 +24,33 @@ VibroBox team actively promotes efficient maintenance for the wind power industr
 
 In 2017 Smartbow has entered the monitoring and diagnostics market of wind farms. To strengthen its market position, Smartbow is interested in sophisticated diagnostics and maintenance technologies targeted to a wind turbine equipment.
 
-[VibroBox technology]({{<relref "technology">}}) aroused Smartbow interest in the fall of 2017, and joint activities in the field of interest were established. VibroBox specialists visited Beijing in December 2017 for a number of technical meetings and have deployed VibroBox system on a 2 MW Wind Turbine at a large wind farm in 270 kilometers from Beijing.
+[VibroBox technology]({{<relref "/technology">}}) aroused Smartbow interest in the fall of 2017, and joint activities in the field of interest were established. VibroBox specialists visited Beijing in December 2017 for a number of technical meetings and have deployed VibroBox system on a 2 MW Wind Turbine at a large wind farm in 270 kilometers from Beijing.
 
 The installed equipment included:
 
-* [VibroBox VB1610 communication and telemetry data transmission unit]({{<relref "technology#communication-and-telemetry-data-transmission-unit">}}) - 2 units;
-* [ICP (IEPE) - VibroBox converter ADC1707-8]({{<relref "technology#vibrobox-icp-iepe-converters">}}) - 2 units;
+* [VibroBox VB1610 communication and telemetry data transmission unit]({{<relref "/technology#communication-and-telemetry-data-transmission-unit">}}) - 2 units;
+* [ICP (IEPE) - VibroBox converter ADC1707-8]({{<relref "/technology#vibrobox-icp-iepe-converters">}}) - 2 units;
 * B&R accelerometer 0ACS100A.90-1 - 8 units;
 * MikroTik wireless router RB912UAG-2HPnD - 1 unit.
 
 The successful deployment and testing of VibroBox system ensured Smartbow specialists in technology capabilities to provide efficient prescriptive maintenance. The next step for both parties is to conduct a large-scale pilot project on a wind farm in China.
 
 {{% figure src="img/news/smartbow/discussing-vibrobox-hardware-platform.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) explains how [VibroBox hardware platform]({{<relref "technology#vibrobox-hardware-platform">}}) works.
+[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) explains how [VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}) works.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) with Smartbow colleagues near the wind turbine where [VibroBox system]({{<relref "technology#vibrobox-service-concept">}}) was tested.
+[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues near the wind turbine where [VibroBox system]({{<relref "/technology#vibrobox-service-concept">}}) was tested.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine-farm.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) with Smartbow colleagues and the view of the [wind farm](https://en.wikipedia.org/wiki/Wind_farm).
+[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues and the view of the [wind farm](https://en.wikipedia.org/wiki/Wind_farm).
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vibrobox-equipment-inside-wind-turbine.jpg" %}}
-[VibroBox hardware platform]({{<relref "technology#vibrobox-hardware-platform">}}) installation example.
+[VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}) installation example.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vbox.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) with Smartbow colleagues.
+[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues.
 {{% /figure %}}
