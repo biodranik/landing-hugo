@@ -10,7 +10,7 @@ html[lang="ru"] .content p {
   margin-right: 0.3rem;
 
   @include notSmartphone {
-    >p {
+    > p {
       @include hyphens-justify;
     }
   }
@@ -39,7 +39,8 @@ html[lang="ru"] .content p {
     }
   }
 
-  ul, ol {
+  ul,
+  ol {
     margin-bottom: 1rem;
     padding-left: 1.5rem;
 
@@ -74,7 +75,7 @@ html[lang="ru"] .content p {
   }
 
   table {
-    table-layout:fixed;
+    table-layout: fixed;
     width: 100%;
   }
 }

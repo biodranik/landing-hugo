@@ -1,4 +1,3 @@
-
 // Apply a natural box layout model to all elements, but allowing components to change.
 html {
   box-sizing: border-box;
@@ -18,15 +17,20 @@ html {
   //background-size: cover;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 // Special exception to images to avoid unnecessary resizing when they have a border.
-img { box-sizing: content-box; }
+img {
+  box-sizing: content-box;
+}
 
 body {
   color: $baseColor;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, sans-serif;
   letter-spacing: -0.02em;
   font-size: $baseFontSize;
   @include phablet {
@@ -67,7 +71,6 @@ table {
   padding: 0;
 }
 
-
 ul {
   margin: 0;
   // Zero padding visually breaks nested lists, they are aligned at the same level as the parent list.
@@ -100,7 +103,7 @@ a {
   text-align: center;
 
   @include phablet {
-      font-size: 1.125 * $baseFontSize;
+    font-size: 1.125 * $baseFontSize;
   }
 }
 
@@ -111,7 +114,8 @@ a {
 }
 
 @media print {
-  .no-print, .no-print * {
+  .no-print,
+  .no-print * {
     display: none !important;
   }
 }
