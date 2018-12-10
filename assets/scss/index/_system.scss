@@ -16,7 +16,7 @@
     &:after {
       background-image: url(#{$bg}big-arrows-sprite.png);
       background-repeat: no-repeat;
-      content: '';
+      content: "";
       position: absolute;
       z-index: -1;
     }
@@ -100,7 +100,7 @@
   }
 }
 
-html[lang=ru] .system-container {
+html[lang="ru"] .system-container {
   &__equipment {
     bottom: 10.5%;
   }
@@ -132,7 +132,7 @@ html[lang=ru] .system-container {
       &:after {
         background-image: url(#{$bg}arrow.png);
         background-repeat: no-repeat;
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
       }
@@ -226,7 +226,7 @@ html[lang=ru] .system-container {
     }
   }
 
-  html[lang=ru] .system-container {
+  html[lang="ru"] .system-container {
     &__item {
       min-height: 310px;
     }
@@ -267,7 +267,7 @@ html[lang=ru] .system-container {
       &:after {
         background-image: url(#{$bg}arrow.png);
         background-repeat: no-repeat;
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
       }
@@ -345,7 +345,7 @@ html[lang=ru] .system-container {
     }
   }
 
-  html[lang=ru] .system-container {
+  html[lang="ru"] .system-container {
     &__equipment {
       bottom: 15.5%;
     }
@@ -356,7 +356,7 @@ html[lang=ru] .system-container {
 
     &__g-report {
       &:after {
-        top:auto;
+        top: auto;
       }
     }
   }

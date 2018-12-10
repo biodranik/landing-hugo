@@ -1,10 +1,10 @@
 .plus-icon {
   &:before {
-    background-image: url('#{$ico}sprite2.svg');
+    background-image: url("#{$ico}sprite2.svg");
     background-size: 262px;
     background-repeat: no-repeat;
     background-position: 0 0;
-    content: '';
+    content: "";
     position: relative;
     display: block;
     width: 62px;
@@ -47,14 +47,13 @@
   }
 }
 
-
 .system-icon {
   &:before {
-    background-image: url('#{$ico}sprite.svg');
+    background-image: url("#{$ico}sprite.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 505px;
-    content: '';
+    content: "";
     position: relative;
     display: block;
     width: 84px;
