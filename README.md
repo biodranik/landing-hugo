@@ -30,6 +30,14 @@ hugo server
 
 You can see it live at http://localhost:1313 (pages will automatically reload after changing the source).
 
+## Contribution
+
+Recommended Visual Studio Code plugins:
+
+- [HUGO Language and Syntax Support](https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode)
+- [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
+- [SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)
+
 ### Production build
 
 Set `HUGO_ENV` environment variable to `production` before building/deploying site into production:
