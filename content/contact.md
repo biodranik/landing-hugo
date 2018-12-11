@@ -10,3 +10,5 @@ layout: contact
 css: ["https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"]
 ---
 Please don't hesitate to contact us directly at <info@vibrobox.com> or on [FaceBook](https://m.me/VibroBox)
+
+We will gladly assist you with any questions you have regarding the service and cooperation opportunities.
