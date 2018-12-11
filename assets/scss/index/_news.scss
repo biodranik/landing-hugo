@@ -4,22 +4,18 @@
   border-bottom: 1px solid $baseColor;
   ul {
     list-style: none;
-    a {
-      font-style: italic;
-    }
-
+    font-style: italic;
     li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
     }
   }
 }
 
 .newsDate {
-  text-decoration: underline;
-  width: 125px;
+  min-width: 9rem;
   display: inline-block;
 
   @include phablet {
-    width: 120px;
+    min-width: initial;
   }
 }
