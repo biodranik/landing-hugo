@@ -6,7 +6,7 @@ if: fork = false
 language: minimal
 git:
   depth: 1
-  submodules_depth: 1
+  submodules_depth: 3
 install:
   # travis dpl gem is manually called to deploy from collaborators pull requests.
   - gem install dpl --no-rdoc --no-ri
