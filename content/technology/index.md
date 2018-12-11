@@ -5,7 +5,7 @@ details: Digital signal processing and machine learning algorithms, wavelets and
 menu:
   main:
     weight: 10
-    name: The Science
+    name: Platform
 layout: technology
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg

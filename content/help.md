@@ -5,7 +5,7 @@ keywords: questions, answers, FAQ, Q&A, help, support, information, frequently, 
 menu:
   main:
     weight: 30
-    name: Help
+    name: FAQ
 aliases: [faq]
 layout: help
 ---
