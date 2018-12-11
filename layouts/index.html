@@ -20,9 +20,7 @@
   <ul>
     {{range (.Site.GetPage "section" .Site.Params.news_section).Pages.ByDate.Reverse}}
     <li>
-      <time class="newsDate" datetime="{{.Date}}" itemprop="datePublished">
-        {{- partial "formatted_date" . -}}
-      </time>
+      <span class="newsDate">{{- partial "formatted_date" .}}: </span>
       <a href="{{.RelPermalink}}">
         {{.Title}}
       </a>
