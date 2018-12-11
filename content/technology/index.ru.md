@@ -5,7 +5,7 @@ details: Принцип работы VibroBox, алгоритмы цифрово
 menu:
   main:
     weight: 10
-    name: Технология
+    name: Решение
 layout: technology
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
