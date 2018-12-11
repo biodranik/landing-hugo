@@ -95,13 +95,15 @@
 - id: menuContactPage
   translation: "Contact"
 - id: developmentOffice
-  translation: "Development office"
+  translation: "R&D Office:"
 - id: ourContacts
   translation: "Our Contacts"
-- id: addressBelarus
-  translation: "22A Lahoyski Trakt, office 223<br/>Minsk, 220090<br/>Belarus<br/><br/>Tel.: <a href=tel:+375291768335>+375(29)1768335</a>, <a href=tel:+375173700544>+375(17)3700544</a><br/>Fax: +375(17)3700543"
-- id: sitel
-  translation: "LLC Sitel"
+- id: developmentOfficeContacts
+  translation: "22A Lahoyski Trakt<br/>Offices 223-1, 513-1, 402-2<br/>Minsk, 220090<br/>Republic of Belarus<br/>Tel.: <a href=tel:+375291768335>+375 (29) 176-83-35</a>"
+- id: legalAddress
+  translation: "Legal Address:"
+- id: legalAddressContacts
+  translation: 'OOO "Sitel"<br/>14 F.Skaryny str., office 303b<br/>Minsk, 220114<br/>Republic of Belarus<br/>Tel.: <a href=tel:+375173700544>+375 (17) 370-05-44</a><br/>Fax: +375 (17) 370-05-43'
 - id: mapCopyright
   translation: "Map data © <a href='http://openstreetmap.org/'>OpenStreetMap</a> | Imagery © <a href='http://mapbox.com/'>Mapbox</a>"
 - id: contactsSocialNetworks

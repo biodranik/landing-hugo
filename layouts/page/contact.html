@@ -8,13 +8,15 @@
 <div class="contacts">
   <section class="contacts__offices">
     <div class="contacts__office">
-      <h2 class="contacts__h2">
-        {{T "developmentOffice"}}:</h2>
-      <h3 class="contacts__h3">
-        {{T "sitel"}}
-      </h3>
+      <h2 class="contacts__h2">{{T "developmentOffice"}}</h2>
       <address class="contacts__address">
-        {{T "addressBelarus" | safeHTML}}
+        {{T "developmentOfficeContacts" | safeHTML}}
+      </address>
+    </div>
+    <div class="contacts__office">
+      <h3 class="contacts__h3">{{T "legalAddress"}}</h3>
+      <address class="contacts__address">
+        {{T "legalAddressContacts" | safeHTML}}
       </address>
     </div>
     <div class="contacts__social">
@@ -49,7 +51,7 @@
     id: 'vibrobox.28m6igh7',
     accessToken: 'pk.eyJ1Ijoidmlicm9ib3giLCJhIjoiY2l3Njhib2tqMDAwbzJ5czAxYTN4ZWt6dyJ9.1CqJcnto4oJNbHLvwzxc5A',
     detectRetina: true
-}).addTo(map);
+  }).addTo(map);
   var strDevelopmentOffice = '{{T "developmentOffice"}}';
   var minsk = L.marker([53.94678, 27.61623], { title: strDevelopmentOffice, alt: strDevelopmentOffice }).addTo(map);
   minsk.bindPopup('<p>' + strDevelopmentOffice + '</p>');
