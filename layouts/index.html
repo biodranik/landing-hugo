@@ -1,149 +1,149 @@
 {{define "main"}}
-  <section class="banner">
-    <div class="section">
-      <h1 class="title-index__main">
-        {{T "indexMainTitle"}}
-      </h1>
-      <div class="preface preface--home">
-        {{.Content}}
-      </div>
-      <a class="actionButton" href="{{ref . "technology"}}">
-        {{T "moreAboutTechnology"}}
-      </a>
-      <a class="actionButton" href="{{.Language.Params.demourl}}" target="_blank">
-        {{T "viewDemo"}}
-      </a>
+<section class="banner">
+  <div class="section">
+    <h1 class="title-index__main">
+      {{T "indexMainTitle"}}
+    </h1>
+    <div class="preface preface--home">
+      {{.Content}}
     </div>
-  </section>
-
-  <section class="section news__section">
-    <ul>
-      {{range (.Site.GetPage "section" .Site.Params.news_section).Pages.ByDate.Reverse}}
-      <li>
-        <time class="newsDate" datetime="{{.Date}}" itemprop="datePublished">
-          {{- partial "formatted_date" . -}}
-        </time>
-        <a href="{{.RelPermalink}}">
-          {{.Title}}
-        </a>
-      </li>
-      {{end}}
-    </ul>
-  </section>
-
-  <section class="section system separator">
-    <h2 class="title-index__second">
-      {{T "systemItem"}}
-    </h2>
-    <p class="preface">
-      {{T "systemPreface"}}
-    </p>
-    <div class="system-container">
-      <div class="system-container__item system-container__equipment">
-        <h3 class="system-container__title system-icon system-icon__equipment">
-          {{T "systemEquipmentTitle"}}
-        </h3>
-        <p class="system-container__text">
-          {{T "systemEquipmentDescription"}}
-        </p>
-      </div>
-
-      <div class="system-container__item system-container__transfer">
-        <h3 class="system-container__title system-icon system-icon__transfer">
-          {{T "systemTransferTitle"}}
-        </h3>
-        <p class="system-container__text">
-          {{T "systemTransferDescription"}}
-        </p>
-      </div>
-
-      <div class="system-container__item system-container__processing">
-        <h3 class="system-container__title system-icon system-icon__processing">
-          {{T "systemProcessingTitle"}}
-        </h3>
-        <p class="system-container__text">
-          {{T "systemProcessingDescription"}}
-        </p>
-      </div>
-
-      <div class="system-container__item system-container__g-report">
-        <h3 class="system-container__title system-icon system-icon__g-report">
-          {{T "systemGReportTitle"}}
-        </h3>
-        <p class="system-container__text">
-          {{T "systemGReportDescription"}}
-        </p>
-      </div>
-
-      <div class="system-container__item system-container__u-report">
-        <h3 class="system-container__title system-icon system-icon__u-report">
-          {{T "systemUReportTitle"}}
-        </h3>
-        <p class="system-container__text">
-          {{T "systemUReportDescription"}}
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section plus">
-    <h2 class="title-index__second">
-      {{T "plusTitle"}}
-    </h2>
-    <div class="plus-container">
-      <div class="plus-container__item">
-        <h3 class="plus-container__title plus-icon plus-icon__automatic">
-          <span>
-            {{T "plusAutomaticSystemTitle"}}
-          </span>
-        </h3>
-        <p class="plus-container__text">
-          {{T "plusAutomaticSystemDescription"}}
-        </p>
-      </div>
-
-      <div class="plus-container__item">
-        <h3 class="plus-container__title plus-icon plus-icon__economy">
-          <span>
-            {{T "plusEconomyTitle"}}
-          </span>
-        </h3>
-        <p class="plus-container__text">
-          {{T "plusEconomyDescription"}}
-        </p>
-      </div>
-
-      <div class="plus-container__item">
-        <h3 class="plus-container__title plus-icon plus-icon__availability">
-          <span>
-            {{T "plusAvailabilityTitle"}}
-          </span>
-        </h3>
-        <p class="plus-container__text">
-          {{T "plusAvailabilityDescription"}}
-        </p>
-      </div>
-
-      <div class="plus-container__item">
-        <h3 class="plus-container__title plus-icon plus-icon__simplicity">
-          <span>
-            {{T "plusSimplicityTitle"}}
-          </span>
-        </h3>
-        <p class="plus-container__text">
-          {{T "plusSimplicityDescription"}}
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="preface">
     <a class="actionButton" href="{{ref . "technology"}}">
-      <p>
-        {{T "bottomIndexTechButton"}}
-      </p>
+      {{T "moreAboutTechnology"}}
     </a>
-  </section>
+    <a class="actionButton" href="{{.Language.Params.demourl}}" target="_blank">
+      {{T "viewDemo"}}
+    </a>
+  </div>
+</section>
+
+<section class="section news__section">
+  <ul>
+    {{range (.Site.GetPage "section" .Site.Params.news_section).Pages.ByDate.Reverse}}
+    <li>
+      <time class="newsDate" datetime="{{.Date}}" itemprop="datePublished">
+        {{- partial "formatted_date" . -}}
+      </time>
+      <a href="{{.RelPermalink}}">
+        {{.Title}}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</section>
+
+<section class="section system separator">
+  <h2 class="title-index__second">
+    {{T "systemItem"}}
+  </h2>
+  <p class="preface">
+    {{T "systemPreface"}}
+  </p>
+  <div class="system-container">
+    <div class="system-container__item system-container__equipment">
+      <h3 class="system-container__title system-icon system-icon__equipment">
+        {{T "systemEquipmentTitle"}}
+      </h3>
+      <p class="system-container__text">
+        {{T "systemEquipmentDescription"}}
+      </p>
+    </div>
+
+    <div class="system-container__item system-container__transfer">
+      <h3 class="system-container__title system-icon system-icon__transfer">
+        {{T "systemTransferTitle"}}
+      </h3>
+      <p class="system-container__text">
+        {{T "systemTransferDescription"}}
+      </p>
+    </div>
+
+    <div class="system-container__item system-container__processing">
+      <h3 class="system-container__title system-icon system-icon__processing">
+        {{T "systemProcessingTitle"}}
+      </h3>
+      <p class="system-container__text">
+        {{T "systemProcessingDescription"}}
+      </p>
+    </div>
+
+    <div class="system-container__item system-container__g-report">
+      <h3 class="system-container__title system-icon system-icon__g-report">
+        {{T "systemGReportTitle"}}
+      </h3>
+      <p class="system-container__text">
+        {{T "systemGReportDescription"}}
+      </p>
+    </div>
+
+    <div class="system-container__item system-container__u-report">
+      <h3 class="system-container__title system-icon system-icon__u-report">
+        {{T "systemUReportTitle"}}
+      </h3>
+      <p class="system-container__text">
+        {{T "systemUReportDescription"}}
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section plus">
+  <h2 class="title-index__second">
+    {{T "plusTitle"}}
+  </h2>
+  <div class="plus-container">
+    <div class="plus-container__item">
+      <h3 class="plus-container__title plus-icon plus-icon__automatic">
+        <span>
+          {{T "plusAutomaticSystemTitle"}}
+        </span>
+      </h3>
+      <p class="plus-container__text">
+        {{T "plusAutomaticSystemDescription"}}
+      </p>
+    </div>
+
+    <div class="plus-container__item">
+      <h3 class="plus-container__title plus-icon plus-icon__economy">
+        <span>
+          {{T "plusEconomyTitle"}}
+        </span>
+      </h3>
+      <p class="plus-container__text">
+        {{T "plusEconomyDescription"}}
+      </p>
+    </div>
+
+    <div class="plus-container__item">
+      <h3 class="plus-container__title plus-icon plus-icon__availability">
+        <span>
+          {{T "plusAvailabilityTitle"}}
+        </span>
+      </h3>
+      <p class="plus-container__text">
+        {{T "plusAvailabilityDescription"}}
+      </p>
+    </div>
+
+    <div class="plus-container__item">
+      <h3 class="plus-container__title plus-icon plus-icon__simplicity">
+        <span>
+          {{T "plusSimplicityTitle"}}
+        </span>
+      </h3>
+      <p class="plus-container__text">
+        {{T "plusSimplicityDescription"}}
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="preface">
+  <a class="actionButton" href="{{ref . "technology"}}">
+    <p>
+      {{T "bottomIndexTechButton"}}
+    </p>
+  </a>
+</section>
 {{end}}
