@@ -152,3 +152,27 @@
   translation: Подписаться на новости
 - id: mailchimpEmail
   translation: Email адрес
+- id: contactFirstName
+  translation: Имя *
+- id: contactLastName
+  translation: Фамилия *
+- id: contactEmail
+  translation: Email *
+- id: contactPhone
+  translation: Телефон
+- id: contactTitle
+  translation: Должность
+- id: contactCompany
+  translation: Организация
+- id: contactMessage
+  translation: Ваше сообщение *
+- id: contactRequiredHint
+  translation: "* Обязательные для заполнения поля"
+- id: contactSend
+  translation: Отправить сообщение
+- id: contactMessageSending
+  translation: Сообщение отправляется…
+- id: contactMessageSentSuccessfully
+  translation: "Спасибо, что связались с нами. Мы обязательно вам ответим в ближайшее время."
+- id: contactMessageError
+  translation: "Ошибка отправки сообщения. Пожалуйста, напишите нам на электронную почту, или попробуйте ещё раз позднее."

@@ -73,3 +73,54 @@ $contactsBlockMargin: 1rem;
 .contacts__icon--l {
   background-image: url(#{$ico}l.svg);
 }
+
+.contacts__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts__column {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.contacts__column100 {
+  flex: 100%;
+}
+
+#contactForm {
+  margin-top: 2rem;
+  @include largerThanPhablet {
+    min-width: 600px;
+  }
+}
+
+.contacts__hint,
+#contactForm button[type="submit"],
+#contactForm input,
+#contactForm textarea {
+  margin: 0.5rem;
+}
+
+.contacts__hint {
+  font-size: small;
+  // Override above margin
+  margin-top: -0.3rem;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#contactForm textarea {
+  width: 100%;
+}
+#contactForm input {
+  height: calc(2.25rem + 2px);
+}
