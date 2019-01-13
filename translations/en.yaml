@@ -2,8 +2,6 @@
   translation: "VibroBox — condition monitoring, vibration analysis and diagnostics."
 - id: homeMenu
   translation: "Home"
-- id: contactPageTitle
-  translation: "Contact Us"
 - id: developmentOffice
   translation: "Research and Development Office"
 - id: "404 Page not found"
