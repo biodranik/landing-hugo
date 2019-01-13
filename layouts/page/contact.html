@@ -52,9 +52,9 @@
     accessToken: 'pk.eyJ1Ijoidmlicm9ib3giLCJhIjoiY2l3Njhib2tqMDAwbzJ5czAxYTN4ZWt6dyJ9.1CqJcnto4oJNbHLvwzxc5A',
     detectRetina: true
   }).addTo(map);
-  var strDevelopmentOffice = '{{T "developmentOffice"}}';
-  var minsk = L.marker([53.94678, 27.61623], { title: strDevelopmentOffice, alt: strDevelopmentOffice }).addTo(map);
-  minsk.bindPopup('<p>' + strDevelopmentOffice + '</p>');
+  var strTitle = '{{T "developmentOffice"}}';
+  var minsk = L.marker([53.94678, 27.61623], { title: strTitle, alt: strTitle }).addTo(map);
+  minsk.bindPopup('<p>' + strTitle + '</p>');
   var allMarkers = new L.featureGroup([minsk]);
   map.fitBounds(allMarkers.getBounds().pad(0.5));
 </script>
