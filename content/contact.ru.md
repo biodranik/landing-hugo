@@ -13,4 +13,4 @@ css: ["https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"]
 ---
 Будем рады ответить на ваши вопросы по сервису и возможностям сотрудничества.
 
-Пишите нам на <info@vibrobox.com> или в [FaceBook](https://m.me/VibroBox)
+Пишите нам на <info@vibrobox.com>, в [FaceBook](https://m.me/VibroBox) или используя форму для связи:

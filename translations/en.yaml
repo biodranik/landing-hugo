@@ -128,3 +128,27 @@
   translation: Subscribe to news
 - id: mailchimpEmail
   translation: Email address
+- id: contactFirstName
+  translation: First Name *
+- id: contactLastName
+  translation: Last Name *
+- id: contactEmail
+  translation: Email *
+- id: contactPhone
+  translation: Your Phone
+- id: contactTitle
+  translation: Job Title
+- id: contactCompany
+  translation: Company/Institution
+- id: contactMessage
+  translation: Your Message *
+- id: contactRequiredHint
+  translation: Fields marked with * are required.
+- id: contactSend
+  translation: Send Message
+- id: contactMessageSending
+  translation: Sending…
+- id: contactMessageSentSuccessfully
+  translation: "Thank you for reaching us! We will contact you soon."
+- id: contactMessageError
+  translation: "Error while sending the message. Please contact us using email or try again later."

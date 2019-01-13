@@ -6,6 +6,7 @@
   {{.Content}}
 </div>
 <div class="contacts">
+  <section class="">{{ partial "contact-form" . }}</section>
   <section class="contacts__offices">
     <div class="contacts__office">
       <h2 class="contacts__h2">{{T "developmentOffice"}}</h2>
@@ -37,8 +38,8 @@
     </div>
   </section>
   <!-- Map is rendered here by leaflet and our js code below. -->
-  <section id="leaflet-map" class="leaflet-map"></section>
 </div>
+<section id="leaflet-map" class="leaflet-map"></section>
 {{end}}
 {{define "scripts"}}
 <!-- Code which renders leaflet map with #leaflet-map id above. It's here for localization. -->

@@ -1,0 +1,59 @@
+<form id="contactForm">
+  <div class="contacts__row">
+    <input type="text" name="First Name" class="contacts__column" placeholder="{{ T "contactFirstName" }}" required>
+    <input type="text" name="Last Name" class="contacts__column" placeholder="{{ T "contactLastName" }}" required>
+  </div>
+  <div class="contacts__row">
+    <input type="text" name="Company" class="contacts__column" placeholder="{{ T "contactCompany" }}">
+    <input type="text" name="Job Title" class="contacts__column" placeholder="{{ T "contactTitle" }}">
+  </div>
+  <div class="contacts__row">
+    <input type="email" name="Email" class="contacts__column" placeholder="{{ T "contactEmail" }}" required>
+    <input type="tel" name="Phone" class="contacts__column" placeholder="{{ T "contactPhone" }}">
+  </div>
+  <div class="contacts__row">
+    <textarea name="Message" class="contacts__column100" rows="6" placeholder="{{ T "contactMessage" }}" required></textarea>
+  </div>
+  <div id="contactFormHint" class="contacts__hint">{{ T "contactRequiredHint" }}</div>
+  <button type="submit" class="actionButton" onclick="onFormSubmit(this)">{{ T "contactSend" }}</button>
+</form>
+
+<script type="application/javascript">
+  function onFormSubmit(submit) {
+    const form = document.getElementById('contactForm');
+    if (!form.checkValidity())
+      return;
+    const url = '{{ $.Site.Params.AmazonSES }}';
+    const toast = document.getElementById('contactFormHint');
+
+    toast.innerHTML = "{{ T "contactMessageSending" }}";
+    submit.disabled = true;
+
+    let payload = {};
+    const inputs = form.elements;
+    for (i = 0; i < inputs.length; i++)
+      if (inputs[i].name)
+        payload[inputs[i].name] = inputs[i].value;
+
+    let req = new XMLHttpRequest();
+    req.open("POST", url, true);
+    req.setRequestHeader("Content-Type", "application/json");
+    req.onerror = function () {
+      submit.disabled = false;
+    };
+    req.onload = function () {
+      submit.disabled = false;
+      if (req.status < 400) {
+        toast.innerHTML = "{{ T "contactMessageSentSuccessfully" }}";
+        // Reset all form fields.
+        for (i = 0; i < inputs.length; i++)
+          if (inputs[i].name)
+            inputs[i].value = '';
+      } else {
+        toast.innerHTML = "{{ T "contactMessageError" }}";
+        console.error("Request failed: " + req.statusText);
+      }
+    };
+    req.send(JSON.stringify(payload));
+  }
+</script>

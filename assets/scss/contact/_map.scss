@@ -2,11 +2,7 @@
 
 // Leaflet map SHOULD have some width and length.
 #leaflet-map {
-  width: 100vw;
-  height: 100vw;
-  @include notSmartphone {
-    width: $smartphoneWidth;
-    height: $smartphoneWidth;
-    margin: 1rem;
-  }
+  width: 100%;
+  height: 50vw;
+  max-height: 400px;
 }
