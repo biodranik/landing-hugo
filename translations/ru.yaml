@@ -26,8 +26,6 @@
   translation: "VibroBox — вибродиагностика оборудования в реальном времени."
 - id: homeMenu
   translation: "Главная"
-- id: contactPageTitle
-  translation: "Связаться с нами"
 - id: developmentOffice
   translation: "Офис разработки и исследований"
 - id: "404 Page not found"
