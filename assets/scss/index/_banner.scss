@@ -24,7 +24,7 @@
   text-decoration: none;
   border: 1px solid $linkColor;
 
-  &:hover {
+  &:hover:enabled {
     background-color: $whiteColor;
     color: $linkColor;
   }
