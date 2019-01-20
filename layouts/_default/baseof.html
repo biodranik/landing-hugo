@@ -5,6 +5,9 @@
   {{partial "html_head_meta" .}}
   <title>VibroBox: {{.Title}}</title>
   {{partial "html_head_link" .}}
+  {{block "head" .}}
+  <!-- Custom html head entries like scripts, css files etc. -->
+  {{end}}
 </head>
 
 <body {{block "body_attributes" .}}{{end}}>
