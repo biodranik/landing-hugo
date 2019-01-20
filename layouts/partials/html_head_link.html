@@ -13,10 +13,6 @@
 {{$style := resources.Minify $style | resources.Fingerprint}}
 {{end -}}
 <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
-<!-- Custom css files from pages (if any). -->
-{{- range $.Params.css -}}
-<link rel="stylesheet" type="text/css" href="{{.}}" />
-{{end -}}
 
 <!-- Favicon section. TODO: Automatically change ?v=4 if resources have changed. -->
 <link rel="apple-touch-icon" href="{{partial "v" "icons/apple-touch-icon.png"}}">

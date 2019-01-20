@@ -7,7 +7,6 @@ menu:
     weight: 40
     name: Contacts
 layout: contact
-css: ["https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"]
 ---
 Please don't hesitate to contact us directly at <info@vibrobox.com>, on [FaceBook](https://m.me/VibroBox) or by using the form below.
 

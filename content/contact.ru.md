@@ -9,7 +9,6 @@ menu:
 #slug: контакты
 #aliases: [contact]
 layout: contact
-css: ["https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"]
 ---
 Будем рады ответить на ваши вопросы по сервису и возможностям сотрудничества.
 
