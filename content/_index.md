@@ -8,6 +8,7 @@ menu:
     name: Home
 share:
   image: img/meta/VibroBox_and_vibration_sensor.jpg
+aliases: [/index.php]
 ---
 VibroBox is a *prescriptive* diagnostics system for rotary and reciprocating equipment.
 
