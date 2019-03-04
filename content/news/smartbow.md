@@ -11,7 +11,7 @@ share:
 {{<date>}}
 
 {{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.jpg" %}}
-[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) and [Roman Tolkach]({{<relref "/team/Roman Tolkach">}}) with Smartbow colleagues.
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) and [Roman Tolkach]({{<relref "/team/Roman Tolkach">}}) with Smartbow colleagues.
 {{% /figure %}}
 
 [Wind energy](https://en.wikipedia.org/wiki/Wind_power) is one of the highest priority areas of Prescriptive Maintenance.
@@ -36,15 +36,15 @@ The installed equipment included:
 The successful deployment and testing of VibroBox system ensured Smartbow specialists in technology capabilities to provide efficient prescriptive maintenance. The next step for both parties is to conduct a large-scale pilot project on a wind farm in China.
 
 {{% figure src="img/news/smartbow/discussing-vibrobox-hardware-platform.jpg" %}}
-[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) explains how [VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}) works.
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) explains how [VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}) works.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine.jpg" %}}
-[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues near the wind turbine where [VibroBox system]({{<relref "/technology#vibrobox-service-concept">}}) was tested.
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) with Smartbow colleagues near the wind turbine where [VibroBox system]({{<relref "/technology#vibrobox-service-concept">}}) was tested.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine-farm.jpg" %}}
-[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues and the view of the [wind farm](https://en.wikipedia.org/wiki/Wind_farm).
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) with Smartbow colleagues and the view of the [wind farm](https://en.wikipedia.org/wiki/Wind_farm).
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vibrobox-equipment-inside-wind-turbine.jpg" %}}
@@ -52,5 +52,5 @@ The successful deployment and testing of VibroBox system ensured Smartbow specia
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vbox.jpg" %}}
-[Sergey Vasukevich]({{<relref "/team/Sergey Vasukevich">}}) with Smartbow colleagues.
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) with Smartbow colleagues.
 {{% /figure %}}

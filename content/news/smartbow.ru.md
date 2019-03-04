@@ -11,7 +11,7 @@ share:
 {{<date>}}
 
 {{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.jpg" %}}
-[Сергей Васюкевич]({{<relref "/team/Sergey Vasukevich">}}) и [Роман Толкач]({{<relref "/team/Roman Tolkach">}}) с коллегами из компании Smartbow.
+[Сергей Васюкевич]({{<relref "/team/Siarhei Vasiukevich">}}) и [Роман Толкач]({{<relref "/team/Roman Tolkach">}}) с коллегами из компании Smartbow.
 {{% /figure %}}
 
 [Ветроэнергетика](https://ru.wikipedia.org/wiki/Ветроэнергетика) — одна из наиболее приоритетных сфер применения автоматизированных технологий предписывающего обслуживания (Prescriptive Maintenance). Сложное оборудование ветряных ферм должно работать непрерывно, в полностью автоматическом режиме, при полном отсутствии обслуживающего персонала. Чем позже обнаружена проблема и приняты меры, тем крупнее будет финансовый ущерб от отказа и замены оборудования. [Технология VibroBox]({{<relref "/technology">}}) значительно сокращает сроки окупаемости ветряных ферм и предельно снижает финансовые и технологические риски, позволяя провести своевременное точечное обслуживание и предотвратить развитие дефектов. Гораздо эффективнее вовремя заменить смазку или подшипник, чем полностью менять вышедший из строя редуктор или генератор.
@@ -32,15 +32,15 @@ share:
 Было проведено тестирование развернутой системы VibroBox, и инженеры Smartbow высоко оценили продемонстрированные возможности технологии. В данный момент стороны согласовывают условия и порядок проведения масштабного пилотного проекта на ветряной ферме на территории Китая.
 
 {{% figure src="img/news/smartbow/discussing-vibrobox-hardware-platform.jpg" %}}
-[Сергей Васюкевич]({{<relref "/team/Sergey Vasukevich">}}) объясняет принцип работы [аппаратной платформы VibroBox]({{<relref "/technology#аппаратная-платформа-сервиса-vibrobox">}}).
+[Сергей Васюкевич]({{<relref "/team/Siarhei Vasiukevich">}}) объясняет принцип работы [аппаратной платформы VibroBox]({{<relref "/technology#аппаратная-платформа-сервиса-vibrobox">}}).
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine.jpg" %}}
-[Сергей Васюкевич]({{<relref "Sergey Vasukevich">}}) вместе с коллегами из компании Smartbow возле ветрогенератора, на котором проводились испытания [системы VibroBox]({{<relref "/technology#концепция-сервиса-vibrobox">}}).
+[Сергей Васюкевич]({{<relref "Siarhei Vasiukevich">}}) вместе с коллегами из компании Smartbow возле ветрогенератора, на котором проводились испытания [системы VibroBox]({{<relref "/technology#концепция-сервиса-vibrobox">}}).
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/wind-turbine-farm.jpg" %}}
-[Сергей Васюкевич]({{<relref "/team/Sergey Vasukevich">}}) вместе с коллегами из компании Smartbow и вид на ферму ветрогенераторов.
+[Сергей Васюкевич]({{<relref "/team/Siarhei Vasiukevich">}}) вместе с коллегами из компании Smartbow и вид на ферму ветрогенераторов.
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vibrobox-equipment-inside-wind-turbine.jpg" %}}
@@ -48,5 +48,5 @@ share:
 {{% /figure %}}
 
 {{% figure src="img/news/smartbow/vbox.jpg" %}}
-[Сергей Васюкевич]({{<relref "/team/Sergey Vasukevich">}}) вместе с коллегами из компании Smartbow.
+[Сергей Васюкевич]({{<relref "/team/Siarhei Vasiukevich">}}) вместе с коллегами из компании Smartbow.
 {{% /figure %}}
