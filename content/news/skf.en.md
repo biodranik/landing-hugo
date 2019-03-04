@@ -23,7 +23,7 @@ Having evaluated the test results, SKF named the VibroBox solution as promising.
 The VibroBox team thanks colleagues from SKF for the trust and professional support of the project!
 
 {{% figure src="img/news/skf/vibrobox-and-skf.jpg" %}}
-[Sergey Vasukevich]({{<relref "Sergey Vasukevich">}}) with SKF colleague.
+[Siarhei Vasiukevich]({{<relref "Siarhei Vasiukevich">}}) with SKF colleague.
 {{% /figure %}}
 
 {{% figure src="img/news/skf/skf-test-equipment.png" %}}
