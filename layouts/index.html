@@ -29,6 +29,16 @@
   </ul>
 </section>
 
+{{- if eq .Lang "ru" -}}
+<section class="section promo__section">
+  <iframe class="promo-video"
+    src="https://www.youtube.com/embed/NAZa4mfp5I4"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</section>
+{{- end -}}
+
 <section class="section system separator">
   <h2 class="title-index__second">
     {{T "systemItem"}}
