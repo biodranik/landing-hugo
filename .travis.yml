@@ -4,6 +4,9 @@
 # - Build results from the master branch are deployed directly into production Github pages.
 if: fork = false
 language: minimal
+env:
+  global:
+    - HUGO_RELEASE=0.55.5
 git:
   depth: 1
   submodules_depth: 1
@@ -14,7 +17,7 @@ before_install:
 install:
   # travis dpl gem is manually called to deploy from collaborators pull requests.
   - gem install dpl --no-rdoc --no-ri
-  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_extended_0.52_Linux-64bit.deb
+  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb
   - sudo dpkg -i hugo.deb
 script:
   - |
