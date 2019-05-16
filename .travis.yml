@@ -2,6 +2,7 @@
 # - Build & deploy do not work for forked pull requests (can't deploy without secure $GITHUB_TOKEN).
 # - Build results from pull requests are deployed to dev Github pages.
 # - Build results from the master branch are deployed directly into production Github pages.
+dist: xenial
 if: fork = false
 language: minimal
 env:
@@ -10,10 +11,6 @@ env:
 git:
   depth: 1
   submodules_depth: 1
-before_install:
-  # This workaround is required to avoid libstdc++ errors while running "extended" hugo with SASS support.
-  - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
-  - sudo dpkg --force-all -i libstdc++6
 install:
   # travis dpl gem is manually called to deploy from collaborators pull requests.
   - gem install dpl --no-rdoc --no-ri
