@@ -1,3 +1,5 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
 <figure{{with .Get "class"}} class="{{.}}" {{end}}>
   {{with .Get "link"}}<a href="{{.}}">{{end -}}
     <img src="{{.Get "src" | relURL}}"{{with .Inner | plainify}}{{$trimmed := trim . ".\n"}} alt="{{$trimmed}}" title="{{$trimmed}}"{{end}}{{with .Get "width"}} width="{{.}}"{{end}}{{with .Get "height"}} height="{{.}}"{{end}} /> {{if .Get "link"}}</a>{{end}}
