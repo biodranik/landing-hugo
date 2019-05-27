@@ -15,8 +15,7 @@ MetadataFormat: yaml
 DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
-# Correct lastmod time for pages in sitemap.
-# TODO: Check why it always shows the most current time in production.
+# NOTE: git depth=1 while cloning in Travis-CI provides incorrect .Lastmod dates for content pages.
 EnableGitInfo: true
 # Disable robots indexing in development preview when HUGO_ENV=production
 # See layouts/robots.txt for more details

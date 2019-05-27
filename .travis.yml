@@ -8,9 +8,10 @@ language: minimal
 env:
   global:
     - HUGO_RELEASE=0.55.5
-git:
-  depth: 1
-  submodules_depth: 1
+# Full git depth is slower but it's required for correct .Lastmod dates in published content pages.
+#git:
+#  depth: 1
+#  submodules_depth: 1
 install:
   # travis dpl gem is manually called to deploy from collaborators pull requests.
   - gem install dpl --no-rdoc --no-ri
