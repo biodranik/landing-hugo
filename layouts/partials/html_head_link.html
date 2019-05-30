@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="{{partial "v" "css/style.css"}}">-->
 {{- $options := (dict "targetPath" "css/style.css")}}
 {{$style := resources.Get "scss/style.scss" | resources.ToCSS $options}}
-{{if eq (getenv "HUGO_ENV") "production"}}
+{{if eq hugo.Environment "production"}}
 {{$style := resources.Minify $style | resources.Fingerprint}}
 {{end -}}
 <link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
