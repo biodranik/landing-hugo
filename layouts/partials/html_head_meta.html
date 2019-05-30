@@ -13,7 +13,7 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- Do not index dev version and private pages -->
-{{if and (eq (getenv "HUGO_ENV") "production") (not .Params.private) -}}
+{{if and (eq hugo.Environment "production") (not .Params.private) -}}
 <meta name="referrer" content="unsafe-url">
 {{else -}}
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
