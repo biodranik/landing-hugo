@@ -3,81 +3,65 @@
 # - Build results from pull requests are deployed to dev Github pages.
 # - Build results from the master branch are deployed directly into production Github pages.
 dist: xenial
+sudo: required
 if: fork = false
-language: minimal
+language: node_js # npm is needed to install postcss-cli
+node_js: "lts/*"
 env:
   global:
-    - HUGO_RELEASE=0.55.5
+    - HUGO_RELEASE=0.55.6
 # Full git depth is slower but it's required for correct .Lastmod dates in published content pages.
 #git:
 #  depth: 1
-#  submodules_depth: 1
 install:
-  # travis dpl gem is manually called to deploy from collaborators pull requests.
-  - gem install dpl --no-rdoc --no-ri
+  - npm install postcss-cli autoprefixer  # Required for hugo's built-in postcss/autoprefixer
   - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb
   - sudo dpkg -i hugo.deb
 script:
-  - |
-    if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_EVENT_TYPE" = "push" ]; then
-      HUGO_ENV=production tools/build.sh      # production
-    else
-      tools/build_dev.sh  # dev
-    fi
-after_success:
-  - |
-    if [ ! -z "$TRAVIS_PULL_REQUEST_BRANCH" ]; then
-      params=( # Dev deployment repos for each language.
-        '--local-dir=public/en --project-name=preview.com --repo=VibroBox/preview.com'
-        '--local-dir=public/ru --project-name=preview.ru --repo=VibroBox/preview.ru'
-      )
-    elif [ "$TRAVIS_BRANCH" = "master" ]; then
-      params=( # Production deployment repos are pushed from master branch only.
-        '--local-dir=public/en --project-name=vibrobox.com --repo=VibroBox/www.vibrobox.com'
-        '--local-dir=public/ru --project-name=vibrobox.ru --repo=VibroBox/www.vibrobox.ru'
-      )
-    else
-      params=() # Do nothing for non-master branch pushes.
-    fi
-    for param in "${params[@]}"; do
-      dpl --provider=pages --github-token=$GITHUB_TOKEN --skip-cleanup=true \
-          --keep-history=true --target-branch=master --committer-from-gh=true \
-          $param
-    done
-    # Clear CDN cache after production deployments.
-    if [ "$TRAVIS_BRANCH" = "master" ]; then
-      zones=( $VIBROBOX_RU_ZONE $VIBROBOX_COM_ZONE )
-      for zone in "${zones[@]}"; do
-        curl -X DELETE "https://api.cloudflare.com/client/v4/zones/$zone/purge_cache" \
-        -H "X-Auth-Email: $X_AUTH_EMAIL" \
-        -H "X-Auth-Key: $X_AUTH_KEY" \
-        -H "Content-Type: application/json" \
-        --data '{"purge_everything":true}'
-      done
-    fi
-# Deployment sections below push from master branch to production Github Pages.
-# deploy:
-#   - provider: pages
-#     # TODO Change to production
-#     repo: VibroBox/preview.com
-#     target-branch: master
-#     local-dir: public/en
-#     project-name: https://vibrobox.github.io/preview.com/
-#     skip-cleanup: true
-#     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
-#     keep-history: true
-#     on:
-#       branch: master
-#     committer-from-gh: true
-#   - provider: pages
-#     # TODO Change to production
-#     repo: VibroBox/preview.ru
-#     target-branch: master
-#     local-dir: public/ru
-#     project-name: https://vibrobox.github.io/preview.ru/
-#     skip-cleanup: true
-#     github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure.
-#     keep-history: true
-#     on:
-#       branch: master
-#     committer-from-gh: true
+  - hugo --environment development
+  - hugo --environment production
+deploy:
+  - provider: pages
+    repo: VibroBox/www.vibrobox.com
+    fqdn: www.vibrobox.com
+    target-branch: master
+    local-dir: public/en
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN # Personal access token is set in travis-ci.org dashboard, marked secure, see https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+    keep-history: true
+    on:
+      repo: biodranik/landing-hugo
+      branch: master
+  - provider: pages
+    repo: VibroBox/www.vibrobox.ru
+    fqdn: www.vibrobox.ru
+    target-branch: master
+    local-dir: public/ru
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    on:
+      repo: biodranik/landing-hugo
+      branch: master
+  - provider: pages
+    repo: VibroBox/preview.com
+    target-branch: master
+    local-dir: public-dev/en
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    on:
+      repo: biodranik/landing-hugo
+      all_branches: true
+      condition: $TRAVIS_BRANCH != master
+  - provider: pages
+    repo: VibroBox/preview.ru
+    target-branch: master
+    local-dir: public-dev/ru
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    on:
+      repo: biodranik/landing-hugo
+      all_branches: true
+      condition: $TRAVIS_BRANCH != master
