@@ -1,0 +1,11 @@
+# Disabled for faster dev builds.
+EnableGitInfo: false
+# Use different directory for development builds to avoid confusion.
+PublishDir: public-dev
+
+# Development builds use special non-production github pages repositories for live preview.
+Languages:
+  en:
+    BaseUrl: https://vibrobox.github.io/preview.com/
+  ru:
+    BaseUrl: https://vibrobox.github.io/preview.ru/
