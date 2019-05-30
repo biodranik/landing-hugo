@@ -1,0 +1,9 @@
+# NOTE: git depth=1 while cloning in Travis-CI provides incorrect .Lastmod dates for content pages.
+EnableGitInfo: true
+
+# Enable GA in production.
+Languages:
+  en:
+    GoogleAnalytics: UA-79782596-1
+  ru:
+    GoogleAnalytics: UA-79782596-2

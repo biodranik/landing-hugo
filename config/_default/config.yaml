@@ -1,11 +1,13 @@
-# Minimum hugo version required: 0.32
-
+# Requirements: hugo 0.55+, postcss-cli
+# Production-only and development-only options are overrided in production/config.yaml
+# and development/config.yaml respectively.
 BaseUrl: https://www.vibrobox.com/
 DefaultContentLanguage: en
 ContentDir: content
 PublishDir: public
 StaticDir: static/common
 
+EnableRobotsTXT: true
 BuildDrafts: true
 BuildExpired: true
 BuildFuture: true
@@ -15,11 +17,6 @@ MetadataFormat: yaml
 DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
-# NOTE: git depth=1 while cloning in Travis-CI provides incorrect .Lastmod dates for content pages.
-EnableGitInfo: true
-# Disable robots indexing in development preview when HUGO_ENV=production
-# See layouts/robots.txt for more details
-EnableRobotsTXT: true
 # Open all external links from content in a new window.
 BlackFriday:
   hrefTargetBlank: true
@@ -53,7 +50,6 @@ Languages:
     LanguageCode: en
     locale: en_US
     Title: In English
-    GoogleAnalytics: UA-79782596-1
     Description: Automatic vibration diagnostics service as a part of proactive, prescriptive, predictive maintenance. Our scientists are focused on wavelets, machine learning, neural networks, fuzzy logic and other digital signal processing algorithms.
     # Hugo treats keywords in pages as an array, so here we also specify it as an array.
     # Simple syntax should be used in pages - Keywords: keywords, without, quotes, and, braces
@@ -69,7 +65,6 @@ Languages:
     LanguageCode: ru
     locale: ru_RU
     Title: На русском
-    GoogleAnalytics: UA-79782596-2
     BlackFriday:
       angledQuotes: true
     Copyright: © 2019 VibroBox
