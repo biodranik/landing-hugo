@@ -1,5 +1,6 @@
 # Ignore folder with generated content.
 public
+public-dev
 # Packages installed by npm.
 node_modules
 # Temporary cached resources used by hugo.
