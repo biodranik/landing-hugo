@@ -5,7 +5,7 @@
 {{if eq hugo.Environment "production"}}
 {{$style := resources.Minify $style | resources.Fingerprint}}
 {{end -}}
-<link rel="stylesheet" type="text/css" href="{{$style.RelPermalink}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
+<link rel="stylesheet" type="text/css" href="{{$style.Permalink}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
 
 <!-- Favicon section. TODO: Automatically change ?v=4 if resources have changed. -->
 <link rel="apple-touch-icon" href="{{partial "v" "icons/apple-touch-icon.png"}}">
