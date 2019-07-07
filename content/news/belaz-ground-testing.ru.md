@@ -1,16 +1,16 @@
 ---
 date: 2019-06-10 10:00:00 +03:00
 title: «БЕЛАЗ-ХОЛДИНГ» и VibroBox провели полигонные испытания уникального решения по автоматической диагностике и предписываемому обслуживанию редукторов мотор-колес
-description:
-keywords:
+description: После тщательной подготовки состоялись испытания программно-аппаратного решения VibroBox на заводском полигоне “БЕЛАЗА” в Жодино.
+keywords: VibroBox, Belaz, Вибробокс, БЕЛАЗ, испытания, сотрудничество, результат, Минск, Беларусь, вибродиагностика, диагностика
 share:
-  image: img/news/belaz-ground-testing/belaz-hq.jpg
+  image: img/news/belaz-ground-testing/vibrobox-belaz.jpg
 ---
 # «БЕЛАЗ-ХОЛДИНГ» и VibroBox провели полигонные испытания уникального решения по автоматической диагностике и предписываемому обслуживанию редукторов мотор-колес
 
 {{<date>}}
 
-{{% figure src="img/news/belaz-ground-testing/belaz-hq.jpg" %}}
+{{% figure src="img/news/belaz-ground-testing/vibrobox-belaz.jpg" %}}
 «БЕЛАЗ-ХОЛДИНГ».
 {{% /figure %}}
 
