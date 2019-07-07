@@ -62,6 +62,7 @@ html[lang="ru"] .content p {
   }
 
   figure {
+    margin: 0;
     @include phablet {
       width: 100%;
       height: auto;
@@ -90,7 +91,8 @@ html[lang="ru"] .content p {
 }
 
 .content-video-container {
-  max-width: 900px;
+  margin: 1rem auto;
+  max-width: 100%;
   overflow: hidden;
   position: relative;
   height: 550px;
