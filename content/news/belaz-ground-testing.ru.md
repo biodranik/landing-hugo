@@ -57,29 +57,3 @@ share:
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   </iframe>
 </div>
-
-В первый день испытаний (21.05.2019) проведена настройка аппаратной платформы VibroBox и тестовый съем вибросигналов в движении:
-
-{{% figure src="img/news/belaz-ground-testing/setting-up-the-hardware-platform-VibroBox-1.jpg" %}}
-Настройка аппаратной платформы VibroBox.
-{{% /figure %}}
-
-{{% figure src="img/news/belaz-ground-testing/setting-up-the-hardware-platform-VibroBox-2.jpg" %}}
-Настройка аппаратной платформы VibroBox.
-{{% /figure %}}
-
-{{% figure src="img/news/belaz-ground-testing/vibration-test.jpg" %}}
-Тестовый съем вибросигналов в движении (технологический прогон).
-{{% /figure %}}
-
-Во второй день испытаний (22.05.2019) карьерный самосвал работал на тестовом полигоне. В этих условиях проведен съем вибросигналов в различных скоростных режимах самосвала при его пологом движении и под уклон:
-
-{{% figure src="img/news/belaz-ground-testing/ground-tests-1.jpg" %}}
-Полигонные испытания: съем вибрационных сигналов с мотор-колес карьерного самосвала БЕЛАЗ 75306.
-{{% /figure %}}
-
-{{% figure src="img/news/belaz-ground-testing/ground-tests-2.jpg" %}}
-Полигонные испытания: съем вибрационных сигналов с мотор-колес карьерного самосвала БЕЛАЗ 75306.
-{{% /figure %}}
-
-Следующий шаг - проведение полевых испытаний оснащенных карьерных самосвалов БЕЛАЗ в горно-обогатительных комбинатах.
