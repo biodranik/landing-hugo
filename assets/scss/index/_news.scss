@@ -7,10 +7,12 @@
     font-style: italic;
     li {
       margin-bottom: 0.2rem;
-      display: table-row;
-      span,
-      a {
-        display: table-cell;
+      @include largerThanPhablet {
+        display: table-row;
+        span,
+        a {
+          display: table-cell;
+        }
       }
     }
   }
