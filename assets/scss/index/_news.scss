@@ -1,10 +1,11 @@
 .news__section {
   max-width: 100%;
-  margin-top: 1em;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   border-bottom: 1px solid $baseColor;
+  font-size: 0.85rem;
   ul {
     list-style: none;
-    font-style: italic;
     li {
       margin-bottom: 0.2rem;
       @include largerThanPhablet {
