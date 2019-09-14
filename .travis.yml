@@ -65,3 +65,10 @@ deploy:
       repo: biodranik/landing-hugo
       all_branches: true
       condition: $TRAVIS_BRANCH != master
+after_deploy:
+  - |
+    if [[ $TRAVIS_BRANCH == "master" ]]; then
+      # Russian version is not automatically rebuilt/updated by Github by some reason.
+      curl -u $GITHUB_USER:$GITHUB_TOKEN -X POST https://api.github.com/repos/vibrobox/www.vibrobox.ru/pages/builds -H "Accept: application/vnd.github.mister-fantastic-preview+json"
+    fi
+
