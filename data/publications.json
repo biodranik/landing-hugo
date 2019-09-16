@@ -1,12 +1,14 @@
 {
   "authors": {
-    "Igor Davydov": ["01", "02", "03", "04", "05", "06", "07", "08", "09", 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71, 72],
+    "Igor Davydov": ["01", "02", "03", "04", "05", "06", "07", "08", "09", 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85],
     "Alexander Borsuk": [70, 71, 72, 73],
-    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71, 72],
+    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85],
     "Siarhei Vasiukevich": [20, 21, 23, 24, 27, 30, 31, 32, 33, 34, 37, 38, 40, 43, 44, 48, 49, 53, 61],
     "Aliaksei Maniuk": [39],
-    "Alexander Tsurko": [27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 52, 53, 54, 56, 58, 61, 62, 63, 67],
-    "Andrei Aslamov": [29, 51, 55, 57, 59, 64, 65, 68, 69, 70, 71, 72]
+    "Alexander Tsurko": [27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 52, 53, 54, 56, 58, 61, 62, 63, 67, 75, 77, 78, 79, 80, 81, 85],
+    "Andrei Aslamov": [29, 51, 55, 57, 59, 64, 65, 68, 69, 70, 71, 72, 75, 77, 78, 79, 80, 81, 85],
+    "Nikita Kosmach": [82],
+    "Roman Tolkach": [82]
   },
   "publications": {
     "01": "Automated system for testing bearings / I.G. Davydov, V.N. Penza, G.A. Dostanko // Modern means of communication: materials of the 6th International Scientific and Technical conference, Naroch, 2001 / Vol. 2, Minsk, 2001. — pp. 61-63.",
@@ -82,5 +84,17 @@
     "71": "Sparse wavelet decomposition of signals for solving vibration diagnostics problems / Y. Aslamov, I. Davydov, A. Borsuk, A. Aslamov // First World Congress on Condition Monitoring, London, 13-16 June 2017, Session 7E: Vibration condition monitoring methods and technologies / The British Institute of Non-Destructive Testing.",
     "72": "Sparse wavelet decomposition in problems of vibration-based diagnostics of rotary equipment / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Borsuk // Doklady BGUIR [BSUIR reports], 2017, no. 8 (110), pp. 91-98. (in Russian)",
     "73": "Formation of informative features of shock processes using wavelet analysis of non-stationary vibration signals: the author's abstract. Diss. MSc in Engineering: 1-39 81 03 / A.V. Borsuk; scientific adviser I.G. Davydov // Minsk : BSUIR, 2018. (in Russian)"
+    "74": "Wavelet function for rolling bearing diagnosis / Y.P. Aslamov, I.G. Davydov // Vestnik of PSU, Part B. Industry. Applied Sciences, 2018, no. 11, pp. 14-22 (in Russian)",
+    "75": "Sparse decomposition of vibration signals by wavelet redundant dictionary / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Tsurko // Vestnik of PSU, Part C. Fundamental Sciences, 2018, no. 4, pp. 86-94 (in Russian)",
+    "76": "Feature space of sparse wavelet decomposition of vibration signals for machine learning problems / Y.P. Aslamov, I.G. Davydov // Vestnik of GSTU, 2018, no. 3, pp. 49-56 (in Russian)",
+    "77": "Wavelet functions for gearing diagnosis / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Tsurko // Vestnik of PSU, Part B. Industry. Applied Sciences, 2018, no. 3, pp. 38-46 (in Russian)",
+    "78": "Influence of changes in shaft rotational speed of rotary equipment on frequency-domain processing / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Tsurko // Doklady BGUIR [BSUIR reports], 2018, no. 3 (113), pp. 13-18 (in Russian)",
+    "79": "Rotary equipment vibration analysis based on phase trajectories / A.V. Tsurko, A.P. Aslamov, Y.P. Aslamov, I.G. Davydov // Doklady BGUIR [BSUIR reports], 2018, no. 6 (116), pp. 32-39 (in Russian)",
+    "80": "Sparse wavelet decomposition of vibration signals for pattern recognition problem / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Tsurko // Vestnik of PSU, Part C. Fundamental Sciences, 2018, no. 12, pp. 12-23 (in Russian)"
+    "81": "Efficiency of scalogram use for assessment of the technical condition of rotary equipment / Y.P. Aslamov, A.P. Aslamov, I.G. Davydov, A.V. Tsurko // Doklady BGUIR [BSUIR reports], 2018, no. 2 (112), pp. 12-17 (in Russian)",
+    "82": "Sparse scalegram decomposition algorithm for condition monitoring of rotary equipment / Y.P. Aslamov, I.G. Davydov, N.V. Kosmach, R.V. Tolkach // Doklady BGUIR [BSUIR reports], 2019, no. 5 (123), pp. 25-31 (in Russian)",
+    "83": "Comparative analysis of algorithms for sparse wavelet decomposition of vibration signals / Y.P. Aslamov, I.G. Davydov // Doklady BGUIR [BSUIR reports], 2019, no. 4 (122), pp. 11-17 (in Russian)",
+    "84": "Limits of applicability of the algorithm for sparse decomposition of vibration signals using the redundant wavelet dictionary / Y.P. Aslamov, I.G. Davydov // Vestnik of PSU, Part C. Fundamental Sciences, 2019, no. 3, pp. 11-20 (in Russian)",
+    "85": "Sparse wavelet decomposition with redundant dictionary for vibration waveform analysis / Y. Aslamov, A. Aslamov, I. Davydov, A. Tsurko // 14th International Conference on Pattern Recognition and Information Processing (PRIP’2019), Minsk, 21-23 May 2019, pp. 354-359"
   }
 }
