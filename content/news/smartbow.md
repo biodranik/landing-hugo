@@ -11,7 +11,7 @@ share:
 {{<date>}}
 
 {{% figure src="img/news/smartbow/smartbow-and-vibrobox-team.jpg" %}}
-[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) and [Roman Tolkach]({{<relref "/team/Roman Tolkach">}}) with Smartbow colleagues.
+[Siarhei Vasiukevich]({{<relref "/team/Siarhei Vasiukevich">}}) and Roman Tolkach with Smartbow colleagues.
 {{% /figure %}}
 
 [Wind energy](https://en.wikipedia.org/wiki/Wind_power) is one of the highest priority areas of Prescriptive Maintenance.

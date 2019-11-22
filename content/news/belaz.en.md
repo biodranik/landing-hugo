@@ -21,5 +21,5 @@ BELAZ-HOLDING successfully tested hardware and software solutions provided by Vi
 {{% /figure %}}
 
 {{% figure src="img/news/belaz/vbox-in-action.jpg" %}}
-[Roman Tolkach]({{<relref "Roman Tolkach">}}) is running tests using [VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}).
+Roman Tolkach is running tests using [VibroBox hardware platform]({{<relref "/technology#vibrobox-hardware-platform">}}).
 {{% /figure %}}
