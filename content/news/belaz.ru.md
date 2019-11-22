@@ -21,5 +21,5 @@ share:
 {{% /figure %}}
 
 {{% figure src="img/news/belaz/vbox-in-action.jpg" %}}
-[Роман Толкач]({{<relref "Roman Tolkach">}}) следит за работой [аппаратной платформы VibroBox]({{<relref "/technology#аппаратная-платформа-сервиса-vibrobox">}}).
+Роман Толкач следит за работой [аппаратной платформы VibroBox]({{<relref "/technology#аппаратная-платформа-сервиса-vibrobox">}}).
 {{% /figure %}}
