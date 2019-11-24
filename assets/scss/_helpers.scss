@@ -46,6 +46,13 @@ $smartphoneWidth: 425px;
   text-align: justify;
 }
 
+@mixin no-hyphens {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
 @mixin separatorOnTheTop {
   box-shadow: 0 -4px 6px -6px $logoColor;
 }
