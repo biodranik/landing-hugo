@@ -22,14 +22,22 @@
 
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{.Title}}">
-{{with .Params.share.image -}}
+{{- with .Params.share.image -}}
 <!-- Check if image exists. -->
-<meta property="og:image" content="{{if hasPrefix . "http"}}{{.}}{{else}}{{. | absURL}}{{end}}">
+{{- $imagePath := printf "static/common/%s" . -}}
+{{$imageUrl := . | absURL -}}
+{{if not (hasPrefix . "img/") -}}
+{{with $.Resources.GetMatch . -}}
+{{$imagePath = printf "content/%s/%s" $.Dir . -}}
+{{$imageUrl = .Permalink -}}
+{{- end}}{{end}}
+<meta property="og:image" content="{{if hasPrefix . "http"}}{{.}}{{else}}{{$imageUrl}}{{end}}">
+{{if not (hasPrefix . "http") -}}
 <!-- TODO: Localized images are not supported. Check .Resources approach later, when hugo will support .Width and .Height there. -->
-{{- with (imageConfig (printf "static/common/%s" .)) -}}
+{{- with (imageConfig $imagePath) -}}
 <meta property="og:image:width" content="{{.Width}}">
 <meta property="og:image:height" content="{{.Height}}">
-{{end -}}{{end -}}
+{{end}}{{end}}{{end -}}
 <meta property="og:url" content="{{.Permalink}}">
 <meta property="og:description" content="{{if .Description}}{{.Description}}{{else}}{{.Summary}}{{end}}">
 <meta property="og:locale" content="{{.Site.Params.locale}}">
