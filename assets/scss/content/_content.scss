@@ -12,6 +12,10 @@ html[lang="ru"] .content p {
   @include notSmartphone {
     > p {
       @include hyphens-justify;
+      a {
+        // Hyphens are disabled because they are not drawn in hyperlinks.
+        @include no-hyphens;
+      }
     }
   }
 
