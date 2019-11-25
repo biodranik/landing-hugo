@@ -4,7 +4,7 @@ title: VibroBox became a resident of High Technologies Park (HTP) in Belarus
 description: Tax and customs benefits, elements of English law, smart contracts, and many other benefits are available for companies in Belarusian High-Tech Park
 keywords: VibroBox, Minsk, Belarus, HTP, High-Tech, High, Technology, Park, Smart-Contracts, Sitel
 share:
-  image: htp-vibrobox-logo.jpg
+  image: htp-belarus-logo.jpg
 ---
 # Sitel company (trade name VibroBox) became a resident of High Technologies Park in Belarus
 
