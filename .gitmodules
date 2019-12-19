@@ -1,6 +1,3 @@
-[submodule "bin"]
-	path = bin
-	url = https://github.com/biodranik/bin.git
 [submodule "tools/Lambda-SES-send-email"]
 	path = tools/Lambda-SES-send-email
 	url = https://github.com/biodranik/Lambda-SES-send-email.git
