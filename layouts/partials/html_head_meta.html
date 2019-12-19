@@ -28,7 +28,7 @@
 {{$imageUrl := . | absURL -}}
 {{if not (hasPrefix . "img/") -}}
 {{with $.Resources.GetMatch . -}}
-{{$imagePath = printf "content/%s/%s" $.Dir . -}}
+{{$imagePath = printf "content/%s/%s" $.File.Dir . -}}
 {{$imageUrl = .Permalink -}}
 {{- end}}{{end}}
 <meta property="og:image" content="{{if hasPrefix . "http"}}{{.}}{{else}}{{$imageUrl}}{{end}}">
