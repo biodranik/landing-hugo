@@ -9,7 +9,7 @@ language: node_js # npm is needed to install postcss-cli
 node_js: "lts/*"
 env:
   global:
-    - HUGO_RELEASE=0.59.1
+    - HUGO_RELEASE=0.61.0
 # Full git depth is slower but it's required for correct .Lastmod dates in published content pages.
 #git:
 #  depth: 1
