@@ -1,5 +1,5 @@
 ---
-date: 2020-10-20 11:00:00 +03:00
+date: 2020-01-20 11:00:00 +03:00
 title: Интеграция VibroBox с MIDIH
 description: Интеграция сервиса VibroBox с эталонной архитектурой MIDIH
 keywords: VibroBox, MIDIH, EU, grant, EIT Digital, грант

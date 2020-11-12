@@ -1,5 +1,5 @@
 ---
-date: 2020-10-20 11:00:00 +03:00
+date: 2020-01-20 11:00:00 +03:00
 title: VibroBox integrates with MIDIH for EU customers
 description: Innovation for Manufacturing SMEs
 keywords: VibroBox, MIDIH, EU, grant, EIT Digital
