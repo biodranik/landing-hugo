@@ -20,7 +20,7 @@
   <ul>
     {{range (.Site.GetPage "section" .Site.Params.news_section).Pages.ByDate.Reverse}}
     <li>
-      <span class="newsDate">{{- partial "formatted_date" .}}: </span>
+      <span class="newsDate">{{- partial "formatted_date" .}} </span>
       <a href="{{.RelPermalink}}">
         {{.Title}}
       </a>
@@ -31,10 +31,7 @@
 
 {{- if eq .Lang "ru" -}}
 <section class="section promo__section">
-  <iframe class="promo-video"
-    src="https://www.youtube.com/embed/NAZa4mfp5I4"
-    frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  <iframe class="promo-video" src="https://www.youtube.com/embed/NAZa4mfp5I4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   </iframe>
 </section>
 {{- end -}}

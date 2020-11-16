@@ -6,6 +6,7 @@
   font-size: 0.85rem;
   ul {
     list-style: none;
+    padding-left: 0;
     li {
       margin-bottom: 0.2rem;
       @include largerThanPhablet {
@@ -26,4 +27,8 @@
   @include phablet {
     min-width: initial;
   }
+}
+
+.content-news figure {
+  margin-bottom: 0.5rem !important;
 }

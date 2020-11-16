@@ -4,9 +4,9 @@ Dates in languages other than English are not supported by hugo. Here is a worka
 which uses months translations from i18n folder.
 See https://gohugo.io/content-management/multilingual/#customize-dates
 and https://discourse.gohugo.io/t/dates-only-in-english/1317/40 for more details -->
+{{- $date := .Date.Format $.Site.Params.dateformat -}}
 {{- if eq .Lang "ru" -}}
-  {{- $dateInEnglish := .Date.Format $.Site.Params.dateformat -}}
-  {{- replace $dateInEnglish .Date.Month (T .Date.Month) -}}
-{{- else -}}
-  {{- .Date.Format $.Site.Params.dateformat -}}
+  {{- $date = replace $date .Date.Month (T .Date.Month) -}}
 {{- end -}}
+<!-- Replace space with a non-breaking space. -->
+{{- replace $date " " " " -}}
