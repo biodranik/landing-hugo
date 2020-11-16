@@ -1,12 +1,12 @@
 ---
 title: Petr Ryabtsev
-job_title: Research engineer, Master's Degree student
+job_title: Research Engineer, PhD Student
 description: As a VibroBox team member, Petr is responsible for implementing decision-making algorithms based on fuzzy logic.
-keywords: Petr Ryabtsev, Research engineer, Master's Degree student, VibroBox
+keywords: Petr Ryabtsev, Research Engineer, PhD Student, VibroBox
 weight: 50
 share:
   image: img/team/Petr Ryabtsev.jpg
 ---
-Petr is a Master's Degree student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-electronic Information Protection” of the Radio Engineering and Electronics Department.
+Petr is a PhD Student at Belarusian State University of Informatics and Radioelectronics majoring in “Radio-electronic Information Protection” of the Radio Engineering and Electronics Department.
 
 As a VibroBox team member, he is responsible for implementing decision-making algorithms based on fuzzy logic.

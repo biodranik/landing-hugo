@@ -1,8 +1,8 @@
 ---
 title: Daniil Kechik
-job_title: Research engineer, Master's Degree student
+job_title: Research Engineer, PhD Student
 description: Daniil Kechik is a research engineer in VibroBox. He develops and tests digital signal processing algorithms and equipment kinematic scheme ("digital twin") modules.
-keywords: Daniil, Kechik, research, engineer, master, degree, student, VibroBox, kinematic, scheme, dsp, digital, signal, processing, twin
+keywords: Daniil, Kechik, research, engineer, PhD student, VibroBox, kinematic, scheme, dsp, digital, signal, processing, twin
 weight: 50
 share:
   image: img/team/Daniil Kechik.jpg
@@ -16,4 +16,4 @@ His specializations include:
 * Extraction of periodic components from vibration and acoustic signals
 * Variable speed refinement module for shafts
 
-Daniil is also a Master's Degree student in the Faculty of Radioengineering and Electronics at Belarusian State University of Informatics and Radioelectronics majoring in “Radioengineering including systems and devices of radionavigation, radiolocation, and television.”
+Daniil is also a PhD Student in the Faculty of Radioengineering and Electronics at Belarusian State University of Informatics and Radioelectronics majoring in “Radioengineering including systems and devices of radionavigation, radiolocation, and television.”
