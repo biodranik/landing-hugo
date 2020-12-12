@@ -1,14 +1,19 @@
 {
   "authors": {
-    "Igor Davydov": ["01", "02", "03", "04", "05", "06", "07", "08", "09", 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85],
+    "Igor Davydov": ["01", "02", "03", "04", "05", "06", "07", "08", "09", 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 36, 37, 38, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 94, 95, 96, 104, 105, 106, 107],
     "Alexander Borsuk": [70, 71, 72, 73],
-    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85],
+    "Yury Aslamov": [29, 51, 55, 66, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 94, 95, 96, 97, 98, 103, 105],
     "Siarhei Vasiukevich": [20, 21, 23, 24, 27, 30, 31, 32, 33, 34, 37, 38, 40, 43, 44, 48, 49, 53, 61],
     "Aliaksei Maniuk": [39],
-    "Alexander Tsurko": [27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 52, 53, 54, 56, 58, 61, 62, 63, 67, 75, 77, 78, 79, 80, 81, 85],
+    "Alexander Tsurko": [27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 52, 53, 54, 56, 58, 61, 62, 63, 67, 75, 77, 78, 79, 80, 81, 85, 106],
     "Andrei Aslamov": [29, 51, 55, 57, 59, 64, 65, 68, 69, 70, 71, 72, 75, 77, 78, 79, 80, 81, 85],
-    "Nikita Kosmach": [82],
-    "Roman Tolkach": [82]
+    "Nikita Kosmach": [82, 98, 101, 107],
+    "Roman Tolkach": [82, 100, 101, 107],
+    "Daniil Kechik": [86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 104, 105, 106],
+    "Petr Ryabtsev": [99, 100],
+    "Kiril Zhukovsky": [104],
+    "Yaraslava Herasimuk": [106],
+    "Andrei Smoleu": [106]
   },
   "publications": {
     "01": "Automated system for testing bearings / I.G. Davydov, V.N. Penza, G.A. Dostanko // Modern means of communication: materials of the 6th International Scientific and Technical conference, Naroch, 2001 / Vol. 2, Minsk, 2001. — pp. 61-63.",
@@ -95,6 +100,28 @@
     "82": "Sparse scalegram decomposition algorithm for condition monitoring of rotary equipment / Y.P. Aslamov, I.G. Davydov, N.V. Kosmach, R.V. Tolkach // Doklady BGUIR [BSUIR reports], 2019, no. 5 (123), pp. 25-31 (in Russian)",
     "83": "Comparative analysis of algorithms for sparse wavelet decomposition of vibration signals / Y.P. Aslamov, I.G. Davydov // Doklady BGUIR [BSUIR reports], 2019, no. 4 (122), pp. 11-17 (in Russian)",
     "84": "Limits of applicability of the algorithm for sparse decomposition of vibration signals using the redundant wavelet dictionary / Y.P. Aslamov, I.G. Davydov // Vestnik of PSU, Part C. Fundamental Sciences, 2019, no. 3, pp. 11-20 (in Russian)",
-    "85": "Sparse wavelet decomposition with redundant dictionary for vibration waveform analysis / Y. Aslamov, A. Aslamov, I. Davydov, A. Tsurko // 14th International Conference on Pattern Recognition and Information Processing (PRIP’2019), Minsk, 21-23 May 2019, pp. 354-359"
+    "85": "Sparse wavelet decomposition with redundant dictionary for vibration waveform analysis / Y. Aslamov, A. Aslamov, I. Davydov, A. Tsurko // 14th International Conference on Pattern Recognition and Information Processing (PRIP’2019), Minsk, 21-23 May 2019, pp. 354-359",
+    "86": "Segmented Autoregression Pitch Estimation Method / D. Kechik, I.Davydov // International Conference on Dynamics and Vibroacoustics of Machines (DVM), September 2020, pp. 1–6, doi: 10.1109/DVM49764.2020.9243870",
+    "87": "A method for isolating informative components of a vibration signal using inter-component phase processing methods / D.Kechik // Radio engineering systems: materials of the 53rd scientific conference of graduate students, undergraduates and students (Minsk, May 2017), Minsk: BSUIR, 2017, p. 40",
+    "88": "A method for isolating informative components of a vibration signal by means of inter-component phase processing / D. Kechik // Radio engineering and electronics: materials of the 54th scientific conference of graduate students, undergraduates and students, Minsk, April 23-27, 2018, Minsk: BSUIR, 2018, pp. 57-58",
+    "89": "Predicting the time of failure of mechanical equipment by the statistical characteristics of vibration signals / D. Kechik // in Radio Engineering and Electronics: 55th Anniversary Scientific Conference of Postgraduates, Masters and Students, Minsk, April 22-26, 2019, Minsk: BSUIR, 2019, pp. 77–78",
+    "90": "Application of windowed autoregressive analysis to estimate the parameters of non-stationary signals / D. Kechik // VI Belarusian-Chinese youth innovation forum New Horizons - 2019, Minsk: BNTU, December. 2019, pp. 116-118",
+    "91": "Compensation for changes in the power of the vibroacoustic signal for variable speed of the equipment / D. Kechik // Reports of BSUIR, vol. 18, no. 5, Art. no. 5, Jul. 2020",
+    "92": "Analyzer of phase characteristics of oscillations of mechanisms and machines / D. A. Kechik, I. V. Loshchinin // Radio engineering systems: materials of the 52nd scientific conference of graduate students, undergraduates and students (Minsk, May 2016), Minsk: BSUIR, 2016, p. 24",
+    "93": "Estimation of the instantaneous frequency of the spectral components of a non-stationary vibroacoustic signal using the window method prone / D. Kechik // SPb, Sept. 2020, p. 7",
+    "94": "Shaft Misalignment Data for Inter-component Phase Processing of Quasipolyharmonic Signals / D. Kechik, Y. Aslamov, I. Davydov // v. 1, Jul. 2020",
+    "95": "Vibration of rolling bearings under widely varying speed conditions / D. Kechik, Y. Aslamov, I. Davydov // Aug. 2020",
+    "96": "Bearing 6213 OR Dataset / D. Kechik, Y. Aslamov, I. Davydov // v. 1, Oct. 2020",
+    "97": "Method of vibration diagnostics of rotary equipment for detecting defects in rolling bearings / Y. Aslamov // EA034627B1, Feb. 28, 2020",
+    "98": "Method of vibration diagnostics of rolling bearings / N. Kosmach, Y. Aslamov // 2720328, Apr. 28, 2020",
+    "99": "Analysis of trends in vibration signal metrics for assessing the technical condition of industrial equipment / P. Ryabtsev // Radio engineering systems: materials of the 53rd scientific conference of graduate students, undergraduates and students (Minsk, May 2017), Minsk: BSUIR, 2017, pp. 82–83",
+    "100": "Determination of equipment operation modes based on the classification of informative signs of signals / P. G. Ryabtsev, R. V. Tolkach // Radio engineering and electronics: 55th anniversary scientific conference of graduate students, undergraduates and students, Minsk, April 22-26, 2019, Minsk: BSUIR, 2019, p. 135",
+    "101": "Analysis of the vibration signal scaleogram for equipment with variable rotation speed / R. V. Tolkach, N. V. Kosmach // Radio engineering and electronics: 55th anniversary scientific conference of graduate students, undergraduates and students, Minsk, April 22-26, 2019, Minsk: BSUIR, 2019, p. 151",
+    "102": "Capturing and processing of video information from a CMOS matrix for solving the detection problem: author. diss. ... master of technical sciences: 1-39 80 02 / Yu. P. Aslamov; scientific. hands. I. G. Davydov. - Minsk: BSUIR, 2016 .-- 10 p.",
+    "103": "Monitoring the performance of rotary equipment based on the analysis of the temporal structure of vibration signals / Y. Aslamov // Ph.D. Thesis, Minsk 2019",
+    "104": "Diagnostics of industrial equipment with a variable shaft frequency / K. D. Zhukovsky, D. A. Kechik, I. G. Davydov // Minsk, 28-29 oct. 2020, pp. 204-205",
+    "105": "Estimation of the frequency of shock pulses of a vibration signal / D. A. Kechik, Y. P. Aslamov, I. G. Davydov, I. V. Loshchinin // Minsk, 28-29 October. 2020, pp. 229-233",
+    "106": "Integration of the industrial equipment diagnostics system with the Industry 4.0 trend ecosystems built on the basis of the FIWARE framework / D.A. Kechik, I.G. Davydov, Y.V. Gerasimuk, A.V. Tsurko, A.M. Smolev // Information radio systems and radio technologies, Minsk, 28-29 oct. 2020",
+    "107": "Comparison of Resonogram and Scalelogram for Rotary Equipment Monitoring / R. V. Tolkach, N. V. Kosmach, I. G. Davydov // Minsk, Oct. 2020, pp. 235-237"
   }
 }
