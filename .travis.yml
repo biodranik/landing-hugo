@@ -9,13 +9,13 @@ language: node_js # npm is needed to install postcss-cli
 node_js: "lts/*"
 env:
   global:
-    - HUGO_RELEASE=0.61.0
+    - HUGO_RELEASE=0.103.0
 # Full git depth is slower but it's required for correct .Lastmod dates in published content pages.
 #git:
 #  depth: 1
 install:
   - npm install postcss-cli autoprefixer # Required for hugo's built-in postcss/autoprefixer
-  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb
+  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_linux-amd64.deb
   - sudo dpkg -i hugo.deb
 script:
   - hugo --environment development
