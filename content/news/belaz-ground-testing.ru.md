@@ -50,10 +50,10 @@ share:
 
 На очереди следующий шаг - проведение полевых испытаний оснащенных карьерных самосвалов БЕЛАЗ в горно-обогатительных комбинатах. Предварительно согласованный срок полевого тестирования - август 2019 года. А пока можно посмотреть короткий ролик с полигона в Жодино! Следите за новостями!
 
-<div class="content-video-container">
+<!-- <div class="content-video-container">
   <iframe class="content-video"
     src="https://www.youtube.com/embed/wtaKBzZE-jI"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   </iframe>
-</div>
+</div> -->
