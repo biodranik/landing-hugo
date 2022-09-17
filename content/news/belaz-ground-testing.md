@@ -49,10 +49,10 @@ After installation, the dump truck have been operating at the test site. The pro
 
 The next step is to conduct field tests of equipped BELAZ dump trucks in mining and processing plants. In the meantime, you can watch a short video from the Zhodino training ground:
 
-<div class="content-video-container">
+<!-- <div class="content-video-container">
   <iframe class="content-video"
     src="https://www.youtube.com/embed/wtaKBzZE-jI"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
   </iframe>
-</div>
+</div> -->
