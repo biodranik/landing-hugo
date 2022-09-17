@@ -3,7 +3,7 @@
 # - Build results from pull requests are deployed to dev Github pages.
 # - Build results from the master branch are deployed directly into production Github pages.
 dist: xenial
-sudo: required
+os: linux
 if: fork = false
 language: node_js # npm is needed to install postcss-cli
 node_js: "lts/*"
@@ -24,43 +24,43 @@ deploy:
   - provider: pages
     repo: VibroBox/www.vibrobox.com
     fqdn: www.vibrobox.com
-    target-branch: master
-    local-dir: public/en
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN # Personal access token is set in travis-ci.org dashboard, marked secure, see https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
-    keep-history: true
+    target_branch: master
+    local_dir: public/en
+    skip_cleanup: true
+    token: $GITHUB_TOKEN # Personal access token is set in travis-ci.org dashboard, marked secure, see https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+    keep_history: true
     on:
       repo: biodranik/landing-hugo
       branch: master
   - provider: pages
     repo: VibroBox/www.vibrobox.ru
     fqdn: www.vibrobox.ru
-    target-branch: master
-    local-dir: public/ru
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
+    target_branch: master
+    local_dir: public/ru
+    skip_cleanup: true
+    token: $GITHUB_TOKEN
+    keep_history: true
     on:
       repo: biodranik/landing-hugo
       branch: master
   - provider: pages
     repo: VibroBox/preview.com
-    target-branch: master
-    local-dir: public-dev/en
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
+    target_branch: master
+    local_dir: public-dev/en
+    skip_cleanup: true
+    token: $GITHUB_TOKEN
+    keep_history: true
     on:
       repo: biodranik/landing-hugo
       all_branches: true
       condition: $TRAVIS_BRANCH != master
   - provider: pages
     repo: VibroBox/preview.ru
-    target-branch: master
-    local-dir: public-dev/ru
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
+    target_branch: master
+    local_dir: public-dev/ru
+    skip_cleanup: true
+    token: $GITHUB_TOKEN
+    keep_history: true
     on:
       repo: biodranik/landing-hugo
       all_branches: true
