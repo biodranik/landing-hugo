@@ -17,11 +17,11 @@ MetadataFormat: yaml
 DisableKinds: [taxonomy, taxonomyTerm, RSS]
 I18nDir: translations
 Logi18nwarnings: true
-Markup:
-  DefaultMarkdownHandler: blackfriday
-  BlackFriday:
-    # Open all external links from content in a new window.
-    hrefTargetBlank: true
+# Markup:
+#   DefaultMarkdownHandler: blackfriday
+#   BlackFriday:
+#     # Open all external links from content in a new window.
+#     hrefTargetBlank: true
 
 # Urls with year and month for the news section.
 # Title or file name will be used if slug is not defined in the post frontmatter.
