@@ -41,7 +41,7 @@ Params:
   AmazonSES: 'https://uje07m6w3b.execute-api.eu-west-1.amazonaws.com/dev/send?source=vibrobox'
 
 # Default copyright for all languages.
-Copyright: © 2020 VibroBox
+Copyright: © 2023 VibroBox
 
 Languages:
   en:
