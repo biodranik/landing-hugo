@@ -3,6 +3,8 @@
 {{- $options := (dict "targetPath" "css/style.css")}}
 {{$style := resources.Get "scss/style.scss" | resources.ToCSS $options}}
 {{if eq hugo.Environment "production"}}
+<!-- Minifying removes actually used form ids in CSS.
+  resources.Minify $style | resources.Fingerprint -->
 {{$style := resources.Minify $style | resources.Fingerprint}}
 {{end -}}
 <link rel="stylesheet" type="text/css" href="{{if eq hugo.Environment "production"}}{{$style.RelPermalink}}{{else}}{{$style.Permalink}}{{end}}" {{with $style.Data.Integrity}} integrity="{{.}}" {{end}} />
