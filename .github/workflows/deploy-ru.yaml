@@ -1,0 +1,48 @@
+name: Deploy www.vibrobox.ru
+on:
+  workflow_dispatch: # Manual trigger
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - .gitignore
+      - .github/**
+      - '!.github/workflows/deploy-ru.yaml'  # Run check on self change
+      - LICENSE
+      - README.md
+
+jobs:
+  deploy:
+    name: Deploy www.vibrobox.ru
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+          extended: true
+
+      # Required for hugo's built-in postcss/autoprefixer
+      - name: Install npm dependencies
+        run: |
+          npm install postcss-cli autoprefixer
+
+      - name: Build
+        run: hugo --environment production
+
+      - name: Deploy to www.vibrobox.ru
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY_RU }}
+          external_repository: VibroBox/www.vibrobox.ru
+          publish_dir: ./public/ru
+          user_name: Alexander Borsuk
+          user_email: alex@vibrobox.com
+          publish_branch: master
+          cname: www.vibrobox.ru
