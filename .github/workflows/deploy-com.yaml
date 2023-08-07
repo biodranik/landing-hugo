@@ -48,7 +48,7 @@ jobs:
       # Required for hugo's built-in postcss/autoprefixer
       - name: Install npm dependencies
         run: |
-          npm install postcss-cli autoprefixer
+          npm i
 
       - name: Build
         run: hugo --environment production
