@@ -14,7 +14,7 @@ BuildFuture: true
 DefaultContentLanguageInSubdir: false
 EnableMissingTranslationPlaceholders: true
 MetadataFormat: yaml
-DisableKinds: [taxonomy, taxonomyTerm, RSS]
+DisableKinds: [taxonomy, RSS]
 I18nDir: translations
 Logi18nwarnings: true
 # Markup:
@@ -49,31 +49,32 @@ Languages:
     Weight: 1
     LanguageName: English
     LanguageCode: en
-    locale: en_US
     Title: In English
-    Description: Automatic vibration diagnostics service as a part of proactive, prescriptive, predictive maintenance. Our scientists are focused on wavelets, machine learning, neural networks, fuzzy logic and other digital signal processing algorithms.
-    # Hugo treats keywords in pages as an array, so here we also specify it as an array.
-    # Simple syntax should be used in pages - Keywords: keywords, without, quotes, and, braces
-    Keywords: ["VibroBox, prescriptive, proactive, predictive, estimation, condition, monitoring, equipment, vibro, diagnostics, vibrodiagnostics, vibration, prediction, maintenance, neural networks, wavelets, fuzzy logic, IIoT, industry"]
     StaticDir2: static/en
-    demourl: https://demo.vibrobox.com/demo?locale=en
-    dateformat: January 2, 2006
-    subscriptionFormId: 8e8d56fe41
+    params:
+      dateformat: January 2, 2006
+      demourl: https://demo.vibrobox.com/demo?locale=en
+      Description: Automatic vibration diagnostics service as a part of proactive, prescriptive, predictive maintenance. Our scientists are focused on wavelets, machine learning, neural networks, fuzzy logic and other digital signal processing algorithms.
+      # Hugo treats keywords in pages as an array, so here we also specify it as an array.
+      # Simple syntax should be used in pages - Keywords: keywords, without, quotes, and, braces
+      Keywords: ["VibroBox, prescriptive, proactive, predictive, estimation, condition, monitoring, equipment, vibro, diagnostics, vibrodiagnostics, vibration, prediction, maintenance, neural networks, wavelets, fuzzy logic, IIoT, industry"]
+      locale: en_US
+      subscriptionFormId: 8e8d56fe41
+
   ru:
     BaseUrl: https://www.vibrobox.ru/
     Weight: 2
     LanguageName: Русский
     LanguageCode: ru
-    locale: ru_RU
     Title: На русском
-    BlackFriday:
-      angledQuotes: true
-    Description: Автоматический облачный сервис превентивного техобслуживания и диагностики внутренних дефектов оборудования. Мы используем вейвлеты, машинное обучение и другие алгоритмы цифровой обработки сигналов (ЦОС), чтобы оборудование не ломалось и служило гораздо дольше.
-    Keywords: ["VibroBox, Вибробокс, превентивное, техническое, обслуживание, оценка, состояния, мониторинг, оборудование, вибрация, вибродиагностика, диагностика, ЦОС, DSP, нейронные сети, машинное обучение, machine learning, neural networks, вейвлеты, wavelets, нечёткая логика, fuzzy logic, цифровая обработка сигналов, промышленный, интернет вещей, индустрия"]
     StaticDir2: static/ru
-    demourl: https://demo.vibrobox.com/demo?locale=ru
-    dateformat: 2 January 2006
-    subscriptionFormId: 9f53a26360
+    params:
+      dateformat: 2 January 2006
+      demourl: https://demo.vibrobox.com/demo?locale=ru
+      Description: Автоматический облачный сервис превентивного техобслуживания и диагностики внутренних дефектов оборудования. Мы используем вейвлеты, машинное обучение и другие алгоритмы цифровой обработки сигналов (ЦОС), чтобы оборудование не ломалось и служило гораздо дольше.
+      Keywords: ["VibroBox, Вибробокс, превентивное, техническое, обслуживание, оценка, состояния, мониторинг, оборудование, вибрация, вибродиагностика, диагностика, ЦОС, DSP, нейронные сети, машинное обучение, machine learning, neural networks, вейвлеты, wavelets, нечёткая логика, fuzzy logic, цифровая обработка сигналов, промышленный, интернет вещей, индустрия"]
+      locale: ru_RU
+      subscriptionFormId: 9f53a26360
     # TODO: Uncomment when section localization bug will be fixed (see news/_index.ru.md for details).
     #permalinks:
     #  news: /новости/:year/:month/:slug/
