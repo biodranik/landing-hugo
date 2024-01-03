@@ -1,6 +1,6 @@
 ---
 title: Igor Davydov
-job_title: <p>Founder, CEO</p><p>Ph.D. in digital signal processing</p><p>Associate Professor in Belarusian State University of Informatics and Radioelectronics</p>
+job_title: Founder, CEO, Ph.D. in digital signal processing, Associate Professor
 description: Dr. Davydov is an expert in digital signal processing, machine learning, and decision-making systems. He has extensive experience in research and development, especially in the development and implementation of vibration-based condition monitoring systems.
 keywords: Igor Davydov, Founder, CEO, Ph.D., Associate Professor, VibroBox
 weight: 1
