@@ -53,7 +53,6 @@ Languages:
     StaticDir2: static/en
     params:
       dateformat: January 2, 2006
-      demourl: https://demo.vibrobox.com/demo?locale=en
       Description: Automatic vibration diagnostics service as a part of proactive, prescriptive, predictive maintenance. Our scientists are focused on wavelets, machine learning, neural networks, fuzzy logic and other digital signal processing algorithms.
       # Hugo treats keywords in pages as an array, so here we also specify it as an array.
       # Simple syntax should be used in pages - Keywords: keywords, without, quotes, and, braces
@@ -70,7 +69,6 @@ Languages:
     StaticDir2: static/ru
     params:
       dateformat: 2 January 2006
-      demourl: https://demo.vibrobox.com/demo?locale=ru
       Description: Автоматический облачный сервис превентивного техобслуживания и диагностики внутренних дефектов оборудования. Мы используем вейвлеты, машинное обучение и другие алгоритмы цифровой обработки сигналов (ЦОС), чтобы оборудование не ломалось и служило гораздо дольше.
       Keywords: ["VibroBox, Вибробокс, превентивное, техническое, обслуживание, оценка, состояния, мониторинг, оборудование, вибрация, вибродиагностика, диагностика, ЦОС, DSP, нейронные сети, машинное обучение, machine learning, neural networks, вейвлеты, wavelets, нечёткая логика, fuzzy logic, цифровая обработка сигналов, промышленный, интернет вещей, индустрия"]
       locale: ru_RU
